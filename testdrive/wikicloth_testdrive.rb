@@ -4,7 +4,7 @@ require_relative "../parser/wikicloth/lib/wikicloth.rb"
 
 
 text = <<TEXT
-{{URL!1=http://www.sci-corp.com/}}
+{{URL|1=http://www.sci-corp.com/}}
 TEXT
 
 wiki = WikiCloth::Parser.new({

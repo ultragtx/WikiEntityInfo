@@ -1,20 +1,21 @@
 # encoding: utf-8
 
 require 'libxml'
-require 'bzip2'
 require_relative 'entity'
-require_relative 'body_utils'
+require_relative 'info_parser'
 require_relative '../database/dbhelper'
 
-class SaxCallbacks
+class BatchParser < InfoParser
   include LibXML::XML::SaxParser::Callbacks
-  include InfoGetter
   
   attr_accessor :start_time, :end_time  # for test
   attr_accessor :pages
   attr_accessor :lang
   
-  def initialize
+  def initialize(lang)
+    super(lang)
+    @lang = lang
+    
     @in_page = false
     @in_title = @in_ns = @in_id = @in_redirect = @in_revision = false
     @in_revid = @in_parentid = @in_timestamp = @in_contributor = false
@@ -177,6 +178,7 @@ class SaxCallbacks
         # puts "$$#{@current_page}$$"
 
         if @useful_page
+          # Storage
           @dbhelper.insert_update_page(@current_page, lang)
         end
       end
@@ -200,37 +202,18 @@ class SaxCallbacks
         aliases_forien = get_forien_alias(@current_string)
         
         @current_page.infobox_type = infobox_type
-        @current_page.properties = infobox_properties.to_s
-        @current_page.aliases = aliases.to_s
-        @current_page.aliases_forien = aliases_forien.to_s
-        @current_page.categories = categories.to_s
+        @current_page.properties = infobox_properties
+        @current_page.aliases = aliases
+        @current_page.aliases_forien = aliases_forien
+        @current_page.categories = categories
         
-        # gets
+        puts "--------Page [#{@page_count}]----------"
+        puts @current_page
+        
+        gets
       end
     end
     @page_count += 1
     
   end
 end
-
-file_path_bz2 = "/Users/ultragtx/Downloads/jawiki-20130125-pages-articles.xml.bz2"
-# file_path_bz2 = "/Users/ultragtx/Downloads/enwiki-20130204-pages-articles.xml.bz2"
-# file_path_bz2 = "/Users/ultragtx/Downloads/zhwiki-latest-pages-articles.xml.bz2"
-#file_path_bz2 = "/Users/ultragtx/Downloads/enwiki-latest-pages-articles1-1.xml-p000000010p000010000.bz2"
-file_path = "/Users/ultragtx/Downloads/zhwiki-latest-pages-articles.xml"
-#file_path = "/Users/ultragtx/Downloads/enwiki-latest-pages-articles1-1.xml-p000000010p000010000"
-
-USE_COMPRESSED_FILE = true
-
-if USE_COMPRESSED_FILE
-  bz2_reader = Bzip2::Reader.open(file_path_bz2)
-  parser = LibXML::XML::SaxParser.io(bz2_reader)
-else
-  parser = LibXML::XML::SaxParser.file(file_path)
-end
-
-sax_callbacks = SaxCallbacks.new
-sax_callbacks.lang = "ja"
-
-parser.callbacks = sax_callbacks
-parser.parse

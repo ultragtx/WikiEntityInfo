@@ -29,6 +29,8 @@ class DbHelper
 	end
 
 	def insert_page(page, lang)
+    page.string_mode! # make it easy for storage
+    
     pages = @db[:"#{lang}_pages"]
     
     pages.insert(
@@ -44,6 +46,8 @@ class DbHelper
 	end
   
   def insert_update_page(page, lang)
+    page.string_mode! # make it easy for storage
+    
     pages = @db[:"#{lang}_pages"]
     
     page_data = pages[:title => page.title]

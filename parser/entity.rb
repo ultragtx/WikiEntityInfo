@@ -11,12 +11,12 @@ class Page
   
   attr_accessor :mode
   
-  def initialize
-    self.mode = "string"
+  def initialize(mode = "full")
+    self.mode = mode
   end
   
   def self.new_page_with_hash(page_hash)
-    page = Page.new
+    page = Page.new("string")
     
     page.title = page_hash[:title]
     page.redirect = page_hash[:redirect]
@@ -25,6 +25,8 @@ class Page
     page.aliases = page_hash[:aliases]
     page.aliases_forien = page_hash[:aliases_forien]
     page.categories = page_hash[:categories]
+    
+    page.full_mode!
     
     return page
   end
@@ -51,6 +53,31 @@ class Page
     end
   end
   
+  def to_s
+    puts "title: #{title}"
+    puts "redirect: #{redirect}"
+    puts "infobox_type: #{infobox_type}"
+    if self.mode == "string"
+      puts "infobox_properties: \n#{properties}"
+      puts "aliases: #{aliases}"
+      puts "aliases_forien: #{aliases_forien}"
+      puts "categories: #{categories}"
+    elsif self.mode == "full"
+      properties.each do |key, value|
+        puts "infobox_properties: #{key}, #{value}"
+      end
+      aliases.each do |alias_name|
+        puts "alias: #{alias_name}"
+      end
+      aliases_forien.each do |key, value|
+        puts "alias_forien: #{key}, #{value}"
+      end
+      categories.each do |category|
+        puts "category: #{category}"
+      end
+    end
+  end
+      
   
   # def to_s
 #     "title:#{@title}\nns:#{@ns}\nid:#{id}\nredirect:#{@reidrect}\nrevision:\n#{@revision}\n"
