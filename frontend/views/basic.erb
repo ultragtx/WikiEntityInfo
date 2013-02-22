@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wiki Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <form class="navbar-search pull-left" method="get" action='/<%= @current_lang %>/s'>
+                    <!-- <input type="text" class="search-query" placeholder="Search"> -->
+                    <div class="input-append">
+                        <input class="span2" id="appendedDropdownButton" type="text" name="search">
+                        <div class="btn-group">
+                            <button class="btn">Search <%= @langs[:"#{@current_lang}"] %></button>
+                            <button class="btn dropdown-toggle" data-toggle="dropdown">
+                                <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zh">Search Chinese</a></li>
+                                <li><a href="/en">Search English</a></li>
+                                <li><a href="/ja">Search Japanese</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <% if block_given? %>
+                <%= yield%>
+            <% else %>
+                <p>Welcome</p>
+            <% end %>
+        </div>
+    </div>
+    
+    
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

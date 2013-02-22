@@ -1,0 +1,16 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Results</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @current_pages.each do |page| %>
+            <tr>
+                <td><a href='/<%= @current_lang %>/w/<%= page.title %>'><%= page.title %></a></td>
+            </tr>
+        <% end %>
+        
+    </tbody>
+</table>
+        

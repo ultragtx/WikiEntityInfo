@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wiki Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <form class="navbar-search pull-left" method="get" action="/s">
+                    <!-- <input type="text" class="search-query" placeholder="Search"> -->
+                    <div class="input-append">
+                        <input class="span2" id="appendedDropdownButton" type="text" name="search">
+                        <div class="btn-group">
+                            <button class="btn">Search Chinese</button>
+                            <button class="btn dropdown-toggle" data-toggle="dropdown">
+                                <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="zh">Search Chinese</a></li>
+                                <li><a href="en">Search English</a></li>
+                                <li><a href="ja">Search Japanese</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Results</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href='zh/Mark'>Mark</a></td>
+                    </tr>
+                    <tr>
+                        <td>Jacob</td>
+                    </tr>
+                    <tr>
+                        <td>Larry</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tabbable" style="margin-bottom: 18px;">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#tab1" data-toggle="tab">English</a></li>
+                <li><a href="#tab2" data-toggle="tab">Chinese</a></li>
+                <li><a href="#tab3" data-toggle="tab">Japanese</a></li>
+            </ul>
+            <div class="tab-content" style="padding-bottom: 9px; border-bottom: 1px solid #ddd;">
+                <div class="tab-pane active" id="tab1">
+                    <p>I'm in Section 1.</p>
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane" id="tab2">
+                    <p>Howdy, I'm in Section 2.</p>
+                </div>
+                <div class="tab-pane" id="tab3">
+                    <p>What up girl, this is Section 3.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
