@@ -1,0 +1,3 @@
+[submodule "parser/wikicloth"]
+	path = parser/wikicloth
+	url = git://github.com/nricciar/wikicloth.git

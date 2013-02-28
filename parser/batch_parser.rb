@@ -207,6 +207,8 @@ class BatchParser < InfoParser
         @current_page.aliases_forien = aliases_forien
         @current_page.categories = categories
         
+        @current_page.lang = @lang
+        
         puts "--------Page [#{@page_count}]----------"
         puts @current_page
         

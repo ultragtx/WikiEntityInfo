@@ -1,5 +1,8 @@
 # encoding: utf-8
 
+require_relative './wikicloth/lib/wikicloth.rb'
+require 'nokogiri'
+
 class Page
   attr_accessor :title, :id, :redirect
   attr_accessor :properties
@@ -9,11 +12,13 @@ class Page
   
   attr_accessor :mode
   
+  attr_accessor :lang
+  
   def initialize(mode = "full")
     self.mode = mode
   end
   
-  def self.new_page_with_hash(page_hash)
+  def self.new_page_with_hash_lang(page_hash, lang)
     page = Page.new("string")
     
     page.title = page_hash[:title]
@@ -23,6 +28,8 @@ class Page
     page.aliases = page_hash[:aliases]
     page.aliases_forien = page_hash[:aliases_forien]
     page.categories = page_hash[:categories]
+    
+    page.lang = lang
     
     page.full_mode!
     
@@ -48,6 +55,43 @@ class Page
       self.aliases = self.aliases.to_s
       self.aliases_forien = self.aliases_forien.to_s
       self.categories = self.categories.to_s
+    end
+  end
+  
+  def html_property!
+    full_mode! if self.mode != "full"
+    properties.each do |key, value| 
+      raw_value = value
+      
+      wiki_parser = WikiCloth::Parser.new({:data => raw_value})
+      html_value = nil
+      begin
+        html_value = wiki_parser.to_html
+      rescue => e # rescue from a wiki_cloth fail
+        puts e
+        # TODO: Print e to a error file
+        html_value = value
+        # gets
+      end
+      
+      if key =~ /(logo|ロゴ)$/
+        html_value.gsub!(/(img src="(.*?)")/) do |m|
+          original = $1
+          src_fallback = $2
+          src_fallback.sub!('commons', "#{lang}")
+          "#{original} onerror=\"this.src='#{src_fallback}';\""
+        end
+      end 
+      
+      properties[key] = html_value
+    end
+  end
+  
+  def plaintext_property!
+    html_property!
+    properties.each do |key, html_value| 
+      plain_value = Nokogiri::HTML(html_value).inner_text
+      properties[key] = plain_value
     end
   end
   

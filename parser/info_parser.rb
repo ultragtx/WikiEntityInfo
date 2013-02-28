@@ -1,11 +1,13 @@
 #encoding: utf-8
 
-require_relative './wikicloth/lib/wikicloth.rb'
-require 'nokogiri'
+require_relative './logo_utils'
 
 class InfoParser
   def initialize(lang)
-    @infobox_content_type_exps = [{:content => /^{{(Infobox.*?)^\|?}}/m, :type => /^Infobox(.*?)(\||\}|\<!)/m}]
+    @infobox_content_type_exps = [{:content => /^{{(Infobox.*?)^\|?}}/m, 
+                                   :type => /^Infobox(.*?)(\||\}|\<!)/m, 
+                                   :logo_key => /logo$/,
+                                   :logo_value => /\[\[(File|Image):([^\|]*?)(\|([^\|]*?px))?(\|([^\|]*?))?\]\]/ }]
     @infobox_useful_types = ["company"]
     @infobox_key_value_pair_exps = [/^\s*\|(.*?)=(.*?)(?=^\s*\||\|\s*$|\z)/m, /\|\s*$(.*?)=(.*?)(?=\|\s*$|\z)/m]
     
@@ -18,8 +20,13 @@ class InfoParser
     @zh_alias_exp = /^\[\[zh:(.*?)\]\]$/
     @ja_alias_exp = /^\[\[ja:(.*?)\]\]$/
     
+    @lang = lang
+    
     if lang == "ja"
-      @infobox_content_type_exps.insert(0, {:content => /^{{(基礎情報.*?)^\|?}}/m, :type => /^基礎情報(.*?)(\||\}|\<!)/m})
+      @infobox_content_type_exps.insert(0, {:content => /^{{(基礎情報.*?)^\|?}}/m, 
+                                            :type => /^基礎情報(.*?)(\||\}|\<!)/m,
+                                            :logo_key => /ロゴ$/,
+                                            :logo_value => /\[\[(ファイル):([^\|]*?)(\|([^\|]*?px))?(\|([^\|]*?))?\]\]/})
       @infobox_useful_types = ["会社"] + @infobox_useful_types
     end
     
@@ -50,19 +57,23 @@ class InfoParser
           @infobox_key_value_pair_exps.each do |infobox_key_value_pair_exp|
             infobox_properties = Hash.new
             infobox_content.scan(infobox_key_value_pair_exp) do |key, value|
-              wiki_parser = WikiCloth::Parser.new({:data => value.strip})
-              plain_value = nil
-              begin
-                html_value = wiki_parser.to_html
-                plain_value = Nokogiri::HTML(html_value).inner_text
-              rescue => e # rescue from a wiki_cloth fail
-                puts e
-                # TODO: Print e to a error file
-                plain_value = value.strip
-                # gets
+              stripped_key = key.strip
+              stripped_value = value.strip
+              if stripped_key =~ infobox_content_type_exp_pair[:logo_key] 
+                stripped_value.gsub!(infobox_content_type_exp_pair[:logo_value]) do |m|
+                  logo_name = $2 || "" 
+                  logo_size = $4 || ""
+                  logo_desc = $6 || "logo"
+                  
+                  logo_link = LogoUtils.link_for_logo(logo_name, "commons")
+                  
+                  "[[File:#{logo_link}|#{logo_size}|#{logo_desc}]]"
+                end
+                puts stripped_value
+                gets
               end
-              infobox_properties[key.strip] = plain_value
-              # puts "infobox_properties:#{key.strip}, #{plain_value}"
+              infobox_properties[stripped_key] = stripped_value
+              # puts "infobox_properties:#{stripped_key}, #{stripped_value}"
             end
             break unless infobox_properties.empty?
           end

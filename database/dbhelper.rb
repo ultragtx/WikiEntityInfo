@@ -86,7 +86,7 @@ class DbHelper
 		# page_data = eval(page_data)
     page = nil
 		if page_data
-			page = Page.new_page_with_hash(page_data)
+			page = Page.new_page_with_hash_lang(page_data, lang)
 		end
 		return page
 	end
@@ -99,7 +99,7 @@ class DbHelper
     similar_pages = []
     
     similar_pages_data.each do |page_data|
-      similar_pages << Page.new_page_with_hash(page_data)
+      similar_pages << Page.new_page_with_hash_lang(page_data, lang)
     end
     return similar_pages
   end

@@ -36,7 +36,8 @@ class FrontEnd < Sinatra::Application
     title = params[:title]
     
     page = @dbhelper.page_with_title(title, @current_lang)
-    # page.full_mode!
+    page.html_property!
+    # page.plaintext_property!
     
     @current_lang_pages = []
     @current_lang_pages << LangPage.new(@current_lang, page)
@@ -44,15 +45,15 @@ class FrontEnd < Sinatra::Application
     page.aliases_forien.each do |lang, title|
       if title
         forien_page = @dbhelper.page_with_title(title, lang)
-        # forien_page.full_mode! if forien_page
-        puts "-----"
-        puts title if forien_page
-        puts forien_page.class
+        forien_page.plaintext_property! if forien_page
+        # puts "-----"
+        # puts title if forien_page
+        # puts forien_page.class
         @current_lang_pages << LangPage.new(lang, forien_page) if forien_page
       end
     end
     
-    puts @current_lang_pages.count
+    # puts @current_lang_pages.count
     
     erb :entity, :layout => :basic
   end
