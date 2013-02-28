@@ -5,30 +5,32 @@
             <li <%= 'class="active"' if first %>><a href="#tab<%= index + 1%>" data-toggle="tab"><%= @langs[:"#{lang_page.lang}"] %></a><li>
             <% first = false%>
         <% end %>
-        <!-- <li class="active"><a href="#tab1" data-toggle="tab">English</a></li>
-        <li><a href="#tab2" data-toggle="tab">Chinese</a></li>
-        <li><a href="#tab3" data-toggle="tab">Japanese</a></li> -->
     </ul>
     <div class="tab-content" style="padding-bottom: 9px; border-bottom: 1px solid #ddd;">
+        <% first = true%>
         <% @current_lang_pages.each_with_index do |lang_page, index| %>
             <% page = lang_page.page %>
-            <div class="tab-pane active" id="tab<%= index + 1%>">
+            <div class="tab-pane <%= "active" if first %>" id="tab<%= index + 1%>">
+                <% first = false%>
+                
                 <p><%= page.title %> (<%= page.infobox_type%>)</p>
-            
-                <table class="table table-striped table-bordered">
-                    <thead>
-                        <tr>
-                            <th>Alias name</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <% page.aliases.each do |alias_name|%>
-                        <tr>
-                            <td><%= alias_name[0] %></td>
-                        </tr>
-                        <% end %>
-                    </tbody>
-                </table>
+                
+                <% if page.aliases %>
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Alias name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% page.aliases.each do |alias_name|%>
+                            <tr>
+                                <td><%= alias_name[0] %></td>
+                            </tr>
+                            <% end %>
+                        </tbody>
+                    </table>
+                <% end %>
             
                 <table class="table table-striped table-bordered">
                     <thead>

@@ -55,10 +55,11 @@ class InfoParser
               begin
                 html_value = wiki_parser.to_html
                 plain_value = Nokogiri::HTML(html_value).inner_text
-              rescue => e
+              rescue => e # rescue from a wiki_cloth fail
                 puts e
+                # TODO: Print e to a error file
                 plain_value = value.strip
-                gets
+                # gets
               end
               infobox_properties[key.strip] = plain_value
               # puts "infobox_properties:#{key.strip}, #{plain_value}"

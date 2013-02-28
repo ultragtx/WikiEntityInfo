@@ -210,7 +210,7 @@ class BatchParser < InfoParser
         puts "--------Page [#{@page_count}]----------"
         puts @current_page
         
-        gets
+        # gets
       end
     end
     @page_count += 1

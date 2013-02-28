@@ -2,8 +2,6 @@
 
 class Page
   attr_accessor :title, :id, :redirect
-  # attr_accessor :ns
-  # attr_accessor :revid, :parentid, :timestamp, :minor, :comment, :text, :sha1, :model, :format
   attr_accessor :properties
   attr_accessor :infobox_type
   attr_accessor :aliases, :aliases_forien
@@ -66,8 +64,10 @@ class Page
       properties.each do |key, value|
         puts "infobox_properties: #{key}, #{value}"
       end
-      aliases.each do |alias_name|
-        puts "alias: #{alias_name}"
+      if aliases
+        aliases.each do |alias_name|
+          puts "alias: #{alias_name}"
+        end
       end
       aliases_forien.each do |key, value|
         puts "alias_forien: #{key}, #{value}"
@@ -77,9 +77,4 @@ class Page
       end
     end
   end
-      
-  
-  # def to_s
-#     "title:#{@title}\nns:#{@ns}\nid:#{id}\nredirect:#{@reidrect}\nrevision:\n#{@revision}\n"
-#   end
 end

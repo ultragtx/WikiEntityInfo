@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+	<channel>
+		<title>pages-articles.xml.bz2</title>
+		<link>http://download.wikimedia.org/zhwiki/20130215</link>
+		<description>Wikimedia dump updates for zhwiki</description>
+		<item>
+			<title>http://download.wikimedia.org/zhwiki/20130215</title>
+			<link>http://download.wikimedia.org/zhwiki/20130215</link>
+			<description>&lt;a href="http://download.wikimedia.org/zhwiki/20130215/zhwiki-20130215-pages-articles.xml.bz2"&gt;zhwiki-20130215-pages-articles.xml.bz2&lt;/a&gt;</description>
+			<pubDate>Sat, 16 Feb 2013 06:32:13 GMT</pubDate>
+		</item>
+	</channel>
+</rss>
