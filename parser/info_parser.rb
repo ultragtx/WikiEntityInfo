@@ -7,7 +7,7 @@ class InfoParser
     @infobox_content_type_exps = [{:content => /^{{(Infobox.*?)^\|?}}/m, 
                                    :type => /^Infobox(.*?)(\||\}|\<!)/m, 
                                    :logo_key => /logo$/,
-                                   :logo_value => /\[\[(File|Image):([^\|]*?)(\|([^\|]*?px))?(\|([^\|]*?))?\]\]/ }]
+                                   :logo_value => /\[\[(File|Image):([^\|]*?)(\|([^\|]*?))?(\|([^\|]*?))?\]\]/ }]
     @infobox_useful_types = ["company"]
     @infobox_key_value_pair_exps = [/^\s*\|(.*?)=(.*?)(?=^\s*\||\|\s*$|\z)/m, /\|\s*$(.*?)=(.*?)(?=\|\s*$|\z)/m]
     
@@ -25,8 +25,8 @@ class InfoParser
     if lang == "ja"
       @infobox_content_type_exps.insert(0, {:content => /^{{(基礎情報.*?)^\|?}}/m, 
                                             :type => /^基礎情報(.*?)(\||\}|\<!)/m,
-                                            :logo_key => /ロゴ$/,
-                                            :logo_value => /\[\[(ファイル):([^\|]*?)(\|([^\|]*?px))?(\|([^\|]*?))?\]\]/})
+                                            :logo_key => /(ロゴ|画像)$/,
+                                            :logo_value => /\[\[(ファイル|File|Image|画像):([^\|]*?)(\|([^\|]*?))?(\|([^\|]*?))?\]\]/})
       @infobox_useful_types = ["会社"] + @infobox_useful_types
     end
     
@@ -63,14 +63,14 @@ class InfoParser
                 stripped_value.gsub!(infobox_content_type_exp_pair[:logo_value]) do |m|
                   logo_name = $2 || "" 
                   logo_size = $4 || ""
-                  logo_desc = $6 || "logo"
+                  logo_desc = $6 || ""
                   
                   logo_link = LogoUtils.link_for_logo(logo_name, "commons")
                   
                   "[[File:#{logo_link}|#{logo_size}|#{logo_desc}]]"
                 end
-                puts stripped_value
-                gets
+                # puts stripped_value
+                # gets
               end
               infobox_properties[stripped_key] = stripped_value
               # puts "infobox_properties:#{stripped_key}, #{stripped_value}"

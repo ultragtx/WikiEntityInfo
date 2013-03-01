@@ -26,6 +26,6 @@ file_path_ja = "/Users/ultragtx/Downloads/jawiki-20130125-pages-articles.xml.bz2
 file_path_en = "/Users/ultragtx/Downloads/enwiki-20130204-pages-articles.xml.bz2"
 file_path_zh = "/Users/ultragtx/Downloads/zhwiki-20130204-pages-articles.xml.bz2"
 
-# DumpFileParser.new(file_path_ja, "ja", true).parse
-# DumpFileParser.new(file_path_en, "en", true).parse
+DumpFileParser.new(file_path_ja, "ja", true).parse
+DumpFileParser.new(file_path_en, "en", true).parse
 DumpFileParser.new(file_path_zh, "zh", true).parse

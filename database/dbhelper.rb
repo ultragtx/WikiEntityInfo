@@ -9,7 +9,7 @@ class DbHelper
 	Sequel::Model.plugin :schema
 
 	def initialize
-    @db = Sequel.sqlite('/Users/ultragtx/DevProjects/Ruby/WikipediaEntityAnalyser2/database/test.db')
+    @db = Sequel.sqlite("#{DATABASE_DIR}/test.db")
     
     LANGS.each do |lang|
       table_name = :"#{lang}_pages"

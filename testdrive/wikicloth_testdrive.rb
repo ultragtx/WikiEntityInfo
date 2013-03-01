@@ -8,7 +8,7 @@ text = <<TEXT
 TEXT
 
 text = <<TEXT
-[[File:http://asdf/Chinamobile.png|175px]]
+[[File:Shijo Karasuma FT Square.JPG||280px]]
 TEXT
 
 
@@ -20,4 +20,4 @@ puts wiki.to_html
 
 # puts Nokogiri::HTML('<img alt="asdf" src="asdf">').text()
 
-puts WikiCloth::Parser.localise_ns("File",:ja)
+# puts WikiCloth::Parser.localise_ns("File",:ja)
