@@ -209,8 +209,8 @@ class BatchParser < InfoParser
         
         @current_page.lang = @lang
         
-        puts "--------Page [#{@page_count}]----------"
-        puts @current_page
+        # puts "--------Page [#{@page_count}]----------"
+        # puts @current_page
         
         # gets
       end

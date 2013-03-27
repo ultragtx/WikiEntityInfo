@@ -54,7 +54,7 @@ class DbHelper
     # puts page_data
     
     if page_data == nil || page_data.empty?
-      puts "<<<insert"
+      # puts "<<<insert"
       pages.insert(
       :title          => page.title,
       :redirect       => page.redirect,
@@ -66,7 +66,7 @@ class DbHelper
       :categories     => page.categories)
 
     else
-      puts "<<<update"
+      # puts "<<<update"
       pages.where(:title => page.title).update(
       :redirect       => page.redirect,
       :infobox_type   => page.infobox_type,

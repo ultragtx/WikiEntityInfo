@@ -1,4 +1,5 @@
-require "sinatra"
+require "sinatra/base"
+require "sinatra/cookies"
 require "open-uri"
 require_relative '../Database/dbhelper'
 
@@ -13,7 +14,7 @@ class LangPage
 end
 
 class FrontEnd < Sinatra::Application
-  
+  helpers Sinatra::Cookies
   
   def initialize
     super
@@ -22,16 +23,21 @@ class FrontEnd < Sinatra::Application
   end
   
   get '/' do
-    redirect to('/zh')
+    @current_lang = cookies[:current_lang]
+    # puts @current_lang
+    @current_lang = "zh" unless ["zh", "en", "ja"].include? @current_lang
+    redirect to("/#{@current_lang}")
   end
   
   get '/:lang' do
+    cookies[:current_lang] = params[:lang]
     @current_lang = params[:lang]
     puts @langs[:"#{@current_lang}"]
     erb :basic
   end
 
   get '/:lang/w/:title' do
+    cookies[:current_lang] = params[:lang]
     @current_lang = params[:lang]
     title = params[:title]
     
