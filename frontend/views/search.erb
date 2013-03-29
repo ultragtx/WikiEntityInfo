@@ -5,12 +5,14 @@
         </tr>
     </thead>
     <tbody>
+        <tr>
+            <td><p>Total: <%= @current_pages.count%></p></td>
+        </tr>
         <% @current_pages.each do |page| %>
             <tr>
-                <td><a href='/<%= @current_lang %>/w/<%= page.title %>'><%= page.title %></a></td>
+                <td><a href='/<%= @current_lang %>/<%= @current_data_style %>/w/<%= page.title %>'><%= page.title %></a></td>
             </tr>
         <% end %>
-        
     </tbody>
 </table>
         

@@ -62,8 +62,10 @@ class Page
     full_mode! if self.mode != "full"
     properties.each do |key, value| 
       raw_value = value
+      # raw_value = " " + value
       
       wiki_parser = WikiCloth::Parser.new({:data => raw_value})
+      
       html_value = nil
       begin
         html_value = wiki_parser.to_html
@@ -74,7 +76,9 @@ class Page
         # gets
       end
       
-      if key =~ /(logo|ロゴ)$/
+      # html_value.chomp!
+      
+      if key =~ /(logo|ロゴ|画像)$/
         html_value.gsub!(/(img src="(.*?)")/) do |m|
           original = $1
           src_fallback = $2

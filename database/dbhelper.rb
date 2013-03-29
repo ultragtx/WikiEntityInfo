@@ -7,6 +7,7 @@ require_relative "../global/settings"
 
 class DbHelper
 	Sequel::Model.plugin :schema
+  # Sequel::Model.plugin :force_encoding, 'UTF-8'
 
 	def initialize
     @db = Sequel.sqlite("#{DATABASE_DIR}/test.db")
@@ -93,9 +94,8 @@ class DbHelper
   
   def pages_like_title(title, lang)
     pages = @db[:"#{lang}_pages"]
-    
-    similar_pages_data = pages.where(Sequel.like(:title, "%#{title}%")).all
-    
+    title.gsub!(' ', '%')
+    similar_pages_data = pages.where(Sequel.ilike(:title, "%#{title}%")).all
     similar_pages = []
     
     similar_pages_data.each do |page_data|

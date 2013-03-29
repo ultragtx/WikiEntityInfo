@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script>
+    function changeDataStyle(style) {
+        var url = window.location.href;
+        var arr = url.split("/");
+        arr[4] = style;
+        url = arr.join("/");
+        window.location.href = url;
+    }
+    </script>
 </head>
 <body>
     <div class="container">
         <div class="navbar">
             <div class="navbar-inner">
-                <form class="navbar-search pull-left" method="get" action='/<%= @current_lang %>/s'>
+                <form class="navbar-search pull-left" method="get" action='/<%= @current_lang %>/<%= @current_data_style %>/s'>
                     <!-- <input type="text" class="search-query" placeholder="Search"> -->
                     <div class="input-append">
                         <input class="span2" id="appendedDropdownButton" type="text" name="search">
@@ -19,13 +28,26 @@
                             <button class="btn dropdown-toggle" data-toggle="dropdown">
                                 <span class="caret"></span></button>
                             <ul class="dropdown-menu">
-                                <li><a href="/zh">Search Chinese</a></li>
-                                <li><a href="/en">Search English</a></li>
-                                <li><a href="/ja">Search Japanese</a></li>
+                                <li><a href="/zh/<%= @current_data_style %>">Search Chinese</a></li>
+                                <li><a href="/en/<%= @current_data_style %>">Search English</a></li>
+                                <li><a href="/ja/<%= @current_data_style %>">Search Japanese</a></li>
                             </ul>
                         </div>
                     </div>
                 </form>
+                <div class="btn-group" style="float:right">
+                    <button class="btn">Data: <%= @data_styles[:"#{@current_data_style}"] %></button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown">
+                        <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <!-- <li><a href="/<%= @current_lang %>/html">Data: HTML</a></li>
+                        <li><a href="/<%= @current_lang %>/raw">Data: Raw</a></li>
+                        <li><a href="/<%= @current_lang %>/plain">Data: Plain</a></li> -->
+                        <li><a onclick="changeDataStyle('html')">Data: HTML</a></li>
+                        <li><a onclick="changeDataStyle('raw')">Data: Raw</a></li>
+                        <li><a onclick="changeDataStyle('plain')">Data: PlainL</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="container">
