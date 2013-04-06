@@ -61,8 +61,6 @@ class FrontEnd < Sinatra::Application
     
     title = params[:title]
     
-    puts title
-    
     page = @dbhelper.page_with_title(title, @current_lang)
     
     @current_lang_pages = []
@@ -85,6 +83,11 @@ class FrontEnd < Sinatra::Application
         page.html_property!
       when "plain"
         page.plaintext_property!
+      when "raw"
+        page.properties.each do |key, value|
+          page.properties[key] = Rack::Utils.escape_html(value)
+        end
+        puts page.properties
       end
     end
     
