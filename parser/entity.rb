@@ -63,6 +63,13 @@ class Page
     properties.each do |key, value| 
       raw_value = value
       # raw_value = " " + value
+      raw_value.gsub!(/(\{\{(.*?)\}\})/m) do |template|
+        content = $2
+        content.gsub!('|',' ')
+        content.gsub!('=', ':')
+        content + " "
+      end
+        
       
       wiki_parser = WikiCloth::Parser.new({:data => raw_value})
       
@@ -94,7 +101,7 @@ class Page
   def plaintext_property!
     html_property!
     properties.each do |key, html_value| 
-      plain_value = Nokogiri::HTML(html_value).inner_text
+      plain_value = Nokogiri::HTML(html_value).text
       properties[key] = plain_value
     end
   end

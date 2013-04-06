@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require "sinatra/base"
 require "sinatra/cookies"
 require "open-uri"
@@ -21,6 +23,12 @@ class FrontEnd < Sinatra::Application
     @langs = {:zh => "Chinese", :en => "English", :ja => "Japanese"}
     @data_styles = {:raw => "Raw", :html => "HTML", :plain => "Plain"}
     @dbhelper = DbHelper.new
+  end
+  
+  helpers do
+    def h(text)
+      Rack::Utils.escape_html(text)
+    end
   end
   
   get '/' do
@@ -52,6 +60,8 @@ class FrontEnd < Sinatra::Application
     @current_data_style = params[:data_style]
     
     title = params[:title]
+    
+    puts title
     
     page = @dbhelper.page_with_title(title, @current_lang)
     
@@ -90,9 +100,10 @@ class FrontEnd < Sinatra::Application
     cookies[:current_data_style] = params[:data_style]
     @current_data_style = params[:data_style]
     
-    search_text = URI::decode(request.query_string).split('=')[1]
+    # search_text = URI::decode(request.query_string).split('=')[1]
+    search_text = params[:search]
     search_text.gsub!('+', ' ')
-    # puts search_text
+    puts search_text
     @current_pages = @dbhelper.pages_like_title(search_text, @current_lang)
     erb :search, :layout => :basic
   end
@@ -100,4 +111,10 @@ class FrontEnd < Sinatra::Application
   run! if app_file == $0
 end
 
-# FrontEnd.run!
+Encoding.default_internal = Encoding::UTF_8
+
+if __FILE__ == $0
+
+FrontEnd.run!
+
+end

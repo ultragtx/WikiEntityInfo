@@ -1,11 +1,32 @@
 # encoding: utf-8
 
+# puts RUBY_VERSION
+# puts Encoding.default_external
+# puts Encoding.default_internal
+
 require_relative "../parser/wikicloth/lib/wikicloth.rb"
 require 'nokogiri'
 
 text = <<TEXT
- {{CNY|link=yes|527.99 billion}} (2011)<ref name="icbc-ltd.com">http://www.google.com/finance?q=NYSE%3ACHL&fstype=ii&ei=_r1rUOjpCcabkAX3Cg</ref> 
+{{CNY|link=yes|527.99 billion}} (2011)<ref name="icbc-ltd.com">http://www.google.com/finance?q=NYSE%3ACHL&fstype=ii&ei=_r1rUOjpCcabkAX3Cg</ref> 
 TEXT
+
+text = <<TEXT
+{{CNY|link=yes|527.99 billion}} (2011)<ref name="icbc-ltd.com">http://www.google.com/finance?q=NYSE%3ACHL&fstype=ii&ei=_r1rUOjpCcabkAX3Cg</ref>
+TEXT
+
+text.gsub!(/(\{\{(.*?)\}\})/m) do |template|
+  content = $2
+  content.gsub!('|',' ')
+  content.gsub!('=', ':')
+  content + " "
+end
+
+puts text
+
+# text = <<TEXT
+# [[China Mobile Communications Corporation]] (74.22%) [http://www.chinamobileltd.com/images/pdf/2010/ar/2009_a_full.pdf Annual report 2009]
+# TEXT
 
 # text = <<TEXT
 # [[File:Shijo Karasuma FT Square.JPG||280px]]
