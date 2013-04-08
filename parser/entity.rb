@@ -131,7 +131,7 @@ class Page
           original = $1
           src_fallback = $2
           src_fallback.sub!('commons', "#{lang}")
-          "#{original} onerror=\"this.src=\"#{src_fallback}\";\""
+          "#{original} onerror=\"this.src=\'#{src_fallback}\';\""
         end
       end 
       
@@ -146,7 +146,7 @@ class Page
 
         html_value.gsub!(/(<img.*?>)/m) do |img|
           links = ""
-          img.scan(/src="(.*?)" onerror="this.src="(.*?)"/m) do |link, fall_link|
+          img.scan(/src="(.*?)" onerror="this.src='(.*?)'/m) do |link, fall_link|
             links = "[" + link + ", " + fall_link + "]"
           end
           links
