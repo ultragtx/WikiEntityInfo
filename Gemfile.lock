@@ -8,6 +8,7 @@ GEM
     eventmachine (1.0.3)
     expression_parser (0.9.0)
     libxml-ruby (2.6.0)
+    mysql2 (0.3.11)
     nokogiri (1.5.9)
     rack (1.5.2)
     rack-protection (1.5.0)
@@ -39,6 +40,7 @@ DEPENDENCIES
   bzip2-ruby
   expression_parser
   libxml-ruby
+  mysql2
   nokogiri
   sequel
   shotgun

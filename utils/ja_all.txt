@@ -1,0 +1,985 @@
+language
+continent
+哲学者
+楽器
+single
+software
+animanga/header
+漫画家
+musician
+disease
+島
+rocket
+人物
+baseball player
+chinese-language singer and actor
+プログラミング言語
+scientist
+music genre
+government agency
+空港
+作家
+os
+file format
+notation
+film
+cpu
+お笑い芸人
+motorsport championship
+award
+鉱物
+芸術家
+湖
+武道・武術
+cpu architecture
+コンシューマーゲーム機
+album
+お笑いコンビ
+将棋棋士
+website
+card game
+sport governing body
+民間人の攻撃
+space mission
+un
+space station
+weather
+game
+組織
+os version
+ws
+windowsコンポーネント
+software license
+indian jurisdiction
+currency
+解剖学
+研究所
+character
+オンライン情報源
+settlement
+革命家
+著名な生物のプロフィール
+hawaiian island
+political post
+electronic component
+military conflict
+war faction
+particle
+山
+buddhist
+un resolution
+民族
+地名
+geopolitical organisation
+airliner incident
+anthem
+country
+uk railway
+オウム真理教徒
+経済学者
+color
+陸上選手
+組織2
+weapon
+プロレスラー
+ethnic group
+軍人
+国軍
+河川
+半島
+islands
+学者
+algorithm
+saint
+symptom
+同位体
+animanga character
+有機化合物
+constellation
+仮名
+central bank
+無機化合物
+コネクタ
+road
+officeholder
+song
+arab-israeli conflict
+guitar model
+airport
+ocean
+原画家
+聖人
+engineer
+建築家
+体操選手
+中華圏の映画
+chess player
+astronaut
+amusement park
+occupation
+力士
+tunnel
+事件・事故
+organization
+animanga/header2
+university
+tibetan buddhist monastery
+helloproject
+swimmer
+locomotive
+esc entry
+自転車競技選手
+military structure
+運河
+犯罪者
+峠
+football league
+polyhedron with net
+battleship
+space shuttle
+港
+person
+rock
+writer
+book
+航空機
+standard
+company
+television
+filesystem
+anatomy
+orthodox church
+衆議院議員総選挙
+royalty
+brain
+monarch
+galaxy
+protected area
+disputed islands
+殉教者
+medical person
+president
+爆薬
+secretary-general
+artist
+musical artist
+economist
+philosopher
+thai province
+military award
+自動車基本情報
+military unit
+building
+greek dimos
+journalist
+england county
+雲
+vg
+プロ野球日本シリーズ
+theatre
+spacecraft
+wine grape variety
+フィギュアスケート選手
+navyship
+hospital
+publisher2
+自動車のスペック表
+high court
+経済
+bone
+webcolor
+criminal organization
+peri gr
+space telescope
+滝
+animanga/footer
+korean-language singer and actor
+historical event
+greek isles
+lake
+携帯電話の仕様表
+senator
+ship begin
+block cipher
+用水路
+brand
+encryption method
+korean settlement
+premier
+飲料
+given name
+protein family
+prepared food
+football tournament
+broadcasting network
+font
+バレエ
+事故
+nerve
+us cabinet
+port
+絵画作品
+newspaper
+共和制ローマ
+battery
+programming language
+u.s. legislation
+prime minister
+wildfire
+弁護士会
+tv channel
+british territory
+record label
+rail service
+navyshipclass2
+オートバイのスペック表
+amphoe
+sportsperson
+racing driver
+aviator
+　作家
+書籍
+navyshipclass
+coat of arms
+参議院議員通常選挙
+valley
+athleticrace
+cat breed
+公共交通
+governor
+election
+football match
+motorsport venue
+power station
+鉄道事故
+mine
+motorcycle rider
+dam
+speed skater
+墓地
+両国関係
+comics character
+作家　
+serial killer
+online music service
+教皇
+u.s. county
+christian leader
+データ通信専用端末の仕様表
+bay
+religious building
+nflplayer
+作家</nowiki><br />
+<nowiki>
+world series expanded
+australian place
+convention
+journal
+horse
+musical
+museum
+rail
+dalai lama
+柔道の技
+embryology
+stazione italiana
+wta tennis tournament
+england region
+us cabinet official
+politician
+comic strip
+nrhp
+筋肉
+化合物
+political party
+università italiana
+taoist
+jiscolor
+former subdivision
+sports rivalry
+athlete
+国
+holiday
+フィギュアスケート競技会
+motogp rider
+television episode
+陸上競技選手権大会
+document
+album/color
+rocket/stage
+legislature
+baseball player　
+ice hockey player
+football official 2
+first lady
+congressman
+bridge type
+library
+supernova
+london station
+radar
+隕石
+cluster
+khet
+automobile engine
+clubmusic genre
+concert tour
+regency of indonesia
+christian denomination
+uk place
+school
+丘
+computer
+aircraft accident
+プロレスベルト
+computer hardware
+awards
+information appliance
+シンセサイザー
+association
+fiba tourney
+chef
+3cols
+ラグビーワールドカップ
+mma event
+rugby biography
+bridge
+play
+甲子園
+cycling race report
+ski jumper
+football tournament season
+cpuソケット
+celebrity
+religious biography
+station
+baduser
+diamond
+オリンピック日本選手団
+125cc rider
+犬種
+protein
+handball league
+架空の宇宙船
+hong kong road
+bus transit
+cultivar
+携帯電話の仕様表/試行2
+city in romania
+halacha
+govt agency
+moto2 rider
+judge
+動脈
+publisher
+f1レースレポート
+自転車競技チーム
+fivb tournament
+firearm cartridge
+german railway vehicle
+tfl line
+département du sénégal
+hiking trail
+musician　
+darts tournament
+landskap
+アミノ酸
+nfl playercoach
+film festival
+フィンランドの州
+boxer (amateur)
+casino
+poland
+artist discography
+ハンドボールチーム
+tennis event
+non-profit
+joint tennis tournament
+atp tennis tournament
+player
+　人物
+roller coaster
+language/family-color
+military fv
+eruption
+rugby league representative team
+天文台
+爆走兄弟
+comic book title
+paranormal creature
+eurovision
+rail line
+jリーグ
+diesellocomotive
+oil field
+ancient site
+road/length
+原画家　
+女子フィールドホッケーチーム
+military test site
+monument
+church
+トライアスロン選手
+写真家
+neuron
+艦船
+national hockey team
+interval
+superbowl
+ligament
+ファティマ
+medal templates
+glacier
+brewery
+雲</nowiki><br />
+<nowiki>
+dotcom company
+canadianmp
+world heritage site
+patriarch
+coa wide
+fossil
+vice-regal
+football club
+un pko
+magazine
+user brief profile</nowiki>」から最後の「
+education
+cave
+オリンピック選手団
+headphone
+world series  expanded
+musician/color
+london borough
+nba draft
+stadium
+shopping mall
+scotus case/courts
+stazione della metropolitana italiana
+coin
+g8
+gb station
+discography
+power transmission line
+province tr
+oil spill
+settlement/link
+bundesautobahn
+eurovision country
+選挙
+　musician
+australian political party
+city
+television amazing race
+lens
+uk train 1
+clergy
+norway district
+フィンランドの県
+rail network
+golf facility
+laboratory equipment
+school2
+vein
+protected area/iucn {{{iucn category
+beer style
+computer hardware cpu
+sports award
+オリンピック中国選手団
+オリンピックアメリカ合衆国選手団
+オリンピックカナダ選手団
+muscle
+オリンピック混合チーム選手団
+オリンピックソビエト連邦選手団
+オリンピックロシア選手団
+オリンピックイギリス選手団
+オリンピックフランス選手団
+オリンピックイタリア選手団
+オリンピックオーストリア選手団
+オリンピックフィンランド選手団
+オリンピックノルウェー選手団
+オリンピックスウェーデン選手団
+オリンピック韓国選手団
+オリンピック北朝鮮選手団
+オリンピックオランダ選手団
+オリンピックベルギー選手団
+オリンピックハンガリー選手団
+treaty
+オリンピックスイス選手団
+オリンピックウクライナ選手団
+オリンピック西ドイツ選手団
+オリンピック東ドイツ選手団
+オリンピックドイツ選手団
+オリンピック東西統一ドイツ選手団
+オリンピックスロバキア選手団
+オリンピックチェコ選手団
+オリンピックチェコスロバキア選手団
+オリンピックボヘミア選手団
+オリンピックオーストラリア選手団
+オリンピックスペイン選手団
+オリンピックデンマーク選手団
+オリンピックニュージーランド選手団
+ロケット発射場
+オリンピックラトビア選手団
+オリンピックエストニア選手団
+オリンピックリトアニア選手団
+静脈
+hollywood cartoon
+オリンピックルーマニア選手団
+オリンピックキューバ選手団
+オリンピックポーランド選手団
+オリンピックブルガリア選手団
+オリンピックトルコ選手団
+オリンピックギリシャ選手団
+オリンピック南アフリカ選手団
+オリンピックブラジル選手団
+オリンピックアルゼンチン選手団
+オリンピックケニア選手団
+オリンピックエチオピア選手団
+オリンピックメキシコ選手団
+オリンピックベネズエラ選手団
+オリンピックイラン選手団
+オリンピックイラク選手団
+オリンピックアイルランド選手団
+オリンピックジャマイカ選手団
+オリンピックインド選手団
+オリンピックエジプト選手団
+オリンピックバルバドス選手団
+オリンピックトリニダード・トバゴ選手団
+オリンピック西インド連邦選手団
+オリンピックユーゴスラビア選手団
+オリンピッククロアチア選手団
+オリンピックスロベニア選手団
+オリンピックボスニア・ヘルツェゴビナ選手団
+オリンピックマケドニア共和国選手団
+オリンピックセルビア・モンテネグロ選手団
+オリンピックセルビア選手団
+オリンピックモンテネグロ選手団
+バルセロナオリンピック独立参加選手団
+オリンピックインドネシア選手団
+オリンピックタイ選手団
+オリンピック香港選手団
+オリンピックモンゴル選手団
+オリンピックモロッコ選手団
+オリンピックアルジェリア選手団
+オリンピックポルトガル選手団
+オリンピックパキスタン選手団
+オリンピックバハマ選手団
+オリンピックナイジェリア選手団
+オリンピックリヒテンシュタイン選手団
+オリンピックチリ選手団
+オリンピックウルグアイ選手団
+オリンピックカメルーン選手団
+オリンピックジンバブエ選手団
+オリンピックウガンダ選手団
+オリンピックルクセンブルク選手団
+オリンピックペルー選手団
+オリンピックコロンビア選手団
+オリンピックチュニジア選手団
+オリンピックイスラエル選手団
+オリンピックコスタリカ選手団
+オリンピックシリア選手団
+オリンピックドミニカ共和国選手団
+オリンピックモザンビーク選手団
+オリンピックスリナム選手団
+オリンピックブルンジ選手団
+オリンピックエクアドル選手団
+オリンピックアラブ首長国連邦選手団
+オリンピックナミビア選手団
+オリンピックフィリピン選手団
+オリンピックレバノン選手団
+オリンピックモルドバ選手団
+オリンピックニジェール選手団
+オリンピッククウェート選手団
+オリンピックガイアナ選手団
+オリンピックエリトリア選手団
+オリンピックジブチ選手団
+オリンピックバミューダ選手団
+オリンピックカタール選手団
+オリンピックパナマ選手団
+オリンピックタンザニア選手団
+オリンピックプエルトリコ選手団
+オリンピックガーナ選手団
+オリンピックアイスランド選手団
+camera
+オリンピックアメリカ領ヴァージン諸島選手団
+オリンピックベトナム選手団
+オリンピックトンガ選手団
+オリンピックシンガポール選手団
+オリンピックセネガル選手団
+オリンピックパラグアイ選手団
+オリンピックオランダ領アンティル選手団
+オリンピックコートジボワール選手団
+オリンピックザンビア選手団
+オリンピックスリランカ選手団
+オリンピックセイロン選手団
+オリンピックサウジアラビア選手団
+オリンピックハイチ選手団
+オリンピックマレーシア選手団
+オリンピックマラヤ連邦選手団
+オリンピックキルギス選手団
+オリンピックアルメニア選手団
+オリンピックグルジア選手団
+オリンピックアゼルバイジャン選手団
+オリンピックウズベキスタン選手団
+オリンピックベラルーシ選手団
+オリンピックカザフスタン選手団
+オリンピック中華民国選手団
+オリンピックチャイニーズタイペイ選手団
+journal/issn-eissn
+linee ferroviarie in italia
+region tr
+road/length link/{{{1
+album/colortable
+rugby team
+map
+park
+firearm cartridge/convert
+dogbreed
+レースレポート
+npo
+weather/oneline
+weather/col{{{sc
+seamount
+european parliament group
+オリンピックバーレーン選手団
+オリンピックマーシャル諸島選手団
+/row
+オリンピックアンティグア・バーブーダ選手団
+オリンピックグレナダ選手団
+オリンピックセントクリストファー・ネイビス選手団
+オリンピックツバル選手団
+オリンピックトルクメニスタン選手団
+オリンピックネパール選手団
+オリンピックアメリカ領サモア選手団
+オリンピックケイマン諸島選手団
+オリンピックグアム選手団
+オリンピックアルバ選手団
+album/reviews deprecation notice
+khet　
+オリンピックサンマリノ選手団
+snooker player
+オリンピックコンゴ民主共和国選手団
+cricketer biography
+nfl coach
+baseball player/sandbox
+musician                                                              </nowiki>
+河川</nowiki><br />
+<nowiki>
+オリンピックラオス選手団
+graph
+パラリンピック日本選手団
+lymph
+worldscouting
+academy awards
+officeholder/office
+pipeline
+international ice hockey competition
+お笑いコンビ　
+indian jurisdiction/sandbox
+ワイン原産地
+daviscup
+オリンピックボリビア選手団
+lcs
+lds
+cricketer
+olympic event
+national political convention
+order
+rockunit
+country demographics
+/sandbox
+european parliament election
+subdivision type
+　album
+closed london station
+closed london station/sandbox
+tfl line/sandbox
+rocket/payload
+fil
+日食
+family
+gare
+atp challenger tournament
+champ car driver
+nascar driver
+中華圏の映画/sandbox
+military unit/sandbox
+sura
+motocross rider
+somali faction
+animanga/tvanime
+animanga/tvdrama
+エストニアの県
+coord
+　力士
+lt governor
+隕石</code>」に変更します。英語版ではリダイレクトになっているテンプレート名で表示されている場合もあります。
+
+  toc  
+== 使い方 ==
+<pre style="overflow:auto">
+{{infobox 隕石
+winery
+mtgset
+religious building/color
+musician awards
+church/font color
+campaign
+mtv awards
+knot details
+space expedition
+ws</nowiki>
+ipa base
+element/headers
+オリンピックイギリス領ヴァージン諸島選手団
+instrument
+オリンピックバングラデシュ選手団
+オリンピックアルバニア選手団
+hotel
+オリンピッククック諸島選手団
+オリンピックアンドラ選手団
+...で始めてしまうと自動的に300px固定になるため？　そこで、この箱の横幅自体を可変にする方法をお教え下さい。
+
+[[:template:infobox 航空機]]がそういう機能を備えているようなので、真似しようとしましたがコーディング苦手で…。どなたか、現在の体裁のままで、{{{ボックスサイズ
+オリンピックベナン選手団
+オリンピックベリーズ選手団
+autostrada-it
+artifact
+オリンピックブータン選手団
+オリンピックボツワナ選手団
+オリンピックブルネイ選手団
+オリンピックマルタ選手団
+オリンピックブルキナファソ選手団
+オリンピックキリバス選手団
+オリンピックアフガニスタン選手団
+revolution biography
+オリンピックエルサルバドル選手団
+オリンピックミクロネシア連邦選手団
+オリンピックカンボジア選手団
+single/sandbox
+オリンピックモナコ選手団
+オリンピック中央アフリカ選手団
+song/sandbox
+弁護士会/testcases
+lake/conv
+military memorial
+オリンピックチャド選手団
+オリンピックマラウイ選手団
+オリンピックコモロ選手団
+オリンピックグアテマラ選手団
+オリンピックパラオ選手団
+generic
+album/sandbox
+オリンピック赤道ギニア選手団
+lgbt rights
+オリンピックガボン選手団
+オリンピックガンビア選手団
+writing system
+british academy film awards
+lgbt rights
+</nowiki>
+<br />
+<nowiki>
+オリンピックニカラグア選手団
+drcongo province
+オリンピックサモア選手団
+militant organization
+オリンピックモルディブ選手団
+オリンピックギニア選手団
+オリンピックミャンマー選手団
+オリンピックレソト選手団
+オリンピックセントルシア選手団
+オリンピックリビア選手団
+オリンピックマダガスカル選手団
+オリンピックセントビンセント・グレナディーン選手団
+オリンピックバヌアツ選手団
+オリンピックオマーン選手団
+オリンピックモーリタニア選手団
+力士/sandbox
+オリンピックセーシェル選手団
+grand prix motorcycle race report
+オリンピック東ティモール選手団
+prison
+オリンピックソマリア選手団
+オリンピックイエメン選手団
+オリンピックスワジランド選手団
+swiss town
+scottish island
+football club/kit image
+computer virus
+オリンピック種目
+宗教団体
+uk place/local
+uk place/nolocalmap
+sports season
+3cols/row
+poker player
+historic site
+mountain/map
+オリンピック個人参加選手団
+glacier/sandbox
+thesaban
+anthem/sandbox
+weather/cols
+weather/cold
+weather</code>」となっている場合は、日本語版にて「<code>{{weather box</code>」に修正しないと表が表示されません。
+
+{{tl
+academic
+grand prix race report
+korean name/nametable
+international baseball tournament
+muslim scholars
+islands/area
+football league season
+civilian attack
+international football competition
+　民族
+消防防災航空隊
+world championships in athletics
+ligne ferroviaire
+bot
+single
+...
+darts player
+gridiron football person/position
+gridiron football person
+artwork
+cargo spacecraft
+storm
+お笑い芸人、
+graphic novel
+defunct tennis tournament
+comics story arc
+eu legislation
+sports conference
+launch pad
+individual darts tournament
+grb
+banknote
+uprising
+artery
+mountain/main
+animal
+law enforcement agency
+law enforcement agency/logo
+law enforcement agency/main
+mountain
+belgium municipality/geography
+wrestling event
+un  resolution
+musician/sandbox
+uae community
+watch
+ship career
+kommune
+belgium municipality
+dot-com company
+mill building
+…
+彫刻作品
+painting
+pinball
+artefact
+モデル
+television season
+monarchy
+surfer
+世界陸上競技選手権大会選手団
+　経済学者
+famine
+cemetery
+mineral
+catalog
+lgbt rights</nowiki>
+<nowiki>
+street
+street/meta/length
+cfl team
+venue
+united states district court case
+united states district court case/images
+オンラインサービス
+media
+former country/event
+写真フィルム/sandbox
+写真フィルム
+nfl
+podcast
+bus
+waterfall
+motor race
+concert tour/sandbox
+former country
+pharaoh
+spy
+russian inhabited locality
+train
+アイスランドの選挙区
+lighthouse
+cambridge college
+european parliament constituency/election link
+european parliament constituency
+uk fire and rescue
+galaxy cluster
+government cabinet
+album　
+boxing match
+　有機化合物
+nycs
+airline
+lunar mare
+uk legislation
+clothing item
+musician/hcard class
+ロンドンオリンピック (2012年) 独立参加選手団
+football biography
+d&dクリーチャー
+product
+オリンピックナウル選手団
+オリンピックキプロス選手団
+オリンピックカーボベルデ選手団
+オリンピックサントメ・プリンシペ選手団
+オリンピックルワンダ選手団
+オリンピックドミニカ国選手団
+オリンピックアンゴラ選手団
+オリンピックコンゴ共和国選手団
+オリンピックフィジー選手団
+オリンピックギニアビサウ選手団
+オリンピックリベリア選手団
+オリンピックモーリシャス選手団
+オリンピックパレスチナ選手団
+オリンピックシエラレオネ選手団
+オリンピックソロモン諸島選手団
+オリンピックスーダン選手団
+オリンピックトーゴ選手団
+オリンピックマリ選手団
+オリンピックタジキスタン選手団
+躰道選手
+beer
+korean name
+news event
+ort in Österreich
+german location
+china railway station
+chntrain
+musée
+ご当地プロレスラー
+aviation
+ジャーナリスト
+sporting event organization
+attraction/status
+music festival
+site archéologique
+mountain -->
+{{infobox 山
+road/meta/browse
+road/{{{state
+wrestling team
+paris metro station
+secondary school
+flag
+united states congress
+football club season
+mobile phone

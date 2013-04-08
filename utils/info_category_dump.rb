@@ -1,22 +1,18 @@
 # encoding: utf-8
 
 require 'libxml'
+require 'bzip2'
 require_relative 'entity'
-require_relative 'info_parser'
-require_relative '../database/dbhelper'
-require_relative '../database/mysqlhelper'
+require_relative '../Database/dbhelper'
 
-class BatchParser < InfoParser
+class SaxCallbacks
   include LibXML::XML::SaxParser::Callbacks
   
   attr_accessor :start_time, :end_time  # for test
-  attr_accessor :pages
-  attr_accessor :lang
   
-  def initialize(lang)
-    super(lang)
-    @lang = lang
-    
+  attr_accessor :pages
+  
+  def initialize
     @in_page = false
     @in_title = @in_ns = @in_id = @in_redirect = @in_revision = false
     @in_revid = @in_parentid = @in_timestamp = @in_contributor = false
@@ -29,9 +25,8 @@ class BatchParser < InfoParser
     @info_count = 0
     
     @page_count = 0
-    
+
     @dbhelper = DbHelper.new
-    @mysql_helper = MySQLHelper.new
   end
   
   def on_start_document
@@ -51,6 +46,8 @@ class BatchParser < InfoParser
   end
   
   def on_start_element_ns(name, attributes, prefix, uri, namespaces)
+    # puts "#{name} | #{attributes} | #{prefix} | #{uri} | #{namespaces}"
+    # puts "<#{name}>"
     @useful_element = true
     if @in_contributor
       case name
@@ -123,8 +120,10 @@ class BatchParser < InfoParser
       case name
       when "username"
         @in_username = false
+        # @current_page.revision.contributor.username = @current_string
       when "id"
         @in_conid = false
+        # @current_page.revision.contributor.id = @current_string
       when "contributor"
         @in_contributor = false
       end
@@ -132,31 +131,40 @@ class BatchParser < InfoParser
       case name
       when "id"
         @in_revid = false
-        # @current_page.revid = @current_string
+        # @current_page.revision.id = @current_string
+        @current_page.revid = @current_string
       when "parentid"
         @in_parentid = false
-        # @current_page.parentid = @current_string
+        # @current_page.revision.parentid = @current_string
+        @current_page.parentid = @current_string
       when "timestamp"
         @in_timestamp = false
-        # @current_page.timestamp = @current_string
+        # @current_page.revision.timestamp = @current_string
+        @current_page.timestamp = @current_string
       when "minor"
         @in_minor = false
-        # @current_page.minor = @current_string
+        # @current_page.revision.minor = @current_string
+        @current_page.minor = @current_string
       when "comment"
         @in_comment = false
-        # @current_page.comment = @current_string
+        # @current_page.revision.comment = @current_string
+        @current_page.comment = @current_string
       when "text"
         @in_text = false
+        # @current_page.revision.text = @current_string
         self.get_info
       when "sha1"
         @in_sha1 = false
+        # @current_page.revision.sha1 = @current_string
         @current_page.sha1 = @current_string
       when "model"
         @in_model = false
-        # @current_page.model = @current_string
+        # @current_page.revision.model = @current_string
+        @current_page.model = @current_string
       when "format"
         @in_format = false
-        # @current_page.format = @current_string
+        # @current_page.revision.format = @current_string
+        @current_page.format = @current_string
       when "revision"
         @in_revision = false
       end
@@ -167,7 +175,7 @@ class BatchParser < InfoParser
         @current_page.title = @current_string
       when "ns"
         @in_ns = false
-        # @current_page.ns = @current_string
+        @current_page.ns = @current_string
       when "id"
         @in_id = false
         @current_page.id = @current_string
@@ -180,57 +188,55 @@ class BatchParser < InfoParser
         # puts "$$#{@current_page}$$"
 
         if @useful_page
-          # Database Storage
-          # puts "--------Page [#{@page_count}]----------"
-          # puts @current_page
-          # 
-
-          # gets
-          
-          plain_page = @current_page.copy
-          plain_page.plaintext_property!
-          
-          # puts '-----'
-          # puts @current_page
-          # puts '+++++'
-          # puts plain_page
-          # 
-          # gets 
-          
-          @dbhelper.insert_update_page(@current_page, lang)
-          @mysql_helper.insert_update_page(plain_page, lang)
-          
+          ###@dbhelper.insert_page(@current_page)
         end
+
       end
     end
     @current_string = nil
   end
   
   def on_characters(chars)
+    # printf("$$#{chars[0..[20, chars.length].min]}%%%\n")
     if @current_string
       @current_string << chars
     end
   end
   
   def get_info
-    if @page_count >= 0
-      useful_type, infobox_type, infobox_properties = get_infobox(@current_string)
-      if useful_type
-        @useful_page = true
-        aliases = get_alias(@current_string)
-        categories = get_category(@current_string)
-        aliases_forien = get_forien_alias(@current_string)
-        
-        @current_page.infobox_type = infobox_type
-        @current_page.properties = infobox_properties
-        @current_page.aliases = aliases
-        @current_page.aliases_forien = aliases_forien
-        @current_page.categories = categories
-        
-        @current_page.lang = @lang
+      infobox_exp = /\{\{Infobox((.)*?)(\||\}|\<!)/m
+      @current_string =~ infobox_exp
+      key = $1.to_s
+      key.gsub!(/_/, " ")
+      key.strip!
+      key.downcase!
+      if key.length > 0
+        # puts "@@#{$1.chomp}$$"
+        @infobox_hash[key] = @current_page.title
+        @info_count += 1
       end
-    end
-    @page_count += 1
-    
   end
 end
+
+file_path_ja = "/Users/ultragtx/Downloads/jawiki-20130125-pages-articles.xml.bz2"
+file_path_en = "/Users/ultragtx/Downloads/enwiki-20130204-pages-articles.xml.bz2"
+file_path_zh = "/Users/ultragtx/Downloads/zhwiki-20130204-pages-articles.xml.bz2"
+
+file_path_bz2 = "/Users/ultragtx/Downloads/zhwiki-latest-pages-articles.xml.bz2"
+#file_path_bz2 = "/Users/ultragtx/Downloads/enwiki-latest-pages-articles1-1.xml-p000000010p000010000.bz2"
+file_path = "/Users/ultragtx/Downloads/zhwiki-latest-pages-articles.xml"
+#file_path = "/Users/ultragtx/Downloads/enwiki-latest-pages-articles1-1.xml-p000000010p000010000"
+
+file_path_bz2 = file_path_ja
+
+USE_COMPRESSED_FILE = true
+
+if USE_COMPRESSED_FILE
+  bz2_reader = Bzip2::Reader.open(file_path_bz2)
+  parser = LibXML::XML::SaxParser.io(bz2_reader)
+else
+  parser = LibXML::XML::SaxParser.file(file_path)
+end
+
+parser.callbacks = SaxCallbacks.new
+parser.parse

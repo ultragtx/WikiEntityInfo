@@ -6,7 +6,8 @@ source 'http://gemcutter.org'
 gem 'nokogiri'
 gem 'bzip2-ruby'
 gem 'libxml-ruby'
-gem "sqlite3"
+gem 'sqlite3'
+gem 'mysql2'
 
 #For web
 gem 'sinatra'

@@ -1,0 +1,1359 @@
+on_start_document
+chinese
+os
+person
+officeholder
+award
+cncity
+scientist
+anthem
+military conflict
+prc province
+ethnic group
+flag
+political party
+currency
+philosopher
+website
+programming language
+disease
+film
+company
+software license
+writer
+university
+language
+taiwanese aborigine
+president
+software
+east asian
+actor
+ws
+古籍
+先秦人物
+people
+geopolitical organization
+organization
+os version
+filesystem
+un
+dam
+coat of arms
+prefecture japan
+constellation
+former country
+latin common
+river
+election
+china county
+writing system
+game
+classical
+planet
+olympics
+royalty
+file format
+nobel
+cvg system
+prcg
+settlement
+weather
+prime minister
+musical artist
+跳水選手
+city
+protected area
+china dynasty
+korean settlement
+australian place
+musical
+vg
+book
+cloud
+military structure
+football club
+terrorist attack
+taoist
+海域
+museum
+rail system-route
+county
+particle
+artist
+bridge
+government agency
+architect
+celebrity
+former subdivision
+ocean
+instrument
+rocket
+govt agency
+bishopric
+politician basic
+disputed islands
+biography
+greek
+newspaper
+painting
+national flag
+skyscraper
+belgium municipality
+legislature
+geopolitical organisation
+hk district
+military person
+bilateral relations
+中国大学
+monarchy
+building
+holiday
+islands
+mineral
+lake
+korean name
+weapon
+law enforcement agency
+school
+aircraft begin
+former political post
+militant organization
+high court
+space mission
+monarch
+military unit
+roman emperor
+french region
+national military
+animanga/headerofja
+漫畫家
+magazine
+egyptian deity
+recurring event
+sport
+regionit
+cambodian province
+religious biography
+cvg
+drug
+windows component
+space telescope
+historical event
+economist
+musical artist 2
+country
+buddhist
+document
+british royalty
+mountain
+系列小说
+hardware
+senator
+network
+russian city
+俄羅斯聯邦主體
+武道・武術
+civilian attack
+anatomy
+tv channel
+television
+language family
+spacecraft
+hong kong road
+comics character
+non-profit
+ship
+politician
+people cas
+film festival
+movie
+greek dimos
+unit
+indian jurisdiction
+band
+political party/seats
+journal
+airport
+football tournament
+highschool
+武術
+sports league
+beverage
+computer virus
+cityit
+greek deity
+tunnel
+brain
+revolution biography
+computer
+teamsport
+xianjishi
+space agency
+project
+web browser
+yaohua school
+online music service
+rail transit system
+pope
+prepared food
+algorithm
+hong kong new town
+go player
+irregular satellite
+npb player
+dance
+aircraft
+網球選手
+finnish municipality
+music genre
+animanga/header
+botanical product
+journalist
+leader
+saint
+中國国道
+wikiproject
+奧運籃球比賽
+model
+olympics china
+olympics hong kong, china
+provinces of indonesia
+toy
+sportsperson
+governor
+olympics chinese taipei
+olympic sport
+hksarg
+publisher
+launch pad
+gymnast
+national olympic committee
+province or territory of canada
+park
+am
+military award
+housinghk
+shanghai road
+computer hardware cpu
+alphabet
+economy
+isotope
+racing driver
+character
+中國國家高速公路
+missile
+china road
+american indian chief
+peri gr
+world heritage site
+library
+香港幹線
+台灣景點
+ship begin
+vg series
+catbreed
+cpu
+comet
+us cabinet official
+airliner accident
+nba player
+china railway station
+former monarchy
+animanga character
+tea
+tibetan buddhist monastery
+zoo
+state
+animanga/namelist
+rail line
+serial killer
+observatory
+rail line1
+brazilian state
+media
+paranormal creature
+album
+ipa
+网球
+worldscouting
+twroad
+animanga/footer
+station
+electronic payment
+space station
+criminal
+airbus aircraft
+single
+stadium
+treaty
+amusement park
+uk place
+space shuttle
+guangzhou road
+protein family
+video game
+political post
+comune italiano
+religious building
+premier
+standard
+news event
+d&d creature
+video game series
+of marvel character
+play
+reservoir
+symptom
+singer
+cpbl player
+snooker player
+exchange
+port
+theatre
+nobel physiol med
+monument
+cyrillic
+automobile
+russian federal subject
+lotr place
+dutch province
+power station
+斯諾克選手
+astronomical survey
+hong kong tunnel
+bundeslandat
+astronaut
+airline alliance
+mlb player
+central bank
+dogbreed
+former country/sandbox
+中華職棒選手
+french commune
+bus route
+un resolution
+乒乓球
+political youth organization
+polska
+hong kong street
+rail accident
+locomotive
+waterfall
+animal
+nrhp
+airline
+philippine province
+tulku
+twroad2
+中華職棒退休選手
+conflagration
+rocket/payload
+broadcasting network
+/header
+allgames
+力士
+sporting event organization
+municipality pt
+solar eclipse
+music festival
+defunct company
+football biography
+ive
+royal house
+artist discography
+cemetery
+nerve
+comics location
+burmesestatedivision
+church
+racecourse
+national volleyball team
+football league
+mp
+order
+twexproad
+civil conflict
+中國省级高速公路
+england county
+short story
+catholic activities
+sport governing body
+computer bus
+chess opening
+hurricane season
+musician
+pref gr
+cyclist
+mlb retired
+國家足球代表隊
+officeholder/office
+london borough
+modern building
+convention
+national football team
+fashion designer
+firearm cartridge
+twfreewayic
+chess player
+/row
+connector
+pro wrestler
+music
+thailand province
+national basketball team
+正統教會
+vg character
+identity document
+venue
+diocese
+animanga
+song
+hk building
+highschool2
+digicam
+岛
+機械
+comics team and title
+u.s. county
+french political party
+badminton player
+historic site
+element
+paralympics china
+swimmer
+boxer
+hotel
+summer universiade
+sweden lon
+law firm
+exhibition
+hungarian settlement
+font
+department of france
+atp tennis tournament
+baseball team
+tennis player
+motorsport championship
+canada political party
+football biography 2
+漫画家
+kommun
+international game
+cultivar
+學生組織
+racehorse
+mobile
+lighthouse
+professional association
+supernova
+competition
+chemical analysis
+top level domain
+comics creator
+university campus
+gundam character
+glacier
+tea/types/{{{tea color
+baduser
+rapid transit station
+israel muni
+national baseball team
+micronation
+航空器
+ukrainian oblast
+wta tennis tournament
+chntrain
+gpu
+language/family-color
+australian city
+restaurant
+academy awards
+housingmo
+scale
+asiangame
+figure skater
+單車選手
+poker player
+olympics netherlands
+scotus case
+philippine city
+journal/issn-eissn
+galgame/person
+bishopbiog
+mobile suit
+russian inhabited locality
+hospital
+casino
+animanga/header2
+tv local
+sports rivalry
+baseball player
+province tr
+subdivision type
+highschool4
+fictional spacecraft
+uk district
+羽球選手
+中華民國立法委員選舉
+embryology
+chef
+university department
+ipa/core1
+automobile generation
+国际组织
+commune de france
+cycling race
+us university ranking
+tfl line
+paris network generic
+roman catholic diocese
+union
+acupoint
+網球選手/sandbox
+athletic conference
+bone
+municipality
+comic strip
+galaxy
+station/trainfo
+mountain pass
+protected area of australia
+voivodeship
+us road
+golfer
+globular cluster
+european political party
+province of argentina
+province ar
+prescription of tcm
+kommune
+burger king
+military conflict (3 sided)
+italian comune
+fiba tourney
+swiss town
+information appliance
+體育場館
+provinceit
+artwork
+town tr
+football olympic tourney
+greek isles
+網球
+public transit
+chipset
+grb
+swimming venue
+島
+people sinica
+f1 driver
+olympics japan
+olympics trinidad and tobago
+olympics syria
+ipod model
+instrument/color
+television season
+football league season
+hungarian county
+road
+排球選手
+judge
+coin
+cluster
+new area
+sports team
+中國音樂家
+airliner ancident
+british political party
+nfl player
+scholar
+comedian
+twfreeway
+tvseason
+paris network main content
+hawaiian island
+hk bus terminus
+event
+album/doc/type
+album link
+stamps
+album color
+lake/convert
+pyramid
+nbaallstargame
+亞洲運動會中國代表團
+lääni
+uk place/local
+nbadl team
+亞洲運動會中國香港代表團
+壁球選手
+亞洲運動會中華台北代表團
+亞洲運動會中國澳門代表團
+shopping mall
+iran province
+japanese political party
+dot-com company
+luxembourg commune
+nycs
+sports conference
+stad
+网球选手
+given name revised
+ville des usa
+international handball competition
+drcongo province
+cat breed
+record label
+writing system</nowiki>
+london station
+province
+ia32
+gymnastics world championships
+gymnastics world cups final
+sports season
+protected area/iucn {{{iucn category
+congressman
+telescope
+vg online service
+indian politician
+metropolitan area
+joint tennis tournament
+reality music competition
+athlete
+kmb route
+田徑選手
+fylke
+msarg
+israel municipality
+china railway bureau
+forgotten realms countries
+hurricane small new
+administrative division 1
+district pt
+hymn
+上海市高速公路
+rare stamps
+computer underground
+disney ride
+biography
+{{infobox military person
+firearm cartridge/ballistics
+given name
+macau street
+ice hockey player
+animanga/novel
+district
+dotcom company
+announcer
+muscle
+cbb team
+日本參議院選舉
+wnba player
+uk legislation
+science fiction writer
+international football competition
+Étendue d'eau
+bön monastery
+蒙特利爾地鐵
+country olympics
+singapore school
+macau street block
+olympics republic of china
+olympics united states
+department of colombia
+brand
+province of cameroon
+american political party
+national football team women
+england region
+rugby league cup
+maakond
+region of georgia
+former country 2
+apskritis
+wrc driver
+korean name/nametable
+holiday camp
+algerian province
+ontario road
+road/length
+road/{{{state
+road/length link/{{{1
+swiss political party
+gare francaise
+wildfire
+恐怖组织
+激进组织
+london museum
+wine region
+轉運站
+province of bulgaria
+lunar crater
+feature on venus
+歐洲歌唱大賽詳表(英文)
+bus route/simple
+song/color
+artery
+musical artist/hcard class
+hiking trail
+rail service
+war faction
+maakunta
+performing act
+超级碗
+fossil
+crater data
+chinese film
+generic
+asian international stamp exhibition
+infobox asian international stamp exhibition
+山
+olympics hong kong
+irish place
+主教小傳
+中国组织
+religiousbio
+comics set and title
+peru region
+golf tournament
+national futsal team
+television episode
+系列小說
+service
+engineer
+scottish island
+electronic component
+hurricane
+university president
+olympics togo
+oxford college
+nature documentary
+football match
+uk place/nolocalmap
+akb48 member
+archbishop of canterbury
+london borough/ethnicity
+runner
+galgame/company
+syria governorate
+religious group
+gcc governorate
+fss character
+rock
+sura
+weather/oneline
+weather/col{{{sc
+剑魂角色
+canadian government departments
+olympics algeria
+olympics angola
+olympics benin
+manner of address
+german location
+radio show
+rocket/stage
+musical artist  
+……
+olympics australia
+olympics malaysia
+olympics albania
+olympics cook islands
+olympics philippines
+olympics indonesia
+olympics afghanistan
+olympics monaco
+olympics fiji
+olympics mauritius
+olympics nepal
+olympics guinea-bissau
+olympics peru
+olympics andorra
+olympics tajikistan
+olympic event
+olympics dominica
+olympics suriname
+olympics maldives
+olympics sri lanka
+olympics russia
+olympics czech republic
+olympics croatia
+olympics turkey
+olympics new zealand
+olympics south korea
+olympics north korea
+olympics italy
+olympics spain
+olympics romania
+olympics uzbekistan
+olympics cuba
+olympics austria
+olympics argentina
+olympics switzerland
+olympics france
+olympics great britain
+olympics germany
+olympics ukraine
+olympics sweden
+olympics georgia
+田径選手
+olympics hungary
+olympics thailand
+olympics belarus
+olympics vietnam
+olympics finland
+olympics norway
+olympics singapore
+olympics india
+football biography 2/medal
+olympics brazil
+olympics greece
+olympics slovakia
+olympics azerbaijan
+olympics colombia
+olympics canada
+olympics poland
+comic book title
+olympics mexico
+olympics kazakhstan
+olympics armenia
+體操選手
+olympics slovenia
+olympics ethiopia
+olympics mongolia
+olympics bulgaria
+olympics egypt
+olympics portugal
+olympics south africa
+olympics belgium
+olympics lithuania
+olympics denmark
+olympics iran
+olympics israel
+olympics serbia
+olympics ecuador
+olympics latvia
+olympics estonia
+olympics jamaica
+football club season
+olympics tunisia
+olympics kenya
+olympics chile
+olympics morocco
+tabletennis player
+olympics venezuela
+olympic
+paralympics chinese taipei
+olympics bahamas
+olympics ireland
+olympics nigeria
+olympics moldova
+olympics iceland
+olympics montenegro
+olympics sudan
+european parliament group
+horse
+country paralympics
+shopping mall 2
+historical american political party
+paralympic
+paralympics hong kong, china
+paralympics macau, china
+interbank network
+musician awards
+paralympics afghanistan
+paralympics bahrain
+paralympics japan
+paralympics south korea
+paralympics singapore
+paralympics mongolia
+paralympics jordan
+paralympics thailand
+paralympics nigeria
+paralympics kenya
+paralympics morocco
+paralympics denmark
+paralympics finland
+paralympics austria
+paralympics switzerland
+paralympics ireland
+paralympics new zealand
+paralympics papua new guinea
+paralympics australia
+paralympics iraq
+paralympics lebanon
+paralympics laos
+paralympics malaysia
+paralympics pakistan
+paralympics saudi arabia
+paralympics syria
+sfry-sap
+paralympics united arab emirates
+paralympics azerbaijan
+paralympics belarus
+paralympics puerto rico
+paralympics namibia
+paralympics jamaica
+paralympics estonia
+paralympics belgium
+paralympics romania
+paralympics bosnia and herzegovina
+paralympics slovakia
+paralympics croatia
+paralympics venezuela
+paralympics hungary
+paralympics turkey
+paralympics israel
+paralympics angola
+paralympics algeria
+paralympics egypt
+paralympics italy
+paralympics sweden
+paralympics cuba
+paralympics iran
+paralympics greece
+paralympics netherlands
+paralympics poland
+paralympics colombia
+paralympics argentina
+paralympics bulgaria
+paralympics slovenia
+paralympics serbia
+paralympics lithuania
+paralympics latvia
+paralympics cyprus
+paralympics norway
+paralympics portugal
+paralympics czech republic
+paralympics tunisia
+paralympics mexico
+paralympics south africa
+paralympics france
+paralympics germany
+paralympics spain
+paralympics brazil
+austrian district
+muslim scholars
+military conflict (5 sided)
+grand prix race report
+paralympics russia
+parliament
+military memorial
+color
+parish pt
+游泳賽事
+calculator
+comics organization
+military conflict
+...
+rocket-1
+sms station
+paralympics canada
+paralympics ukraine
+paralympics great britain
+paralympics united states
+film movement
+lewchewan name/nametable
+notation
+mobile phone
+australian football club
+user
+dancer
+speed skater
+cndistrict
+family
+ski area
+lunar mare
+supercluster
+concert tour
+criminal organization
+日本眾議院選舉
+hill of rome
+football club/kit image
+curler
+正教會
+laboratory
+religious building/color
+china road/{{{路牌类型
+macau street block/doc/exmaple
+minister
+西方历史建筑
+macau terminal
+feature on titan
+*****
+chain
+historic building
+mo bus terminus
+product
+popestyles
+prcg （若不要自动分类请加：“
+machinima
+wrestling team
+national handball team
+animanga/game
+
+標題= 涼宮春日的約束
+
+遊戲類型= [[冒險]]
+
+代理商= [[namco bandai games]]
+
+遊戲平台= [[play station portable]]
+
+媒體= umd
+
+遊戲人數= [[1人]]
+
+發售日期= [[通常版]]：2007年12月27日<br/>[[best版]]：2008年12月4日
+
+售價= 5040日圓（通常版）<br/>9450日圓（超限定版box）<br/>2940日圓（best版）
+
+對象年齡= [[cero]]:c(15歲以上)
+
+'''上面的 "遊戲平台" 項目都無法顯示出來, 但我並不知道問題出在哪.'''
+
+—[[user:p22446633
+nukes
+bangladesh district
+world games chinese taipei
+highschool3
+ottoman sultan
+npo
+playboy playmate
+formercountry
+international baseball tournament
+pipeline
+ske48
+belgium municipality/geography
+country world games
+melbourne railway station
+polish noble
+philippine region
+automobile engine
+dist and dep mu
+spy
+map
+coord
+company</nowiki></code>
+:<code><nowiki>
+university chancellor
+germany railway station
+album/color
+musician/color
+vice-regal
+中國大学
+seamount
+medical person
+chemikalie/adapter
+chemikalie
+comics species
+sculpture
+women's national basketball team
+computing signal
+photographic lens
+animanga／headerofja
+國家女子籃球隊
+fivb tournament
+tennis event
+australian road
+element/headers
+china stock indexes
+graphic novel
+aviation
+settlement/sandbox
+hot spring
+上海公共租界机构
+chilean region
+sdn48
+solar eclipse/countdown/portal
+solar eclipse/countdown
+chemalie
+french commune/regmap
+patrimoine mondial
+正教会
+halacha
+rapid transit station/detail/core
+national field hockey team
+galgame/header
+panda
+olympics czechoslovakia
+olympics yugoslavia
+olympics chad
+us cabinet
+prisoner
+muslim scholar
+radio station
+indian jurisdiction/parameters
+neuron
+polyhedron
+polyhedron with net
+鐵道事故
+3cols
+3cols/row
+boeing aircraft
+earthquake
+complexity class
+sports award
+瑞典省份
+future infrastructure project
+philippine political party
+uk school
+rugby league football competition
+awards
+olympics antigua and barbuda
+fbi ten most wanted
+comics in other media
+青年奧林匹克運動會國家代表團
+青年奧林匹克運動會中華台北代表團
+青年奧林匹克運動會中國代表團
+civil debate
+book　
+handball biography
+encryption method
+wp meetup
+nmb48
+lgbt rights
+國家排球代表隊
+isotope/decay
+亞洲運動會國家代表團
+亞洲運動會日本代表團
+亞洲運動會韓國代表團
+亞洲運動會朝鮮代表團
+亞洲運動會伊朗代表團
+亞洲運動會烏茲別克斯坦代表團
+亞洲運動會馬來西亞代表團
+亞洲運動會哈薩克斯坦代表團
+亞洲運動會印度代表團
+亞洲運動會菲律賓代表團
+law enforcement agency/main
+law enforcement agency/logo
+亞洲運動會新加坡代表團
+亞洲運動會泰國代表團
+亞洲運動會印度尼西亞代表團
+亞洲運動會約旦代表團
+亞洲運動會巴基斯坦代表團
+亞洲運動會越南代表團
+亞洲運動會緬甸代表團
+亞洲運動會蒙古代表團
+亞洲運動會黎巴嫩代表團
+亞洲運動會阿富汗代表團
+亞洲運動會孟加拉國代表團
+亞洲運動會吉爾吉斯代表團
+亞洲運動會老撾代表團
+亞洲運動會卡塔爾代表團
+亞洲運動會塔吉克斯坦代表團
+亞洲運動會伊拉克代表團
+亞洲運動會阿拉伯聯合酋長國代表團
+亞洲運動會巴林代表團
+亞洲運動會沙特阿拉伯代表團
+亞洲運動會阿曼代表團
+亞洲運動會敘利亞代表團
+亞洲運動會尼泊爾代表團
+亚洲运动会国家代表团
+亚洲运动会东帝汶代表团
+亞洲運動會土庫曼斯坦代表團
+亞洲運動會斯里蘭卡代表團
+亞洲運動會也門代表團
+亞洲運動會不丹代表團
+亞洲運動會汶萊代表團
+亞洲運動會柬埔寨代表團
+亞洲運動會馬爾代夫代表團
+亞洲運動會巴勒斯坦代表團
+u.s. cabinet
+fieldbus protocol
+青年奧林匹克運動會中國香港代表團
+亞洲殘疾人運動會中國代表團
+亞洲殘疾人運動會中國香港代表團
+亞洲殘疾人運動會國家代表團
+u.s. legislation
+flood
+football official
+亞洲冬季運動會國家代表團
+亞洲冬季運動會中華台北代表團
+國家曲棍球代表隊
+rfam
+花式滑冰比賽
+fraternity
+亞洲室內運動會國家代表團
+亞洲室內運動會中華台北代表團
+united nations
+education
+station/jrainfo
+rail
+青铜器
+canal
+nobility
+tornado year (ef scale)
+court case
+protein
+noble
+olympics soviet union
+cargo spacecraft
+custom computer
+akb48
+train
+dota
+photographic lenses
+whitewater course
+guitar model
+country at the universiade
+athletics championships
+china rail accident
+fictional location
+cocktail
+rugby team
+olympics eritrea
+olympics qatar
+olympics saudi arabia
+fictional race
+banknote
+olympics pakistan
+uk railway
+tennis at biannual multi sports events
+khl team
+德国铁路车站
+iphone
+abl team
+hkt48
+akb48/color
+international softball tournament
+jkt48
+tpe48
+ipa/core2
+meteorite
+watch
+qajar shah
+inttrain
+military conflict coup
+electoral districts in hong kong
+bus accident
+pageant titleholder
+image
+bot
+organisation
+buddhist temple
+finnish municipality/population count
+finnish municipality/sea area
+finnish municipality/demography 0-14
+finnish municipality/native language finnish
+pig breed
+diplomatic mission
+vcelebrity
+冬季青年奧林匹克運動會國家代表團
+冬季青年奧林匹克運動會中華台北代表團
+prison
+country demographics
+bbc nation or region
+emmy awards
+rockunit
+冬季青年奧林匹克運動會中國代表團
+doctor who character
+oh
+亞洲青年運動會國家代表團
+亞洲沙灘運動會國家代表團
+亞洲武藝運動會國家代表團
+advertising
+interval
+超級盃
+nc name
+cycling world championship
+eurovision country
+中國省高速公路
+convention center
+taoist/core
+peer
+fire department
+high school/core
+comics character and title
+television film
+snh48
+atp challenger tournament
+wta challenger tournament
+comedian awards
+television survivor
+rugby world cup
+itf women's circuit tournament
+occupation
+nepal district
+international ice hockey competition
+hindu deity
+chola
+olympics bolivia
+olympics honduras
+olympics paraguay
+olympics saint kitts and nevis
+olympics kuwait
+town at
+serbia municipality
+亞洲沙灘運動會中華台北代表團
+football tournament season
+ancient site
+academic conference
+bus</nowiki>
+olympics grenada
+kbo team
+olympics bahrain
+uk place/area
+single
+...
+laboratory equipment
+year in spaceflight
+職業摔角選手
+亞洲運動會葉門代表團
+亞洲運動會沙烏地阿拉伯代表團
+亞洲運動會卡達代表團
+亞洲運動會寮國代表團
+亞洲運動會科威特代表團
+paralympic event
+singapore neighborhood
+clothing item
+imams
+korean name/categories
+biodatabase
+professional wrestler
+oil field
+cityrail station
+ort in der türkei
+chord
+court case/images
+甲子園
+质量工具
+actor awards
+italy station
+oslo metro station
+epw
+中国各级文物保护单位
+rail network
+figure skating competition
+international hockey competition
+中国省级高速公路
+closed london station
+paris network main content en
+national people's congress
+cycling team
+road/banner
+road/banner/sh
+road/meta/mask/subtype2
+road/hide/countries
+road/shield/{{{country
+artifact
+wrc team
+bay
+canton de france
+bus route/average
+hockey
+germany road
+newspaper/sandbox
+trolleybus system
+tram network/era
+star
+element/crystal structure wikilink
+tennis biography
+hollywood cartoon
+soviet and russian railways
+martial artist
+kwok
+rocket engine
+total info:1327
+on_end_document
+count:162155
+496.970014

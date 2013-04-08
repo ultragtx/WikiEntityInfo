@@ -10,12 +10,52 @@ class Page
   attr_accessor :aliases, :aliases_forien
   attr_accessor :categories
   
+  attr_accessor :sha1
+  
   attr_accessor :mode
   
   attr_accessor :lang
   
   def initialize(mode = "full")
     self.mode = mode
+  end
+  
+  def copy
+    page = Page.new(self.mode)
+    page.title = self.title.dup if self.title
+    page.id = self.id.dup if self.id
+    page.redirect = self.redirect.dup if self.redirect
+    page.sha1 = self.sha1.dup if self.sha1
+    page.lang = self.lang.dup if self.lang
+    page.infobox_type = self.infobox_type.dup if self.infobox_type
+    
+    page.aliases = []
+    self.aliases.each do |alias_name|
+      page.aliases << alias_name.dup
+    end
+    
+    page.aliases_forien = {}
+    self.aliases_forien.each do |key, value|
+      value ||= ""
+      page.aliases_forien[key] = value.dup
+    end
+    
+    page.categories = []
+    self.categories.each do |category|
+      page.categories << category.dup
+    end
+
+    if self.mode == "string"
+      page.properties = self.properties.dup if self.properties
+    elsif self.mode == "full"
+      page.properties = {}
+      self.properties.each do |key, value|
+        value ||= ""
+        page.properties[key] = value.dup
+      end
+    end
+
+    return page
   end
   
   def self.new_page_with_hash_lang(page_hash, lang)
@@ -28,6 +68,8 @@ class Page
     page.aliases = page_hash[:aliases]
     page.aliases_forien = page_hash[:aliases_forien]
     page.categories = page_hash[:categories]
+    
+    page.sha1 = page_hash[:sha1]
     
     page.lang = lang
     
@@ -69,7 +111,6 @@ class Page
         content.gsub!('=', ':')
         content + " "
       end
-        
       
       wiki_parser = WikiCloth::Parser.new({:data => raw_value})
       
@@ -90,7 +131,7 @@ class Page
           original = $1
           src_fallback = $2
           src_fallback.sub!('commons', "#{lang}")
-          "#{original} onerror=\"this.src='#{src_fallback}';\""
+          "#{original} onerror=\"this.src=\"#{src_fallback}\";\""
         end
       end 
       
@@ -100,8 +141,21 @@ class Page
   
   def plaintext_property!
     html_property!
-    properties.each do |key, html_value| 
-      plain_value = Nokogiri::HTML(html_value).text
+    properties.each do |key, html_value|
+      if key =~ /(logo|ロゴ|画像)$/
+
+        html_value.gsub!(/(<img.*?>)/m) do |img|
+          links = ""
+          img.scan(/src="(.*?)" onerror="this.src="(.*?)"/m) do |link, fall_link|
+            links = "[" + link + ", " + fall_link + "]"
+          end
+          links
+        end
+      end
+        
+      doc = Nokogiri::HTML(html_value)
+      doc.css("br").each { |node| node.replace("\n") }
+      plain_value = doc.text
       properties[key] = plain_value
     end
   end
@@ -109,6 +163,7 @@ class Page
   def to_s
     puts "title: #{title}"
     puts "redirect: #{redirect}"
+    puts "sha1: #{sha1}"
     puts "infobox_type: #{infobox_type}"
     if self.mode == "string"
       puts "infobox_properties: \n#{properties}"

@@ -118,6 +118,6 @@ Encoding.default_internal = Encoding::UTF_8
 
 if __FILE__ == $0
 
-FrontEnd.run!
+  FrontEnd.run!
 
 end

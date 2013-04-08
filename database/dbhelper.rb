@@ -25,6 +25,7 @@ class DbHelper
         String :aliases
         String :aliases_forien
         String :categories
+        String :sha1
       end
     end
 	end
@@ -42,7 +43,8 @@ class DbHelper
     :properties     => page.properties,
     :aliases        => page.aliases,
     :aliases_forien => page.aliases_forien,
-    :categories     => page.categories)
+    :categories     => page.categories,
+    :sha1           => page.sha1)
 
 	end
   
@@ -64,7 +66,8 @@ class DbHelper
       :properties     => page.properties,
       :aliases        => page.aliases,
       :aliases_forien => page.aliases_forien,
-      :categories     => page.categories)
+      :categories     => page.categories,
+      :sha1           => page.sha1)
 
     else
       # puts "<<<update"
@@ -74,7 +77,8 @@ class DbHelper
       :properties     => page.properties,
       :aliases        => page.aliases,
       :aliases_forien => page.aliases_forien,
-      :categories     => page.categories)
+      :categories     => page.categories,
+      :sha1           => page.sha1)
     end
   end
 

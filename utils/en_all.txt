@@ -1,0 +1,4045 @@
+on_start_document
+disease
+u.s. state
+officeholder
+philosopher
+award
+film
+writer
+scientist
+person
+country
+occupation
+greek deity
+tennis biography
+language family
+sports conference
+book
+song
+organization
+space mission
+continent
+document
+economy
+national military
+military person
+province or territory of canada
+journal
+martial art
+military conflict
+unit
+royalty
+video game
+constellation
+settlement
+language
+monarch
+company
+musical artist
+artist
+organisation
+information appliance
+argon
+arsenic
+actinium
+astatine
+atom
+aluminium
+rugby team
+comic book title
+french commune
+minister
+writing system
+mountain range
+character
+saint
+islands
+chess player
+medical person
+holiday
+scholar
+cricket tournament main
+australian place
+instrument
+greek dimos
+prime minister
+roman emperor
+block cipher
+political post
+treaty
+german location
+religious group
+non-profit
+u.s. legislation
+computer
+weapon
+archaeological site
+river
+mineral
+christian leader
+standard
+given name
+programming language
+nrhp
+political party
+ottoman sultan
+ethnic group
+ismaili
+hindu deity
+former country
+nobility
+given name2
+uk place
+pharaoh
+religious biography
+university
+bishop
+mlb player
+game
+aircraft occurrence
+militant organization
+aviation
+television
+concentration camp
+architect
+anthem
+uk legislation
+world heritage site
+artery
+paranormalterms
+book series
+nfl team
+os
+data structure
+mlb
+politician
+war faction
+antipope
+football club
+anatomy
+airport
+sports league
+state
+computer hardware bus
+airline
+sport
+physical quantity
+swiss town
+canton
+horse
+russian city
+building
+aircraft begin
+governor
+professional wrestler
+planet
+software
+italian comune
+archbishop
+historical era
+former subdivision
+uk constituency main
+file format
+lake
+connector
+cvg system
+military unit
+dogbreed
+jewish leader
+geopolitical organization
+nahua officeholder
+musical
+animanga/header
+egyptian deity
+cpu
+broadcasting network
+rocket
+war on terror detainee
+ipa
+play
+music genre
+criminal
+ocean
+german state
+president
+album
+rockunit
+bilateral relations
+protocol
+boron
+legislature
+indian politician
+medieval text
+world series expanded
+central bank
+election
+ice hockey player
+card game
+paranormal creature
+former monarchy
+museum
+prepared food
+paranormalcreatures
+nfl player
+newspaper
+football biography
+algorithm
+palestinian authority municipality
+comics character
+radio station
+cricketer
+dog breed
+rail network
+paranormal creatures
+colour
+pirate
+rpg
+protein family
+television channel
+street
+figure skater
+defunct company
+historic site
+comedian
+peerage title
+congressman
+comics story arc
+ship begin
+single
+halacha
+beverage
+college coach
+family name
+shakespearean character
+nfl coach
+mountain
+laboratory equipment
+military award
+rugby league club
+australian football club
+civilian attack
+carbon
+chinese film
+birth control
+country demographics
+england county unitary
+chlorine
+calcium
+chromium
+tunnel
+astronaut
+chinese
+geopolitical organisation
+lds church
+anglican church
+sg rail
+government agency
+rock
+comic strip
+russian federal subject
+color
+polygon
+economist
+england county
+tv channel
+ecumenical council
+military structure
+media
+pref gr
+stadium
+south african town
+former international organization
+mythical creature
+nutrition facts
+comet
+cheese
+radio show
+uk feature
+rail line
+minister office
+london borough
+comics creator
+us cabinet official
+fictional location
+orthodox church
+pseudoscience
+us navy
+paranormal term
+magazine
+religious building
+performing arts
+nascar driver
+family
+bridge
+scale
+prison
+abortion method
+park
+currency
+celts of england
+dubnium
+windows component
+stable isotope
+vg
+christian denomination
+senator
+website
+national flag
+nhl team
+comics organization
+cpu architecture
+vg series
+spacecraft
+israel municipality
+publisher
+swimmer
+doctor who character
+animal
+european union
+road
+particle
+equilibrium
+brain
+fictional artifact
+engineer
+european parliament group
+european political party
+national football team
+flag
+canal
+rail company
+monarchy
+peer
+oil spill
+martial artist
+space agency
+record label
+neighborhood portland or
+francium
+motorsport championship
+judge
+united nations
+historical event
+football tournament
+football league
+beer
+scottish island
+comics team and title
+automobile
+japanese film
+egyptian pyramid
+gallium
+gadolinium
+england region
+belgium municipality
+french region
+video game system
+fictional planet
+chemical analysis
+vice-regal
+gunpowder plot
+model
+aviator
+playwright
+cocktail
+rail accident
+comics location
+hydrogen
+helium
+quality tool
+mp
+theologian
+finnish municipality
+athletics event
+coat of arms
+cardgame
+media franchise
+vice president
+dam
+isotope
+governor general
+short story
+valley
+irc network
+famine
+iron
+iodine
+peninsulas
+electronic component
+high court
+athletic conference
+hieroglyphen
+space station
+web browser
+protected area
+chinese-language singer and actor
+chancellor
+office holder
+jainism
+presenter
+u.s. county
+motorcycle rider
+murderer
+settlement chile
+clergy
+muslim scholar
+ice hockey award
+chef
+hospital
+f1 driver
+brand
+korean name
+nba biography
+diamond
+cultivar
+spy
+observatory
+coin
+mountain pass
+comics elements
+first lady
+lithium
+lighthouse
+lanthanum
+lawrencium
+public transit
+fictional country
+gymnast
+sssi
+toy
+dotcom company
+meteor shower
+rail
+recurring event
+superhero
+novel series
+canadianmp
+bodybuilder
+region of italy
+cryptographic hash function
+integer sequence
+magnesium
+mormons
+wine grape variety
+manganese
+software license
+court case
+scotus case
+terrorist attack
+f1 team
+sport governing body
+neuron
+nitrogen
+neon
+nickel
+niobium
+neptunium
+exchange
+u.s. state symbols
+motorsport venue
+oxygen
+prefecture japan
+oils
+scotland council area
+noble
+botanical product
+language game
+potassium
+bishopric
+library
+phosphorus
+palladium
+protactinium
+platinum
+webcomic
+disputed islands
+vg character
+machine
+cambridge college
+piercing
+metropolitan area
+rugby league football competition
+radium
+rhenium
+encryption method
+synthesizer
+school
+member of the knesset
+royal house
+baseball biography
+saxophone
+sodium
+former communist states
+planetary system
+bay
+laboratory
+star trek character
+fictional vehicle
+silicon
+scandium
+selenium
+strontium
+silver
+samarium
+german bundesland
+sulfur
+indian political party
+worldscouting
+computer hardware generic
+space shuttle
+television survivor
+animanga character
+terrorist organization
+micronation
+nuclear weapons test
+union
+premier
+superbowl
+space telescope
+buddhist temple
+convention
+camera
+titanium
+technetium
+tin
+tungsten
+cycling race
+hiking trail
+cycling race report
+aircraft crash
+ecoregion
+news event
+polychoron
+politician (general)
+comics meta series
+classical composer
+comics set index
+criminal organization
+television film
+awards
+uranium
+historical american political party
+unification church
+us cabinet
+country olympics
+vanadium
+film festival
+emperor
+product
+soap character 2
+dance
+historic building
+cave
+os version
+music festival
+d&d creature
+sporting event organization
+xenon
+index
+filesystem
+zinc
+zirconium
+football match
+firearm cartridge
+airliner accident
+identity document
+un
+department
+embryology
+adult biography
+zoo
+nerve
+buffyverse group
+amusement park
+kommune
+buffyverse character
+international handball competition
+interval
+legislation
+heraldic knot
+yoga school
+olympic games
+speech
+cape
+speed skater
+athlete
+sportsperson
+nascar race
+boxer
+hill of rome
+complexity class
+galaxy
+olympic event
+figure skating competition
+figure skating element
+hawaiian island
+mayor
+alpine ski racer
+town at
+skier
+subnational economy
+networking protocol
+fluss
+cemetery
+holocaust event
+submarine communications cable
+national political convention
+school district
+monument
+historian
+video game series
+afl player new
+golfer
+nba team
+tram network
+theatre
+future infrastructure project
+civil conflict
+convention center
+graphic novel
+law enforcement agency
+catbreed
+harry potter school
+hindu leader
+font
+manuscript
+bertrand russell
+monastery
+israeli-palestinian conflict
+pretender
+me place
+internet exchange point
+uk school
+bone
+fashion designer
+cloud
+un resolution
+unternehmen
+waterfall
+ancient site
+athleticrace
+protected area of australia
+knot details
+historic subdivision
+canadian political party
+hollywood cartoon
+state senator
+paris network
+star wars character
+fictional spacecraft
+film movement
+espoo
+education
+russian town
+chess opening
+artifact
+australian political party
+subdivision type
+swansea electoral ward
+international football competition
+actor
+neurotransmitter
+us ambassador
+island
+german regierungsbezirk
+tolkien character
+paris street
+former political post
+oxford college
+w3c standard
+symptom
+computer hardware printer
+motogp championship
+calculator
+sports team
+surname
+autonomous region of china (prc)
+serbia municipality
+three kingdoms biography
+artwork
+terrestrial impact site
+astronomical survey
+luxembourg commune
+kibbutz
+missions
+flash series
+wildfire
+russian urban-type settlement
+east asian
+lotr place
+fictional race
+liquid hydrogen
+aircraft accident
+roentgenium
+nflretired
+james bond character
+sw books
+meteorite subdivision
+serial killer
+patriarch
+artist discography
+locomotive
+uk property
+ethnic grftu
+greek isles
+netball biography
+thoroughbred racehorse
+ort in Österreich
+cat breed
+dot-com company
+government cabinet
+regions ancient greece
+comics character and title
+australian road
+prc province
+broadcast
+israel village
+independent baseball team
+baseball team
+mosque
+storage medium
+catholic apparition
+unbinilium
+ununennium
+copernicium
+forgotten realms cities
+eurovision
+starwarsorganizations
+wine region
+institute
+painting
+horseracing personality
+church
+chief justice
+gebirgsgruppe
+meteorite
+chilean region
+nhsc
+order
+grape variety
+folk tale
+parliament
+rugby biography
+rail companies
+flerovium
+ununtrium
+american indian chief
+london station
+rocket stage
+lunar crater
+ambassador
+boxingmatch
+former f1 team
+telescope
+horse breed
+earth satellite
+sailboat specifications
+tennis event
+grandslamtournaments
+diffuse nebula
+former arab villages in palestine
+uk bus
+fictional political party
+comics nationality
+martial art group
+norse deity
+pre-columbian site
+wikiproject
+doctor who episode
+fictional secret organisation
+district de
+uk station
+national basketball team
+haplogroup
+planetary nebula
+boxer (amateur)
+comic
+pepper
+golf tournament
+u.s. county 2tz
+comics genre
+lt governor
+fraternity
+eruption
+upper hutt suburbs
+pageant titleholder
+gwr
+city japan
+comics set and title
+state highway system
+dava
+lunar mare
+hurricane
+telecommunications network
+frazione
+dalai lama
+superfund
+enzyme
+heritage railway
+television episode
+hotel
+bus transit
+quebec political party
+nukes
+martial art term
+judo technique
+outlying territory
+ucr
+curler
+us infantry
+npo
+mandir
+copper
+power station
+police officer
+political party/seats
+university president
+clan
+basketball biography
+university chancellor
+glacier
+political youth organization
+province spain
+vienna district
+comics species
+simpsons episode
+model rail scale
+historical continent
+room
+german district
+gpu
+football club season
+grammy awards
+fluss1
+fire department
+latter day saint biography
+motorcycle club
+cyclist
+home rule
+uk wards
+nc name
+rebbe
+korean film
+harry potter association
+transformers character
+rail standard gauge
+presidency
+law school
+motor race
+college athletics
+education in canada
+municipality
+cricket tournament
+college football player
+chord
+belgium settlement
+military test site
+sailor
+hockey team
+personal computer
+protein
+roc county
+windmill
+burger king
+spring
+hot spring
+east asian name
+newspaper old
+spree killer
+airshow accident
+station
+olympic bid
+irish newspaper
+rugby league cup
+venue
+fylke
+tea
+district pt
+province of china (prc)
+games
+cpu socket
+ski jumper
+winery
+aircraft
+minister of religion
+supercluster
+spacecraft class
+author
+ski area
+shopping mall
+itv franchisee
+ski jumping hill
+diocese
+architectural practice
+network
+deputy prime minister
+go player
+uk heritage station
+gridiron football person
+cfl player
+computer hardware
+rail service
+muscle
+fbi ten most wanted
+uk disused station
+french canal
+number
+tool
+eu legislation
+rare stamps
+snooker player
+lens design
+graph
+photographic film
+military attack
+pipeline
+food
+religious building2
+playboy playmate
+battery
+postage stamp
+vg system
+secondary school
+given name revised
+boxing match
+students union
+pre-modern nfl team
+band
+poker player
+martial art school
+gb station
+basketball club
+closed london station
+commonwealth of nations
+tv advert
+historic area
+administration in albania
+mla
+ukrainian oblast
+canadian government departments
+globular cluster
+online music service
+am
+welsh assembly member
+kbo player
+comics studio
+manhwa
+top level domain
+province
+cattle breed
+united states congress
+canadian parliament
+football league season
+college football bowl game
+basketball olympic tourney
+wrc driver
+ingwaz
+japan station
+economy continent
+rowing club
+military memorial
+finnish municipality/population count
+finnish municipality/total area
+road junction
+film awards
+belgian political party
+finnish former municipality
+american political party
+mountaineer
+arena football league team
+venezuelan state
+body process
+racecourse
+gaa manager
+wnba player
+string quartet
+vein
+industrial process
+european case
+msp
+secretary-general
+philippine region
+mass murderer
+indian awards
+swiss political party
+eurovision country
+new zealand suburbs
+guitar model
+us university ranking
+nationalpark
+ort in der türkei
+americas cup
+americas cup yacht
+comic strip character
+caste
+referendum rejected with map
+bbc nation or region
+andean deity
+martyrs
+italy station
+f1 race
+golf facility
+state representative
+governor-general
+wod vampire
+praseodymium
+mine
+champ car driver
+climber
+cooperative
+shinto shrine
+casino
+peru region
+deputy first minister
+aircraft incident
+province tr
+rugby world cup
+racing driver
+bishopstyles
+electronic payment
+burn event
+county romania
+pro hockey team
+baseball stadium
+train
+drinking game
+ballet
+law firm
+sports award
+philippine political party
+nbl player
+airline alliance
+national olympic committee
+singapore neighbourhood
+summit
+rabbi
+starwarsspecies
+slavic deity
+provinceit
+rebreather
+computer peripheral
+pro football player
+ice hockey game
+lego theme
+korean provinces
+russian inhabited locality
+esc national year
+hill of rome 2
+water transit
+mobile phone
+lymph
+afl biography
+nonhuman protein
+cricket club
+american state political party
+lds biography
+png place
+parish pt
+u.s. congressional district
+surfer
+distributed computing project
+bangladesh district
+concert tour
+paris metro
+animated superhero
+kavajë
+earthquake
+snooker tournament
+music of nepal
+coptic pope
+uk ward
+french political party
+nycs service
+archbishopric
+discworld character
+mep
+movement
+canadian college athletics
+chinese emperor
+israel district
+invisible
+university campus
+korean settlement
+former municipality japan
+aflretired
+poem
+cis football school
+handball biography
+jain ascetic
+russian district
+housing project
+comics artificial species
+london river services
+rugby league biography
+poultry breed
+canada electoral district
+officeholder#
+scottish distillery
+mlb mascot
+coa wide
+uk postcode area
+milb
+badminton player
+college marching band
+college mascot
+canadiansenator
+chickenbreed
+rfam
+defense minister
+motorcycle
+new zealand political party
+philippine mythology
+professional association
+zone
+u.s. federal election campaign
+uk public body
+switzerland station
+aircraft-all
+scotland county
+livery company
+oil field
+massachusetts sjc case
+wifi network
+test team
+polishcoa
+othalan
+nhl outdoor game
+theatre festival
+rugby league international tournament
+wrestling team
+heraldry
+wunjo
+cricket ground
+university athletics
+magic: the gathering player
+archaeological culture
+first minister
+european cup rugby season
+postage stamp/blank
+ns-station
+european political youth organisation
+townlands
+uruguayan politician
+bcs
+electricity sector
+berg1
+gaa player
+back to the future character
+sports announcer
+field hockey player
+bulgarian province
+egyptian governorate
+college sports rivalry
+tornado outbreak
+sumo wrestler
+war
+cigarette brand
+swimming pool
+ballet company
+indonesian political party
+hindu monk
+automobile engine
+wnba biography
+icelandic political party
+congresswoman
+lcs
+mcdonald's
+robot
+intangible heritage
+universitysystem
+speaker
+military conflict coup
+runestone
+theatre group
+power rangers
+shared monarchs
+british royalty styles
+st. louis neighborhood
+aqueduct
+port
+college
+oilfield
+southern railway (uk)
+u.s. court of appeals
+garden
+tornado single
+leadership election
+trade unionist
+table tennis player
+australian electorate
+musical composition
+d&d character class
+wrestling event
+squash player
+darts player
+aircraft program
+alternative medicine
+legislative session
+rugby league team
+hymn
+hungarian settlement
+winter storm
+bridge type
+flood
+brewery
+diving equipment
+comics species and title
+squash tournament
+orthodox diocese
+caliph
+soil
+south african subplace
+victorian rail line
+referendum
+tibetan buddhist monastery
+quebecmna
+student newspaper
+banknote
+communes de france
+dog crossbreed
+us army
+hong kong new town
+academic
+chess biography
+technology festival
+volleyball olympic tourney
+curling event
+civil servant
+fossil
+sms station
+national sports federations
+fieldbus protocol
+curling
+ukrainian city of regional significance
+wargame
+district
+comics object and title
+military cemetery
+forgotten realms countries
+d&d module
+rugby league
+furniture
+canada political party
+comedian#007ba7
+triathlete
+cricket team
+circus
+regency
+maldives
+dancer
+feature on venus
+mtv awards
+manhua
+racing car
+athletics race
+bottled water
+soap character
+county
+government budget
+charmed species
+television season
+societies
+climbing route
+boxcrawler
+nhl season
+paranormalevents
+encounter
+mancala
+russian rural locality
+hurricane small
+bible translation
+temple
+ligament
+island of the bahamas
+restaurant
+sports season
+cityrail station
+comedian awards
+falkland island
+simpsons characters
+doctor who race
+mint
+championship
+nepalese political party
+iwi
+futurama episode
+narnia character
+hurricane season
+shipping job
+npb player
+gb bus station
+motion
+rugby union biography
+equestrian
+airshow
+mobile suit
+radar
+united states district court case
+castrum
+grand prix race report
+historic area2
+paranormalplaces
+monstertruck
+cvg
+interbank network
+tram
+bus
+bullfighter
+ukrainian raion
+wfl team
+amateur wrestler
+administrative divisions of russian federal subject
+feature on titan
+nhl coach
+nycs
+face-uniform polyhedron
+negro league franchise
+pulps character
+candidate
+underground stock
+surname 2
+swimming venue
+swimming association
+roller coaster
+programming block
+sports car championship
+factory
+esc entry
+militärische einheit
+martyr
+frc game
+le mans driver
+seamount
+minor league baseball
+wrestling promotion
+certification mark
+poland
+sorority
+neath port talbot electoral ward
+football association
+handball league
+pro wrestling championship
+catalog
+deutsche bahn station
+mtr station
+uk bus route
+presidential library
+tennis at multi sports events
+rocket engine
+polyhedron
+football official
+country telephone plan
+schienenfahrzeug
+ems system
+italian political party
+polyhedron with net
+olympic sport
+olympic torch relay
+uruguayan department
+feature on ganymede
+u.s. metropolitan area
+partido argentina
+rugby league representative team
+rocket/stage
+podcast
+gaa club
+international ice hockey competition
+national hockey team
+squash wsa tournament
+sports rivalry
+u.s. district court
+diplomatic mission
+nba draft
+political scandal
+railfanning location
+ship begin/doc
+bishop styles
+irregular satellite
+individual snooker tournament
+handball club
+crater data
+landform
+gaa tournament
+volleyball club
+jain temple
+london bus route
+ireland station
+political coalition
+cycling team
+netball team
+cf rank
+wheelchair tennis player
+professorship
+new york coa case
+irish political party
+athletics championships
+uk transmitter
+hockey league
+stage production
+hrhstyles
+aus sport club
+cardiff electoral ward
+supernova
+automobile platform
+machinima
+tin pan alley
+japanese political party
+sura
+tram route
+nhl draft
+original english manga
+power transmission line
+g.i. joe character
+baronetage
+lacrosse player
+wuxia fiction character
+private school
+nfl season
+university vice-chancellor
+pahistoric
+space expedition
+combat robot
+video game online service
+/row
+television amazing race
+nfl draft
+olympics algeria
+olympics afghanistan
+olympics netherlands antilles
+olympics albania
+water park
+olympics canada
+olympics greece
+state sc justice
+south african municipality
+olympics australia
+olympics egypt
+olympics japan
+olympics south africa
+olympics portugal
+unbihexium
+olympics united states
+olympics puerto rico
+olympics france
+olympics kazakhstan
+olympics ukraine
+olympics turkey
+olympics great britain
+olympics italy
+olympics india
+olympics georgia
+olympics chinese taipei
+olympics germany
+olympics russia
+olympics indonesia
+olympics tajikistan
+olympics mexico
+olympics malaysia
+olympics cuba
+olympics myanmar
+olympics belarus
+olympics china
+olympics bahamas
+rocket/doc
+olympics bhutan
+olympics poland
+olympics philippines
+olympics finland
+olympics spain
+paris metro line
+olympics south korea
+olympics hong kong
+olympics sweden
+olympics laos
+olympics mauritius
+olympics tonga
+olympics luxembourg
+olympics fiji
+olympics netherlands
+olympics new zealand
+olympics el salvador
+olympics bulgaria
+olympics denmark
+olympics romania
+olympics israel
+olympics brazil
+olympics gabon
+rower
+olympics gambia
+olympics czech republic
+british television
+olympics chile
+olympics slovenia
+electric vehicle
+ferry route
+olympics american samoa
+llws
+olympics andorra
+olympics norway
+olympics hungary
+olympics guatemala
+olympics singapore
+olympics thailand
+olympics jamaica
+olympics peru
+number/range
+volleyball player
+olympics belgium
+olympics mongolia
+olympics kenya
+olympics malta
+olympics san marino
+olympics kiribati
+olympics iran
+olympics colombia
+olympics british virgin islands
+olympics dominica
+olympics latvia
+olympics argentina
+olympics guam
+olympics slovakia
+olympics dominican republic
+chola
+olympics paraguay
+olympics angola
+olympics antigua and barbuda
+olympics ethiopia
+olympics austria
+olympics venezuela
+olympics trinidad and tobago
+olympics ireland
+olympics somalia
+ucsdcolleges
+olympics namibia
+olympics nigeria
+olympics ghana
+olympics são tomé and príncipe
+olympics saudi arabia
+olympics jordan
+olympics kyrgyzstan
+olympics cayman islands
+olympics comoros
+olympics maldives
+olympics barbados
+olympics burkina faso
+olympics aruba
+olympics virgin islands
+olympics guinea
+olympics cook islands
+olympics côte d'ivoire
+olympics federated states of micronesia
+olympics bangladesh
+olympics sierra leone
+olympics cambodia
+olympics chad
+olympics cyprus
+olympics solomon islands
+olympics azerbaijan
+olympics benin
+olympics nicaragua
+olympics saint kitts and nevis
+olympics bermuda
+olympics monaco
+olympics madagascar
+olympics serbia and montenegro
+olympics haiti
+olympics sudan
+olympics croatia
+olympics ecuador
+olympics liberia
+olympics estonia
+olympics lesotho
+olympics brunei
+olympics malawi
+olympics zimbabwe
+olympics uruguay
+olympics swaziland
+olympics cameroon
+olympics oman
+olympics senegal
+olympics palau
+olympics grenada
+olympics bosnia and herzegovina
+olympics dr congo
+olympics mauritania
+olympics tunisia
+olympics sri lanka
+olympics seychelles
+olympics congo
+olympics botswana
+olympics kuwait
+olympics yemen
+olympics pakistan
+olympics vanuatu
+olympics honduras
+olympics mozambique
+olympics iraq
+olympics panama
+olympics mali
+olympics belize
+olympics switzerland
+olympics papua new guinea
+olympics burundi
+olympics turkmenistan
+olympics bolivia
+olympics vietnam
+olympics lithuania
+olympics togo
+olympics tanzania
+olympics uzbekistan
+olympics uganda
+olympics morocco
+olympics saint vincent and the grenadines
+olympics qatar
+olympics united arab emirates
+olympics macedonia
+olympics palestine
+olympics bahrain
+olympics zambia
+olympics suriname
+olympics equatorial guinea
+olympics moldova
+olympics eritrea
+olympics nepal
+olympics rwanda
+wrestler
+olympics iceland
+olympics north korea
+olympics libya
+olympics central african republic
+olympics cape verde
+olympics saint lucia
+olympics timor-leste
+olympics nauru
+khl team
+olympics syria
+olympics lebanon
+olympics samoa
+pro gaming player
+olympics costa rica
+olympics armenia
+olympics liechtenstein
+tw district
+taiwan station
+cluster
+attraction
+ncaa football school
+vacuum tube
+archbishop styles
+bantu name
+accounting body
+emmy awards
+martial art form
+emu
+non test cricket team
+fictional creature
+british speedway team
+ryder cup
+paralympic event
+us metropolitan area
+landskap symbols
+mass area code
+paralympics great britain
+mls superdraft
+hockey
+waterlock
+montreal metro
+afl player
+dmu
+exhibition tennis tournament
+somali faction
+french canton
+international futsal competition
+australian rules football season
+scc
+d&d character
+national netball team
+buddhist term
+australian year
+canadian provincial riding
+australian cadastral
+project
+defunct minor league baseball
+cardinalstyles
+nflchamp
+corporation
+ruhcoa
+galaxy cluster
+military rating
+eu accession bid
+drum corps
+pan-african parliament
+olympics niger
+otago college
+tribe
+nepal district
+canadian mp
+custom computer
+advertising
+union by country
+coa case
+unbiunium
+ncaa football single game
+indy500 1911to1941
+russian settlement
+television soap opera
+joint tennis tournament
+nfl single game
+mlb rivalry
+hut
+aqueductnavigable
+cable
+docks
+mtgset
+hindu temple
+korean company
+academic conference
+pier
+football club/kit image
+gemeinde in deutschland
+canadian football game
+film
+{{coord
+road race
+talking statue of rome
+basketball game
+uk fire and rescue
+clothing type
+romanian political party
+national wheelchair rugby team
+dual roller coaster
+biography
+atp tennis tournament
+sfry
+olympics guinea-bissau
+olympics guyana
+whitewater course
+goat
+disney resort
+israeli political party
+sentosa attraction
+varianceanalysis variancebox
+state sc associate justice
+musician
+ncaa football yearly game
+basketball player
+unbibium
+road small
+college football bowl games
+mendoza department
+peordh
+uruz
+congressional candidate
+fehu
+kaunan
+varianceanalysis variancebox2
+bus accident
+algiz
+eihwaz
+grappling hold
+gebo
+raido
+spt subway station
+cpbl player
+hrm community neighbourhood
+regular tuning
+jera
+ice  hockey award
+succession combo
+motorway services
+memorial cup
+movie quote
+surah
+wta tennis tournament
+gaa overseas club
+bus company
+bruckner symphony
+rockclimbing crag
+esl club
+curling club
+indian   political   party
+settlement/link
+launch pad
+arena football player
+northern ireland district
+themed area
+castle
+officeholder/office
+musical work
+province peru
+church2
+artist-run space
+ambulance company
+six nations championship
+multi-locus allele clusters
+bibliographic database
+pictish stone
+island of french polynesia
+bach composition
+women
+university school
+gold mine
+coord
+president/{{{dead
+nba all-star game
+olympics soviet union
+extrasolar planet
+stanley cup finals
+naudiz
+ehwaz
+olympics republic of china
+olympics west germany
+haglaz
+laguz
+isaz
+berkanan
+beef
+cucuteni-trypillian historical era
+basketball  biography
+economy of the european union
+stanley cup final
+turkish deity
+egyptian dignitary
+norwegian station
+individual sports league
+ncaa basketball tournament
+high school
+television family
+pinball
+world bowl
+doctor who episode/d
+mobile network
+molecular geometry
+genie awards
+lds
+grand lodge
+play-chronological
+grb
+big finish
+virginia supreme court case
+sports block
+olympics yugoslavia
+watch
+isotope/decay
+salaf
+olympics czechoslovakia
+cardinal styles
+austrian district
+domestic cricket season
+referendum with detailed key
+tractor
+commonwealth games australia
+province gr
+cricket club season
+careertech
+forest
+sports division
+hymnal
+speedway rider
+lgbt rights
+alusi
+monarch styles
+patriarchate
+musician awards
+urban feature
+vg online service
+fictional business
+uk constituency
+european parliament constituency
+county cricket ground
+koryu
+california supreme court case
+video games
+uae community
+court case/images
+nascar team
+cricket tour
+olympics east germany
+federal law enforcement agency
+dove awards
+tibetan-chinese
+rugby union season
+fragrance
+television show
+polish soldiers blue
+business school rankings
+pba team
+sw comics
+animanga/header/doc
+anzc team
+uk racecourse
+fiba tourney
+fashion label
+larp group
+pipe band
+mtgblockset
+rabbitbreed
+yacht club
+pro bowl
+avatar: the last airbender character
+thurisaz
+nrl club
+pigeonbreed
+dab ensemble
+ep
+simpsons episode small
+new caledonian political party
+oil refinery
+<a class="ktg6us78hf8vdu7" href="javascript:void(0)">football</a> biography
+biodatabase
+canadian senator
+journal/issn-eissn
+photographic lenses
+women's national cricket team
+vienna district/sandbox
+darts tournament
+skyscraper
+gaa dualplayer
+ndp
+mustafa kemal ataturk series
+ship class overview
+airliner incident
+cricket series
+v8 supercar team
+tea/types
+toho character
+chief executive
+pre-kindergarten school
+orthodox monastery
+student media
+ncaa athlete
+manchester metrolink station
+fighting game character
+e-sports club
+italian former political party
+mediterranean games turkey
+control chart
+ethnonym
+nfl
+buffyverse species
+world youth day
+nascar  driver
+afl grand final
+jane austen character
+swim meet
+swimming meet
+sport event
+arenabowl
+canadian school district
+legislation/images
+think tanks
+austria station
+cbb team
+philgenchamp
+italian wine
+zodiac
+literary genre
+pig breed
+nfl cheerleaders
+state government in
+cargo spacecraft
+first-class cricket team
+motor racing team
+beer style
+manner of address
+athletics club
+china station
+speedway team
+president-elect
+swim team
+theater
+artefact
+bibliography
+shinty club
+launch pad/pad
+island of the cook islands
+shannara artifact
+gaa county
+reality music competition
+actress
+slovak district
+b&o named trains
+note
+motocross rider
+hillclimb venue
+unbiquadium
+unbiseptium
+cricket season
+russian governorate
+football derby
+french commune/regmap
+fencer
+hurling all-ireland
+rugby league football match
+t-bane station
+oslo metro station
+d&d deity
+football all-ireland
+northwest territories government departments
+taupo district
+tour rugby
+simpsons season episode list
+soap character  2
+t&w metro station
+climbing area
+govt agency
+papua new guinea place
+journalist
+national natural landmark
+holiday camp
+urban development
+chipset
+berg
+medieval scottish diocese
+ottawa ward
+kelana jaya line
+business park
+hurricane season full
+venezuelan municipality
+league season
+insel
+goat breed
+foa
+national field hockey team
+hill climb
+movie camera
+faculty
+swiss constitution
+kana
+gaa region
+summit meeting
+vietnamese name
+noh
+gaa championship main
+education in the united states
+daytona 500
+school athletics
+camera mount
+rugby football league season
+basketball official
+college football season
+boxer</nowiki><br>
+<nowiki>
+football country season
+face-uniform tiling
+artificial intelligence
+playboy cyber girl
+guitar pickup
+named horse
+hieroglyphs
+sculpture
+map
+musical artist should not be added: see wikipedia:wikiproject musicians -->
+'''petronel malan''' (born 23 february 1976 in pretoria, [[south africa]]) is a south african concert [[pianist]].
+
+[[grammy awards
+nvc community
+mazinger mecha
+royal styles
+university of notre dame residence hall
+museum/sandbox
+sheep breed
+whisky distillery
+coin2
+afl club season
+nbl club
+water ride
+mll team
+taiwan baseball team
+ncaa conference tournament
+television
+title             = rina
+israeli election
+bus line
+vessel
+eastenders family
+book 
+ortsteil einer gemeinde in deutschland
+cfl team
+scotland school
+os 2
+malaysian mythology
+charmed group
+language/language family color table
+asian games philippines
+asian games brunei
+wellspan
+asian games singapore
+sl interschool tournaments
+country sea games
+ni station
+constituency
+asian games thailand
+asian games malaysia
+asian games indonesia
+asian games myanmar
+asian games laos
+asian games timor-leste
+asian games cambodia
+paris network main content
+indy500
+universit
+comics in other media
+mtgnonblockset
+pm
+college volleyball team
+gaa province
+computer virus
+cricket series begin
+olympics djibouti
+muslim scholars
+gridiron football person/position
+spacecraft instrument
+mosconi cup
+space:1999 character
+philippine collegiate team
+national handball team
+instrument/color
+big thing
+ncaa division i-a season
+lyon network
+national baseball team
+malaysia school
+commonwealth games scotland
+hospital/care system
+futurama season
+paralympics australia
+medical college
+olympics bohemia
+rugby union tri nations
+rarecurrencies
+television advert
+football tournament season
+world netball championship
+pba conference
+property development
+fabergé egg
+hurricane season needed
+concert
+ansuz
+commonwealth games england
+kbo retired
+airliner crash
+tornado year
+us school
+london assembly alt
+big shopping mall
+tiwaz
+renaissance fair
+olympics russian empire
+commonwealth games new zealand
+rugby league season
+irish clan
+neverwinterpw
+pkp station
+german railway vehicle
+locomotive
+<gallery>
+</gallery>
+referendum approved with map
+uk legislation mini
+roller derby league
+reactor
+celebrity
+shooting sport
+super rugby season
+wnba draft
+image
+swiss town/sandbox
+school in
+finnish municipality/native language swedish
+six nations championship 2
+waka
+tennis grand slam events
+busline/sandbox
+rhi team
+world championships in athletics
+power rangers character
+college ice hockey team
+mma event
+monarchsardar hamid kamal dahir
+college soccer team
+wine producer
+polyhedron with vertfig
+nbadl team
+ilo convention
+town of nova scotia
+the apprentice candidates
+operational plan
+musical scale
+ship characteristics
+vandal
+monterrey metro
+grand prix motorcycle team
+national people's congress
+women's national basketball team
+international baseball tournament
+ncaa basketball conference tournament
+proposal
+hiking trail/doc
+martial arts tournament
+nfl retired
+ncaa division i fbs season
+ireland disused station
+limited overs final
+commonwealth games brunei
+paralympics andorra
+paralympics armenia
+paralympics austria
+paralympics belarus
+paralympics belgium
+paralympics bulgaria
+paralympics canada
+paralympics chile
+paralympics china
+paralympics croatia
+paralympics czech republic
+paralympics denmark
+paralympics finland
+paralympics france
+paralympics germany
+paralympics greece
+paralympics hungary
+paralympics iran
+paralympics italy
+paralympics japan
+paralympics kazakhstan
+paralympics latvia
+paralympics south korea
+paralympics mexico
+paralympics mongolia
+paralympics new zealand
+paralympics norway
+paralympics poland
+paralympics russia
+paralympics slovakia
+paralympics slovenia
+paralympics south africa
+paralympics spain
+paralympics switzerland
+paralympics sweden
+paralympics ukraine
+paralympics united states
+college baseball team
+commonwealth games india
+baduser
+commonwealth games south africa
+spfsc6.0
+commonwealth games canada
+commonwealth games cayman islands
+commonwealth games cook islands
+commonwealth games cyprus
+commonwealth games british virgin islands
+commonwealth games botswana
+commonwealth games samoa
+commonwealth games singapore
+commonwealth games mauritius
+commonwealth games anguilla
+commonwealth games bahamas
+commonwealth games bangladesh
+commonwealth games barbados
+commonwealth games bermuda
+commonwealth games cameroon
+commonwealth games kenya
+commonwealth games northern ireland
+commonwealth games pakistan
+commonwealth games belize
+commonwealth games dominica
+commonwealth games antigua and barbuda
+commonwealth games falkland islands
+commonwealth games papua new guinea
+commonwealth games tanzania
+mlb expansion draft
+abl team
+figure skating competition cop
+afl pre-season
+commonwealth games malaysia
+tornado
+union ( p o box 2906 gaborone botswana)
+sport centre
+estonian political party
+road/browselinks/usa
+squash psa tournament
+cityit
+indian jurisdiction
+college basketball tournament
+ncaa ice hockey tournament
+paranormal place
+only fools and horses
+school2
+road/meta/browse
+eritrea cabinet official
+bafl team
+financial
+au legislation
+lfl team
+kids' choice awards
+books
+year in spaceflight
+mlrh team
+attraction model
+highschool
+rugby world sevens
+grand prix motorcycle race report
+the goodies episode
+stadion
+festival
+mill building
+empire awards
+rink hockey club
+animanga/print
+london tram
+fictional secret organization
+public school
+cityrail station/line
+bathhouse
+ok constitution
+xc championships
+luxembourg former commune
+nba player
+mls rivalry cups
+wot detainees
+uk statutory instrument
+uk si
+nhs health board
+tt regional corporation
+pba season league
+speedway team2
+bc school district
+british columbia school district
+state of origin series
+journal
+<noinclude><div class="boilerplate metadata vfd" style="background-color: #f3f9ff; margin: 0 auto; padding: 0 1px 0 0; border: 1px solid #aaaaaa; font-size:10px">
+{
+mural
+defunct tennis tournament
+railroad
+telephone area code
+school italian high school
+fivb tournament
+typeface
+football biography 2
+football stadium
+basketball biography/style
+ncaa team season
+olympics australasia
+sri lankan electoral district
+comics creator biblio
+telenovela
+lake/convert
+university 
+{{displaytitle:universidad piloto de colombia
+charmed artifact
+bundesautobahn
+reference book
+red dwarf episode
+wikiproject gambling
+musical  artist
+nonstellar body
+gladiator
+medal templates
+us territorial governor
+co-operative
+railway depot
+italian frazione
+ncaabasketballsinglegame
+philippine congress
+firearm cartridge/ballistics header
+3cols
+indian settlement
+sport tournament general
+jews
+college marching band canada
+softball team
+pre-columbian sitehgydgsfdhydabuiilovebob
+asian comic series
+member of iraqi parliament
+mlb all-star game
+road/shield/{{{country
+college wrestling team
+hells angels
+asterix
+multiprojectbox
+korean song
+heartland championship
+ncaa football rankings
+doctor who book
+website/with logo
+romanian minister office
+ssunionrecognition
+individual golf tournament
+olympics ceylon
+olympics serbia
+coord/sandbox
+lok sabha constituency
+llwsqualification
+former orthodox diocese
+volleyball biography
+eurovision national final
+pro athlete
+u. s. city
+binational animation
+star wars comics
+arabic name
+international american football tournament
+schoo
+medical condition
+high school athletics
+amusement ride
+negro world series
+television/colour
+rugby league biography/personal
+tony awards
+isle of man tt races
+wtcc race
+ear
+oslo tramway station
+confederate state acw
+gaa championship
+beauty pageant
+wnba season
+commonwealth games guyana
+ethnic community
+vg  system
+uk television episode
+one-of-a-kind computers
+school
+school name        = perry high school perry ga
+little league world series
+nba season
+official football team
+corrientes
+field hockey club
+national field hockey team 1974
+former country/autocat
+settlement
+{{no footnotes
+member of parliament
+quasar
+commonwealth games norfolk island
+commonwealth games tonga
+commonwealth games nauru
+philcollfinals
+uk constituency (former)
+indian politician and social activist
+squash wsf tournament
+fila wrestling event
+photographic lens
+desalination plant
+tv film
+mining
+canterbury college
+mlbumpire
+confed state banknote
+plfa team
+association
+batu caves-port klang line
+tornado year (ef scale)
+aspirational state
+korean name/mountain
+religious building/color
+individual darts tournament
+multi-gene haplotype
+middle school
+national futsal team
+isle of man tt course
+olympics burma
+bucharest bus
+feature on mercury
+indian cabinet
+character</nowiki><br /><nowiki>
+heteroisoform
+discography
+company 
+element/headers
+national volleyball team
+skating event
+hopman cup
+v8 supertourer driver
+wintersport world cup
+kansas supreme court case
+olympics rhodesia
+hurricane impact
+lds temple
+nflretired, obgyn
+catamarca
+olympics upper volta
+malaysia school </nowiki>
+singer
+us air force
+gb school
+chaco
+asian games chinese taipei
+continental cup
+education in country
+pelotari
+weather
+hockey awards
+welsh assembly constituency
+film
+...
+water margin character
+bbl team
+asian games iraq
+game score
+kshitij
+malaysian federal government
+traceur
+asian games china
+slovakia station
+asian games india
+cyclone
+california state legislature district
+writer (general)
+weapon/doc
+asian games yemen
+asian games bangladesh
+asian games hong kong
+hiroden station
+actor-->
+cycling world championship
+ncaa division i men's basketball season
+astram line station
+yeshiva
+badminton event
+korean name/categories
+wnba team
+military aviation unit
+chaotic
+rdt
+group
+international hockey competition
+asian games afghanistan
+nwhl team
+asian games japan
+tv
+musical artist 2<br>
+-><br>
+{{infobox musical artist<br>
+ [[user:86.201.106.176
+jr west station
+trolleybus system
+motorsport formula
+star
+joakimfest
+asian games iran
+asian games ceylon
+asian games burma
+asian games south korea
+neuron </tt><br />
+<tt>&nbsp;
+website with ipv6
+sgp country
+asian games jordan
+asian games kazakhstan
+education in england
+asian games kyrgyzstan
+commonwealth games wales
+british speedway league
+asian games kuwait
+asian games north korea
+asian games lebanon
+asian games macau
+cycling world championships
+asian games mongolia
+asian games nepal
+asian games pakistan
+professional bowler
+asian games palestine
+ncaa division i baseball tournament
+asian games tajikistan
+asian games united arab emirates
+asian games uzbekistan
+paranormal event
+musical artist
+file: jamali.jpg
+election campaign
+city
+aircraft type
+abortion
+operas
+city</nowiki></tt>...&nbsp;.  some infoboxes contrive to have their own built-in "edit" links to make editing them easier, but it looks like {{tl
+primeval creature
+ncaa baseball tournament
+hurling national league
+aoe
+tennis player" and ending with "
+ust college
+rally
+plant diseases
+tornado intercept vehicle
+uk place/local
+sport horse
+tamu college
+school system
+solheim cup
+wcbb team
+water supply and sanitation
+pro inline hockey team
+line
+mlb draft
+related events
+hostel
+snooker season
+oslo metro  station
+london bus
+choir
+country or territory
+director
+school marching band
+myx music awards
+defunct necbl team
+israel muni
+album/color
+college softball team
+daviscup
+olympic bid/map
+college inline hockey team
+ncaa baseball conference tournament
+writing system</nowiki>
+naia basketball tournament
+plant disease
+horse race
+wnbl team
+ncaa division i baseball tournament (1954-1975)
+badminton nav
+fedcup
+simpsons season 6 episode list header
+nova scotia municipal districts
+uk postcode area/stats
+bangkok network
+swimming event
+world junior championships in athletics
+hong kong film awards
+cycling championship
+bucharest ratb route
+horseraces
+election result
+sfry-sap
+us university ranking/national
+national water polo team
+csi character
+recurring  event
+golf facility/course
+actor awards
+piha team
+chl season
+indian jurisdiction/core
+pbaallstargame
+future comics
+years in athletics
+nvd
+g8
+dirt horse race
+speedway grand prix event
+house
+indian jurisdiction/sandbox
+college lacrosse team
+lake\n
+nflactive
+ymca camp
+government
+afl2
+tymba
+aflchamp
+aflchamp1960
+cricket tournaments
+botanical product</nowiki>
+performance artist/writer
+new testament manuscript
+atp challenger tournament
+campground
+touch competition
+tennis event/footer
+town at/instructions
+cheerleading squad
+tennis event/color
+horse/sandbox
+hymn/color
+gsse
+pan american games brazil
+college basketball tournament/label
+cgs team
+canadian budget
+urban music awards australia and new zealand
+"followed by a space then some characters that aren't any of "\
+nascar race season
+fylkeskommune
+translink (seq) train fleet
+music-x
+bot
+eurovision/legend
+turf race
+austriaemperorstyles
+dune character
+musical artist jarrell
+gaa club
+[[file:]]
+radio network
+pan american games mexico
+pan american games canada
+nfl player/stats
+pan american games chile
+pan american games argentina
+provincial netball association
+island games
+american international metropolitan area
+ghana constituency
+pan american games united states
+cambodian district
+speedway national team
+pan american games netherlands antilles
+pan american games  antigua and barbuda
+pan american games  dominica
+cycling championships
+indian   jurisdiction
+rocky and bullwinkle story arc
+uk railway
+superbike team
+album/doc/type
+country world championships in athletics
+scotus case/courts
+municipalpark
+hm prison
+road/{{{state
+language/family-color
+hurricane current
+monarch saint
+college golf team
+&nbsp;band&nbsp;with&nbsp;{{infobox&nbsp;musical&nbsp;artist&nbsp;
+iraq football season
+gunpowder plotter
+ust school
+gaa player3
+psl leagues
+inline hockey award
+[[heba]] player
+peninsula
+airport/sandbox/dim
+film character
+urban development project
+triple-a championship
+fiba tourney/{{{type
+oxford college boat club
+walker cup
+bilateral
+east asian/nametable
+monoisoform
+brownlow medal ceremony
+wrc team
+national pitch and putt team
+awards/sandbox
+whisky distillery/color
+sportspersonv2
+japan series
+mlb yearly
+amusement park event
+first lego league challenge
+amateur radio country
+musical artist/hcard class
+electoral reform
+floorball player
+british pakistanis
+pulps
+nfl playercaca
+window covering
+-country
+storm
+floorball club
+speedway league
+speedway league season 2
+university of new england (australia)
+annual film festival
+musical artist/color
+ice hockey player#
+rhi season
+country deforestation
+grand prix final report
+uk bus corridor
+mlb yearly-pre1969
+album</nowiki>, then a lot of lines like <nowiki>
+ncaa basketball rankings
+road/ut/shield interstate
+ncaa division i fcs season
+u.s. cabinet
+militares
+movie
+national korfball team
+claxton shield
+afl national cup
+fim motocross world championship
+azerbaijan region
+mtr line
+mercury crater
+venus crater
+university faculty
+n-number
+firearm
+ukrainian catholic eparchy
+user
+sar
+u.s. congressional district</nowiki><br>
+<nowiki>
+ship career
+midlandcollege
+san juan department
+soap  character 2
+japanese law
+football player
+topicterms
+papernumbers
+sea patrol character
+uk place/local/sandbox
+uk place/nolocalmap
+oklahoma legislation
+pca
+rugby union biography/labeled section
+olympics montenegro
+colorado legislation
+european parliament constituency/election link
+lgu league
+dance genre
+animanga/footer
+arkansas confederate artillery batteries
+field hockey league
+singles
+arkansas confederate infantry regiments
+" </nowiki> up to and including the line with just <nowiki> "
+french constituency
+sonic character
+starcraft character
+gaa league
+metal gear character
+final fantasy character
+rhi all-star game
+software2
+rocket/payload
+boysbrigade
+ncaafootballsinglegameheadermini
+irrigation
+its
+rugby club season
+asian five nations
+sfry-ap vojvodina
+sfry-ap
+college track and field
+college cross country
+solar eclipse
+english case
+water resources management
+olympics marshall islands
+olympics tuvalu
+paralympics estonia
+college 
+
+===<font face="myriad pro" color="#1da2dd" size="4">stubs</font>===
+the main stub for bangladeshi college articles are: {{tl
+n.y. cabinet
+national roller hockey team
+slovenia station
+field hockey league season
+tennis player
+musical artist</nowiki> and ends <nowiki>
+ncaa ice hockey conference tournament
+catbreed/dev
+college field hockey team
+college swim team
+college gymnastics team
+college tennis team
+college track and field team
+law enforcement agency/main
+law enforcement agency/autocat geography
+speedway league season
+chile cabinet
+commonwealth games jamaica
+star trek planet
+hochschule
+hapu
+road/maint/usa
+tvseason
+animanga/header2
+saskatchewan government ministries
+k-12 school
+ncaa division i women's volleyball tournament
+cardinal
+palestinian authority muni
+charity
+multigender sports league
+british bangladeshis
+grand prix final report infobox
+ranger's apprentice character
+ncrha crhnc
+dagaz
+sowilo
+locomotive auto
+tree
+moldova wine region
+fluorine
+gladiators event
+roc cabinet
+international floorball competition
+imams
+doge
+ffilm
+františkánsky kostol a rímskokatolícky kláštor
+law enforcement agency/snapshotinfoboxusage
+reality talent competition
+uk property/local
+national inline hockey team
+international inline hockey competition
+enneagram
+single nucleotide polymorphism
+commonwealth games uganda
+jazzyear
+taiwan series
+paralympics timor-leste
+paralympics papua new guinea
+paralympics rwanda
+california state legislature
+anchery kudumbam
+anchery kudumbam(family)
+paralympics israel
+chicken breed
+kommunestyre
+rock band dlc
+personl details
+paralympics iraq
+national youth basketball team
+college marching band uk
+cricketer tour biography
+aircraft career
+novel
+arenafootballsinglegameheader
+chinese actor and singer
+law enforcement agency/logo
+paralympics vietnam
+paralympics cuba
+n.j. cabinet
+naia college athletics
+germanic deity
+settleme
+paralympics uruguay
+paralympics netherlands
+paralympics serbia
+mercury
+commonwealth games guernsey
+commonwealth games isle of man
+paralympics kenya
+paralympics puerto rico
+paralympics ireland
+paralympics malaysia
+paralympics philippines
+paralympics portugal
+paralympics singapore
+paralympics brazil
+paralympics botswana
+vgthef
+country paralympics
+paralympics macau
+paralympics hong kong
+paralympics afghanistan
+ortsteil einer gemeinde
+olive cultivar
+paralympics argentina
+rso district
+diving
+television  film
+pan american games cuba
+pan american games colombia
+pan american games venezuela
+pan american games dominican republic
+pan american games  ecuador
+pan american games puerto rico
+pan american games jamaica
+pan american games  guatemala
+pan american games bahamas
+pan american games  el salvador
+pan american games panama
+pan american games peru
+pan american games trinidad and tobago
+pan american games uruguay
+pan american games cayman islands
+pan american games nicaragua
+pan american games barbados
+pan american games grenada
+pan american games  guyana
+pan american games haiti
+pan american games honduras
+pan american games paraguay
+pan american games saint lucia
+rmit school
+commonwealth games mozambique
+commonwealth games namibia
+commonwealth games zambia
+commonwealth games sri lanka
+paralympics zambia
+paralympics united arab emirates
+paralympics tanzania
+paralympic sport
+commonwealth games nigeria
+commonwealth games fiji
+scotus case/sandbox
+gymnast/sandbox
+pba draft
+paralympics zimbabwe
+pba player
+paralympics cambodia
+paralympics malta
+paralympics tunisia
+btcc record
+member of the knesset</nowiki><br>
+singapore parliament
+paralympics myanmar
+paralympics fiji
+paralympics morocco
+paralympics peru
+paralympics indonesia
+paralympics turkey
+paralympics palestine
+paralympics jordan
+paralympics algeria
+paralympics madagascar
+paralympics lithuania
+paralympics thailand
+paralympics fyr macedonia
+paralympics chinese taipei
+parlementaire français
+uk legislation</nowiki>
+compressed hydrogen
+paralympics angola
+paralympics uganda
+paralympics colombia
+paralympics syria
+paralympics nigeria
+paralympics romania
+entrepreneur
+paralympics tonga
+paralympics egypt
+paralympics azerbaijan
+paralympics turkmenistan
+paralympics pakistan
+paralympics bosnia and herzegovina
+paralympics mali
+paralympics namibia
+paralympics benin
+paralympics burkina faso
+paralympics burundi
+paralympics india
+paralympics jamaica
+paralympics georgia
+paralympics haiti
+paralympics ecuador
+paralympics kyrgyzstan
+paralympics côte d'ivoire
+paralympics luxembourg
+superleague formula race report
+paralympics dominican republic
+paralympics senegal
+paralympics barbados
+paralympics bangladesh
+paralympics nepal
+paralympics sri lanka
+paralympics ethiopia
+paralympics panama
+currie cup
+paralympics bahrain
+paralympics cyprus
+paralympics uzbekistan
+paralympics venezuela
+tennis at biannual multi sports events
+tennis mse2
+paralympics faroe islands
+street/meta/length
+australian winery
+paralympics samoa
+paralympics vanuatu
+paralympics soviet union
+paralympics saudi arabia
+paralympics oman
+song list
+filmmaker
+paralympics ghana
+paralympics honduras
+paralympics lebanon
+paralympics laos
+paralympics cape verde
+paralympics libya
+paralympics montenegro
+paralympics costa rica
+paralympics gabon
+paralympics tajikistan
+paralympics bermuda
+paralympics niger
+paralympics guatemala
+paralympics el salvador
+paralympics qatar
+paralympics guinea
+mortal kombat character
+language/indic
+settl...', '[[2000 united s...', 98)<br />
+<nowiki>#</nowiki>3 /usr/local/apache/common-local/php-1.5/includes/editpage.php(1013): article->updatearticle('{{infobox settl...', '[[2000 united s...', false, true, false, '')<br />
+<nowiki>#</nowiki>4 /usr/local/apache/common-local/php-1.5/includes/editpage.php(2366): editpage->internalattemptsave(false, false)<br />
+<nowiki>#</nowiki>5 /usr/local/apache/common-local/php-1.5/includes/editpage.php(454): editpage->attemptsave()<br />
+<nowiki>#</nowiki>6 /usr/local/apache/common-local/php-1.5/includes/editpage.php(339): editpage->edit()<br />
+<nowiki>#</nowiki>7 /usr/local/apache/common-local/php-1.5/includes/wiki.php(494): editpage->submit()<br />
+<nowiki>#</nowiki>8 /usr/local/apache/common-local/php-1.5/includes/wiki.php(59): mediawiki->performaction(object(outputpage), object(article), object(title), object(user), object(webrequest))<br />
+<nowiki>#</nowiki>9 /usr/local/apache/common-local/php-1.5/index.php(93): mediawiki->initialize(object(title), object(article), object(outputpage), object(user), object(webrequest))<br />
+<nowiki>#</nowiki>10 /usr/local/apache/common-local/live-1.5/index.php(3): require('/usr/local/apac...')<br />
+<nowiki>#</nowiki>11 {main
+company
+company name = national asset recovery services canada
+nars-canada
+company type = [[private company
+paralympics sudan
+law enforcement agency/autocat special country div
+conic section
+mediterranean games malta
+mediterranean games albania
+mediterranean games algeria
+mediterranean games bosnia and herzegovina
+mediterranean games croatia
+mediterranean games cyprus
+mediterranean games egypt
+mediterranean games france
+mediterranean games greece
+mediterranean games italy
+mediterranean games lebanon
+mediterranean games libya
+mediterranean games monaco
+mediterranean games morocco
+mediterranean games san marino
+mediterranean games serbia and montenegro
+mediterranean games slovenia
+mediterranean games spain
+mediterranean games syria
+mediterranean games tunisia
+paralympics suriname
+paralympics central african republic
+paralympics mauritius
+paralympics lesotho
+paralympics kuwait
+paralympics iceland
+ni station                     </nowiki> 
+ <nowiki>
+paralympics moldova
+ireland station                     </nowiki>
+ <nowiki>
+paralympics bahamas
+requested
+mtn 8
+paralympics czechoslovakia
+sprache
+paralympics east germany
+paralympics liechtenstein
+paralympics mauritania
+paralympics nicaragua
+paralympics rhodesia
+paralympics seychelles
+paralympics sierra leone
+paralympics trinidad and tobago
+paralympics yemen
+paralympics yugoslavia
+settlement
+
+
+https://www.facebook.com/pages/durchhim-%e0%a4%a6%e0%a5%81%e0%a4%b0%e0%a5%8d%e0%a4%9b%e0%a4%bf%e0%a4%ae/146837258671390?ref=hl
+[[category:populated places in khotang district]]
+
+
+{{sagarmatha-geo-stub
+freemasonic lodge
+milb league
+btp
+v8 supercar race report
+radio show2
+prohockeyteamseason
+napolimetro
+rugby league team season
+sett<ref>malai vannu 6</ref>lement
+sydney new year's eve
+oslo tramway station key word in john buchan's novel "the three hostages".
+aircraft type</code> in front of every instance of <code>
+triathlon world cup
+regional climate/col{{{sc
+wiccan tradition
+spanish royalty styles
+ncaa football tournament
+3cols/row
+oha team
+largest cities india
+nccaa football yearly game
+pba season
+yttrium
+all-ireland hurling
+basketball player / professional career (business & arts)
+sci case
+conferences and exhibitions
+tv episode
+romanian legislature
+romanian legislature/party
+canadian floorball championships
+international tournament
+industrial park
+swc event
+fishery
+pba fiesta finals summary
+firedepartment
+fishery harvest
+racing yacht
+software 2
+college football bowl season
+referendum pending with map
+subnational entity
+finnish municipality/sea area
+baseball player
+finnish municipality/native language finnish
+belgian bowl
+bfl season
+finnish municipality/demography 0-14
+commonwealth games country
+periodical
+gaa team season
+verkehrsbetrieb
+aqueduct navigable
+animanga/video
+football country season2
+ncaa division i men's ice hockey season
+book/sandbox
+nrhp2
+problem
+lake</pre>
+to
+<pre>{{subst:infobox lake/fm</pre>
+in an article using this template, and the resulting wikicode will be reformatted.
+tunisian athletics
+iranian election campaign
+academy awards nominations
+president of alþingi
+mountain/sandbox
+governorate of tunisia
+swc season
+national paralympic committee
+necbl all-star game
+siren
+see
+filmfare awards south
+filmfare awards
+law enforcement agency/autocat specialist country div
+ncaa softball season
+nfl player/sandbox
+baseball biography/sandbox
+writers awards
+broadcast small
+waterway
+sgp season
+joakiminterfest
+pan american games costa rica
+hyderabad bicycling club
+pan american games aruba
+bavga
+probability distribution
+nrhp/sandbox
+magic: the gathering pro tour season
+rail transport in catalonia
+hall of fame
+pan american games belize
+pan american games bermuda
+pan american games bolivia
+pan american games suriname
+pan american games saint kitts and nevis
+pan american games saint vincent and the grenadines
+pan american games british virgin islands
+pan american games virgin islands
+wnbaallstargame
+animanga/other
+nrhp2 </nowiki>''' that are in article mainspace to '''<nowiki>{{infobox nrhp </nowiki>'''?  the pages are all within the pages that link to, in fact which transclude, {{tl
+somethin'-r-other
+animanga/audio
+animanga/game
+hk bus station
+bahnhof
+latvian municipalities
+ncaa division ii basketball tournament
+protected area/sandbox
+british academy television awards
+monterrey metro/station name
+voie parisienne
+khsaa boys regional tournament
+men's college volleyball team
+advisor / chief of cabinet
+logie awards
+npb season
+football club season2
+"), which should give you a decent list. - [[user:jarry1250
+standardref
+'''st. john's fire district'''
+nll team
+nll defunct team
+european parliament
+country asian games/titles
+country asian games
+abl
+hk bus terminus
+bundesstraße
+coa case/images
+ncaa division i-aa season
+rugby match
+ncaa division i women's basketball season
+clan/sandbox
+busline
+aprovecho
+ice hockey player
+[...]
+lacrosseteamseason
+music...', '', 'space')
+#9 /usr/local/apache/common-local/php-1.5/includes/hooks.php(132): call user func array(array, array)
+#10 /usr/local/apache/common-local/php-1.5/includes/editpage.php(956): wfrunhooks('editfiltermerge...', array)
+#11 /usr/local/apache/common-local/php-1.5/includes/editpage.php(2503): editpage->internalattemptsave(false, false)
+#12 /usr/local/apache/common-local/php-1.5/includes/editpage.php(449): editpage->attemptsave()
+#13 /usr/local/apache/common-local/php-1.5/includes/editpage.php(340): editpage->edit()
+#14 /usr/local/apache/common-local/php-1.5/includes/wiki.php(520): editpage->submit()
+#15 /usr/local/apache/common-local/php-1.5/includes/wiki.php(66): mediawiki->performaction(object(outputpage), object(article), object(title), object(user), object(webrequest))
+#16 /usr/local/apache/common-local/php-1.5/index.php(116): mediawiki->initialize(object(title), object(article), object(outputpage), object(user), object(webrequest))
+#17 /usr/local/apache/common-local/live-1.5/index.php(3): require('/usr/local/apac...')
+#18 {main
+geologic feature
+element/sandbox
+khl draft
+animanga/ova
+/sandbox
+pan american games guatemala
+multi locus allele clusters
+singl...', '', '/* formats and ...')
+#9 /usr/local/apache/common-local/php-1.5/includes/hooks.php(132): call user func array(array, array)
+#10 /usr/local/apache/common-local/php-1.5/includes/editpage.php(956): wfrunhooks('editfiltermerge...', array)
+#11 /usr/local/apache/common-local/php-1.5/includes/editpage.php(2503): editpage->internalattemptsave(false, false)
+#12 /usr/local/apache/common-local/php-1.5/includes/editpage.php(449): editpage->attemptsave()
+#13 /usr/local/apache/common-local/php-1.5/includes/editpage.php(340): editpage->edit()
+#14 /usr/local/apache/common-local/php-1.5/includes/wiki.php(520): editpage->submit()
+#15 /usr/local/apache/common-local/php-1.5/includes/wiki.php(66): mediawiki->performaction(object(outputpage), object(article), object(title), object(user), object(webrequest))
+#16 /usr/local/apache/common-local/php-1.5/index.php(116): mediawiki->initialize(object(title), object(article), object(outputpage), object(user), object(webrequest))
+#17 /usr/local/apache/common-local/live-1.5/index.php(3): require('/usr/local/apac...')
+#18 {main
+mediterranean games andorra
+mediterranean games montenegro
+mediterranean games serbia
+asian games syria
+forts in nashik
+uk place/area
+settlement
+{{noref
+burg
+nonhuman  protein
+historic structure
+camogie all-ireland
+company</nowiki></code>
+:<code><nowiki>
+stadium/sandbox
+defunct independent baseball infobox
+wtcc race report
+creator
+savseli
+road/meta/colors
+international softball tournament
+young artist awards
+ampang line
+hollyoaks family
+drums corps
+aust school private
+gp2 round report
+ufl
+asian games vietnam
+u.s. county/sandbox
+settlement/areadisp
+settlement/densdisp
+simpsons character
+ncaa division i women's ice hockey season
+sports games vietnam
+christian leader/sandbox
+u.s. federal election campaign, 2008
+earthquake/sandbox
+/article
+ladies' football all-ireland
+us court case
+user 2
+grand prix race report/sandbox
+hunt
+federal state or territory
+album - see wikipedia:wikiproject albums -->
+mars crater
+aircraft begin/sandbox
+national film awards
+instrument/sandbox
+submarine communications cable<br />
+ship image
+gp2 asia round report
+fia formula two championship report
+f1 season
+wightmancup
+speedway national u-21 team
+fia formula two championship race report
+cobalt
+cerium
+= magazine
+german location/sandbox
+wta challenger tournament
+cricket series end
+outlines
+cycling season
+movie awards
+modern family season one episode list
+church/sandbox
+stausee
+hindustani raga
+settlement  93. abumwenre . 94. ehor, 95. okemuen 96. ugbiyaya 97. ugbiyokho 98. ugiamwen 99. ukpogo 100. ekpan-irhue 101. irhue 102. oke-irhue 103. orhua 104. umokpe 105. 106. egbisi 107. irhiborhibo 108. obagie 109. obazagbon 110. ugueghudu 111. uhi 112. uhimwento 113. erhua-nokhua 114. igieduma 115. irhiwe 116. obagie 117. otofure 118. ugha 119. uteni 120. umagbae 121. azagba 122. ekuigbo 123. igueuwangue 124. iguevbiahianwen 125. iguevbiobo 126. iguezevbaru 127. iguomo 128. ikhueniro 129. irighon 130. ogheghe 131. ogueka 132. okhuo 133. okpagha 134. uma 135. 1 urhokuosa 2 urhokuosa-nowa also known as okakhanmwan 3 orhokuosa-noha.136. agiyamu 137. ahor 138. ayen 139. egba 140. ekoken 141. ekomufua 142. evboikhuendo 143. ewedo 144. eyean 145. idumwugha 146. iguosula 147. ikiyete 148. orio 149. ute 150. uzalla 151. isi 152. eguaholor 153. igueoke 154. iguesogban 155. iguomo 156. ike 157. iyanomo 158. oghada 159. okhuokhuo 160. ugbezee 161. urbenisi 162. ekae 163. erhuan 164. evbowe 165. evguogho 166. iguagba 167. iguagbe 168. iguezomo 169. iguiyase 170. ilobi 171. izikhiri 172. obanisi 173. egbede 174. aduhanhan 175. ekhonidunolu 176. ekhoniguokuen 177. ekhoeniro 178. ekhonuwaya 179. ekhuaihe (okhuaihe)180. emuhu 181. evbosawe 182. igbogiri 183. okuekpen 184. okeze 185. okogo 186. ugbayon 187. ugomoson 188. ugoneki 189. ugonoba 190. uvbe 191. ohuan 192. adesagbon 193. ebuenehian 194. ebueneki 195. evbohuan 196. evbozagbo 197. idibo 198. iguehana 199. iguiye 200. irokhin 201. isua 202. obadan 203. ogaga 204. ovbieko 205. udeni 206. urhokuosa-naw 207.(evbogho)
+r
+asian games republic of china
+asian games saudi arabia
+scotuk case
+uksc case
+speedway national u-19 team
+asian games bahrain
+asian games qatar
+asian games sri lanka
+gaa match
+asian games israel
+country pan american games
+horse test
+</replace>
+        <comment />
+        <isregex>false</isregex>
+        <enabled>true</enabled>
+        <regularexpressionoptions>ignorecase</regularexpressionoptions>
+      </replacement>
+      <replacement>
+        <find>\{\{r</find>
+        <replace>{{r</replace>
+        <comment />
+        <isregex>false</isregex>
+        <enabled>true</enabled>
+        <regularexpressionoptions>ignorecase</regularexpressionoptions>
+      </replacement>
+      <replacement>
+        <find>\[\[ *</find>
+        <replace>[[</replace>
+        <comment />
+        <isregex>true</isregex>
+        <enabled>true</enabled>
+        <regularexpressionoptions>ignorecase</regularexpressionoptions>
+      </replacement>
+      <replacement>
+        <find>\[\[(\d+)(st
+country telephone plan</nowiki>
+ <nowiki>
+climax series
+album
+...
+asian games oman
+personnalité militaire
+nfl event
+scotus appointments
+prepared food
+<ref>la prova del cuoco (rai1)</ref>
+dance company
+uflchamp
+wuxia novel character
+pan american games antigua and barbuda
+animanga/print/sandbox
+animanga/video/sandbox
+ncrha season
+boat show
+power station
+{{infobox power station
+train consist
+asian games guam
+united states district court case/images
+fourcolumns
+cross country championships
+cycling team season
+asian games bhutan
+asian games maldives
+asian games turkmenistan
+secondary school 
+1912
+diamond league
+programming tool
+business school rankings/usundergrad
+sprungschanze
+uk university rankings
+mountain/sandbox2
+single
+...
+producer, singer, songwriter
+long track national team
+road/banner
+settlement/checkauto
+road/banner/sh
+wwe reality competition
+fluss/gkz
+tennis player season
+college allstar game
+south american games argentina
+snowboarder
+road/meta/mask/subtype2
+minor football all-ireland
+road/shield/gbr
+road/name/can
+road/shield/jpn
+road/areamask/mex
+road/shield/mex
+youth olympics
+gaa county team
+philippine city
+rugby sevens
+thunderstorm
+iana time zone
+wikiproject/sandbox
+military conflict timeline
+crater
+paralympics serbia and montenegro
+paralympics independent paralympic participants
+united kingdom parliament
+the episcopal church
+international ice hockey federation nation
+terrestrial impact site/map
+naia d-ii basketball tournament
+chairman
+olivier awards
+glacier/sandbox
+crater data/sandbox
+rugby biography/sandbox
+ncrha regional championship tournament
+genetically modified organism
+norwegian national political conventions
+translink (seq) bus station
+country southam games
+south american games netherlands antilles
+pan american games ecuador
+russian term
+historic cricketer</nowiki></code> to <code><nowiki>{{subst:infobox historic cricketer
+kabaddi tournament
+irb sevens world series
+college baseball season
+country youth olympics
+gaa club/sandbox
+gaa player/sandbox
+settlement/sandbox
+gaa manager/sandbox
+office season 1 episode list
+cricketer biography
+french royalty styles
+vietnamese
+sri lankan parliament
+v8 supercar record
+football biography fidanzato felicemente
+pan american games el salvador
+sports in region
+european rugby cup season
+football school
+'
+** if it can't find the infobox but the article is in the category, or vice versa, it's skipped.
+** otherwise, makes the appropriate change to the template on the talk page
+
+===discussion===
+pan american games dominica
+pan american games guyana
+nhl team season
+new jersey state legislature district
+videogame
+{{template:l4d
+ni civil parish
+monterrey metro/box
+monterrey metro/station
+monterrey metro/link
+country at the central american and caribbean games
+grandslamtournamentsdisciplines
+grandslamtournamentsfinals
+nfl team awards
+road/shield/zaf
+road/shield/hrv
+road/shield/nor
+road/meta/mask/country
+pan american games event
+road/meta/mask/subtype1
+burg/coord
+road/shield/rou
+road/shield/eur
+road/shieldmain/usa
+road/doc/country/links
+road/shield/cze
+road/shield/grc
+road/shield/hun
+road/shield/pol
+road/shield/ita
+road/shield/svn
+road/shield/svk
+road/shield/tur
+road/shield/esp
+afl lightning premiership
+road/shield/fra
+road/shield/che
+road/shield/ukr
+vfl national cup
+phil. cabinet
+militärischer konflikt
+road/shield/deu
+mma training associations
+paralympics individual paralympic athletes
+roller coaster model
+road/{{{1
+priest styles
+teen choice awards
+road/hide/countries
+road/sandbox
+aspect
+coord/unsigned
+paralympics macedonia
+country european athletics championships
+pakistan jurisdiction
+european rugby cup pool stage
+road/shield/bel
+road/shield/aus
+basketball club season
+tibetan buddhist monas = bomdila monastery
+state gun laws
+pahistoric/conv
+legislation/sandbox
+</code>) - just edit the
+:: <code>
+commonwealth games malta
+commonwealth games saint vincent and the grenadines
+spectacular spider-man season 1 episode list
+abl season
+itf women's circuit tournament
+east asian name/sandbox
+national racquetball team
+rairoa
+pageant titleholder/sandbox
+person/internet info
+defunct indian political party
+professional tennis tournament
+enzyme/sandbox
+person/signature
+modern family season two episode list
+asian netball championship
+frc team
+u.s. legislation/sandbox
+agence gouvernementale
+power station</code> in any article, with <code>{{infobox power station (temp)</code>; no field should disappear), and that the merge is good to go. [[user:rehman
+language/quilt
+commonwealth games event
+basketball pan american games tourney
+radio presenter
+road/shield/tto
+map/map display methods
+national football team season
+all-ireland hurling/label
+afl national cup pool competition
+civil conflict/color
+tram network/era
+australian place/sandbox
+american championship car season
+foobar</nowiki>" on its own line
+*one parameter = one line
+*final
+tennis tournament
+road/oh/shield cr
+canton de france
+ncaaicehockeyteamseason
+stausee</nowiki></code> you would type <code><nowiki>{{wp:dams/infobox stausee</nowiki></code> or <code><nowiki>{{wp:wikiproject dams/infobox stausee</nowiki></code> or wherever this template is moved.  the usage of the template would be temporary, and would be substituted when you are finished filling in the fields.  if it's not going to be temporary, then there is no reason to not have it stay where it is right now.  i imagine the template would be coded to act just like [[:template:infobox burg
+tennis mse
+anzc team season
+television station
+awardlolllll
+croatian eu membership referendum
+united states railfanning location
+doctor who audio book
+speedway team season
+uk legislation/tersetest
+school cricket bigmatch
+uk legislation/sandbox
+asian games event
+nbl season
+country at the universiade
+settlement
+...
+golden disk awards
+roller coaster extend
+asian para games iran
+musical artist
+</pre>
+:and be followed by a number of different fields.  look for the field named "associated acts", and edit what's the to right of the equals sign.  if you don't see "associated acts" add it as a new field.  --[[user:mysdaao
+asian para games vietnam
+naia football championship series
+olympic event category navbox
+road/shield/chn
+mountain hut
+former regency
+vg character/sandbox
+dam/stausee
+animanga/header/sandbox
+collection
+x/core
+pkw-modell
+tablet computer
+fossil/sandbox
+element
+country at the universiade/titles
+oz
+historic site/sandbox
+pl constituency
+disney ride/sandbox
+patience game
+championship event
+kbo team
+mnet asian music awards
+indian government official
+nonprofit
+bet awards
+bahraini uprising (2011–present)
+antipope styles
+twelver
+musician awards/customs
+2011–2012 saudi arabian protests
+weg country
+icc situation
+football match/sandbox
+national wheelchair basketball team
+nec tennis tournament
+demographics/percent
+demographics
+drug
+dutch royalty styles
+oliveoil
+pope</nowiki></code>, with <code><nowiki>{{infobox christian leader
+person  
+castrum/sandbox
+sports in region/sandbox
+ncaa women's college cup
+clothing item
+japanese university ranking
+arena football player/sandbox
+new york legislature
+youth in film awards
+earth
+institute/sandbox
+japanese university ranking (by subject)
+rail service/sandbox
+nsp
+singapore bus service
+paralympics west germany
+multi-sport competition event
+arena
+lego theme/sandbox
+international lacrosse competition
+country asian para games
+asian para games india
+asian para games singapore
+asian para games qatar
+ust college/style1
+mannaz
+procricket team
+nrl team season
+icehockeyteamseason
+asian para games south korea
+summer universiade italy
+indian politician, social reformer, vedic scholar
+nascar race report
+college rowing team
+asian para games myanmar
+asian para games turkmenistan
+asian para games china
+asian para games japan
+asian para games thailand
+asian para games malaysia
+asian para games iraq
+asian para games chinese taipei
+asian para games hong kong
+asian para games united arab emirates
+asian para games pakistan
+asian para games jordan
+asian para games indonesia
+asian para games saudi arabia
+asian para games sri lanka
+asian para games uzbekistan
+asian para games bahrain
+asian para games syria
+asian para games philippines
+asian para games palestine
+asian para games kuwait
+asian para games lebanon
+asian para games kazakhstan
+asian para games mongolia
+asian para games brunei
+asian para games afghanistan
+asian para games bangladesh
+asian para games cambodia
+asian para games kyrgyzstan
+asian para games laos
+asian para games macau
+asian para games nepal
+asian para games oman
+asian para games tajikistan
+asian para games timor-leste
+paf pilot
+hydroelectric power station
+railway cup
+hurling championship
+pll team
+wikipediacampusambassadorprogram
+ph collegiate finals
+ncaa soccer team season
+scient
+television/sandbox
+country at the european youth olympic festival
+mexican cabinet
+country and flag
+ncaa team season/sandbox
+Écrivain
+old mexican cabinet (1824-1880)
+mcu college
+swedish university ranking
+commonwealth youth games country
+indian urban area
+album...
+television black
+unternehmen2
+legendarycreatures
+media/header
+euroleague player
+athletics competition
+us field artillery
+chess piece
+abl team season
+bus route
+casino/sandbox
+bergwerk
+youth in film award
+all-africa games zimbabwe
+visual artist
+all-africa games south africa
+political party/sandbox
+canadian political party/{{{1
+census data
+about cas
+occupy movement/protest
+asean school games philippines
+ipod
+country olympics/sandbox
+rail franchise
+aacta television awards
+blah
+ncaa women's basketball rankings
+musical composition/sandbox
+ancient site/sandbox
+beach volleyball biography
+wheelchair tennis mse
+parapan american games event
+israel municipality/sandbox
+phone
+weather/concise f
+province or territory of canada/sandbox
+deutsche behörde
+india university ranking/global
+india university ranking
+scc chief justice
+/state gun laws
+ipa/core2
+gurudwara
+wsh
+schienenfahrzeug</nowiki>
+invention
+road/shield/bra
+road/shield/nld
+certification mark/sandbox
+uk ward/sandbox
+sanremo music festival
+teylers museum
+fictional character
+americas cup year
+bouchercon
+wheelchair tennis at multi sports events
+paralympics solomon islands
+ucs basic
+american championship car race report
+former country/event
+helpmann awards
+same sex union recognition
+handball tournament
+drug mechanism
+orchestra concert
+attraction/status
+<includeonly>
+people from foo
+church #ffcc99
+imageryintel
+basketball program
+maryland district court case
+ministro
+language/sandbox/colors/ifeq
+restoration trees
+sri lankan jurisdiction
+xxxxx
+producer discography
+iypt
+paralympics burma
+baseball game
+south carolina supreme court case
+film
+ name           = sundara pandian
+ image          = 
+ caption        = 
+ director       = r. raghu
+ producer       = r. raghu
+ co-producer    = r. ravikumar  
+ writer         = t. k. bose
+ starring       = {{ubl
+world education games
+language/ref
+language/codelist
+judge anderson book
+poet
+webmater
+reservoir
+ymcacamp
+wild card
+tijdschrift
+union choir
+moon hot spot data
+albanian royalty styles
+hotspot custom
+settlement chile/sandbox
+greek constituency
+mistry
+paralympics gambia
+paralympics malawi
+paralympics north korea
+paralympics san marino
+paralympics dr congo
+paralympics cameroon
+ottoman royalty styles
+european parliament constituency/sandbox
+time zone (north america)/calc
+time zone (north america)/main
+time zone (north america)
+egyptian royalty styles
+leuchtturm
+television amazing race/sandbox
+moroccan royalty styles
+periodic table group/footer
+company</nowiki>" and ends with "<nowiki>
+pyramid
+space program
+episode
+village
+women's college basketball team
+football club season1
+football biography
+ 
+county commissioner
+dim/core
+dim
+settlement
+settlement type        = village
+intermat middle east
+element/crystal structure wikilink/example
+element/crystal structure image/example
+element/crystal structure image
+element/crystal structure wikilink
+element/sandbox2
+european football
+olympics independents
+tabletennis player
+country all-africa games/titles
+country all-africa games
+all-africa games algeria
+/separator
+all-africa games egypt
+all-africa games united arab republic
+all-africa games nigeria
+football olympic tourney
+paralympics antigua and barbuda
+paralympics brunei
+space mission/sandbox
+mediterranean games yugoslavia
+commonwealth games
+paralympics virgin islands
+abu radio
+pan american games sport
+paralympics comoros
+paralympics albania
+paralympics djibouti
+paralympics guinea-bissau
+europeansquashteam
+squashteam
+paralympics mozambique
+paralympics liberia
+country mediterranean games/titles
+country mediterranean games
+mediterranean games united arab republic
+road/shield/alb
+bookx
+road/shield/isl
+rawang-seremban line
+bilateral relations/sandbox
+icelandic government cabinet
+road/shield/geo
+film" all the way to the closing "
+chinese-language singer and song-writer
+sri lankan provincial council
+junction
+schutzhütte
+jhdm trading ltd.
+abu tv
+university golf team
+abu radio national year
+abu tv national year
+world university ranking/global
+world university ranking
+technical university ranking
+wnba finals summary
+pilot
+cabinet
+protestant union
+i name = protestant union
+ncaa fencing school
+organization</nowiki></code>. perhaps this confused you if you have never edited before. see {{tl
+leadership election/sandbox
+legislative assembly of puerto rico
+internet show
+transmedia story
+senate of puerto rico
+house of representatives of puerto rico
+school 
+name = the knox school
+intragovernmental bank
+mountain/convert
+canadian football game/sandbox
+chinese-language actor and blogger
+firearm cartridge/ballistics
+firearm cartridge/convert
+naturraum in deutschland
+" set "needs-infobox=" to "no" otherwise set it to "yes".
+##if the article is a stub (ie stub tag on article or "class=stub" on talk page) ensure that {{tl
+road/shield/bgd
+geographer
+religious place
+twenty20 club season
+road/shield/chl
+award nominations
+magic: the gathering set
+islamic icon
+missouri supreme court case
+drama
+fußballklub
+nature reserve
+ipa/core2/sandbox
+martial artist abdelwahid habibullah
+legislative district
+institut de recherche
+settlement/pref
+halftime show
+total info:3916
+on_end_document
+count:1988181
+4957.434774
