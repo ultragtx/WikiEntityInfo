@@ -4,3 +4,4 @@ categories1/*
 *.db
 data/database/*
 data/dump_file/*
+API/java/WikiEntity/bin
