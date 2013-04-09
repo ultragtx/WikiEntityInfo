@@ -2,6 +2,7 @@
 
 require_relative './wikicloth/lib/wikicloth.rb'
 require 'nokogiri'
+require 'timeout'
 
 class Page
   attr_accessor :title, :id, :redirect
@@ -101,6 +102,8 @@ class Page
   end
   
   def html_property!
+    # begin
+    # Timeout::timeout(5) {
     full_mode! if self.mode != "full"
     properties.each do |key, value| 
       raw_value = value
@@ -111,9 +114,9 @@ class Page
         content.gsub!('=', ':')
         content + " "
       end
-      
+  
       wiki_parser = WikiCloth::Parser.new({:data => raw_value})
-      
+  
       html_value = nil
       begin
         html_value = wiki_parser.to_html
@@ -123,9 +126,9 @@ class Page
         html_value = value
         # gets
       end
-      
+  
       # html_value.chomp!
-      
+  
       if key =~ /(logo|ロゴ|画像)$/
         html_value.gsub!(/(img src="(.*?)")/) do |m|
           original = $1
@@ -134,9 +137,13 @@ class Page
           "#{original} onerror=\"this.src=\'#{src_fallback}\';\""
         end
       end 
-      
+  
       properties[key] = html_value
     end
+    # }
+    # rescue => e
+    # puts "html_property! timeout, probably because of regex hang."
+    # end
   end
   
   def plaintext_property!

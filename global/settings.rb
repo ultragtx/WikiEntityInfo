@@ -13,3 +13,11 @@ DATABASE_DIR = "/Users/ultragtx/DevProjects/Ruby/WikipediaEntityAnalyser2/data/d
 
 FileUtils.mkdir_p DUMP_FILE_DIR
 FileUtils.mkdir_p DATABASE_DIR
+
+
+# MySQL database
+
+MYSQL_HOST = "127.0.0.1"
+MYSQL_USER = "root"
+MYSQL_PASSWD = ""
+MYSQL_DATABASE_NAME = "wikientity"

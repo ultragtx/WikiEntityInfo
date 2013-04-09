@@ -4,6 +4,9 @@ require_relative './logo_utils'
 
 class InfoParser
   def initialize(lang)
+    #^{{(Infobox.*?)^\|?}}
+    #^{{(Infobox.*)}}.*?'''
+
     @infobox_content_type_exps = [{:content => /^{{(Infobox.*?)^\|?}}/m, 
                                    :type => /^Infobox(.*?)(\||\}|\<!)/m, 
                                    :logo_key => /logo$/,

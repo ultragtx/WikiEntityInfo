@@ -15,14 +15,19 @@ text = <<TEXT
 {{CNY|link=yes|527.99 billion}} (2011)<ref name="icbc-ltd.com">http://www.google.com/finance?q=NYSE%3ACHL&fstype=ii&ei=_r1rUOjpCcabkAX3Cg</ref>
 TEXT
 
-text.gsub!(/(\{\{(.*?)\}\})/m) do |template|
-  content = $2
-  content.gsub!('|',' ')
-  content.gsub!('=', ':')
-  content + " "
-end
+text = <<TEXT
+<!-- OPTIONAL : State school colours, using words, then <br>then
+                                         {{colorbox|#xxyyzz}}
+TEXT
 
-puts text
+# text.gsub!(/(\{\{(.*?)\}\})/m) do |template|
+#   content = $2
+#   content.gsub!('|',' ')
+#   content.gsub!('=', ':')
+#   content + " "
+# end
+# 
+# puts text
 
 # text = <<TEXT
 # [[China Mobile Communications Corporation]] (74.22%) [http://www.chinamobileltd.com/images/pdf/2010/ar/2009_a_full.pdf Annual report 2009]

@@ -10,8 +10,8 @@ class MySQLHelper
   # Sequel::Model.plugin :force_encoding, 'UTF-8'
 
 	def initialize
-    @db = Sequel.connect("mysql2://root:@127.0.0.1/wikientity")
-    
+    # @db = Sequel.connect("mysql2://root:@127.0.0.1/wikientity")
+    @db = Sequel.connect("mysql2://#{MYSQL_USER}:#{MYSQL_PASSWD}@#{MYSQL_HOST}/#{MYSQL_DATABASE_NAME}")
     LANGS.each do |lang|
       table_name = :"#{lang}_pages"
 
