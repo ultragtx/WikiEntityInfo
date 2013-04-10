@@ -22,6 +22,17 @@ asdf <!-- OPTIONAL : State school colours, using words, then <br>then
                                          {{colorbox|#xxyyzz}} -->
 TEXT
 
+puts "test exit"
+
+i = 0
+while i < 100
+  i++
+  exit
+end 
+
+puts "test exit end"
+
+
 s = Time.now
 i = 0
 while i < 1

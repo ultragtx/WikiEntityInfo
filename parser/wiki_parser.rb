@@ -28,8 +28,8 @@ if __FILE__ == $0
   file_path_zh = "/Users/ultragtx/Downloads/zhwiki-20130204-pages-articles.xml.bz2"
 
   # DumpFileParser.new(file_path_zh, "zh", true).parse
-  # DumpFileParser.new(file_path_ja, "ja", true).parse
-  DumpFileParser.new(file_path_en, "en", true).parse
+  DumpFileParser.new(file_path_ja, "ja", true).parse
+  # DumpFileParser.new(file_path_en, "en", true).parse
 
 end
 

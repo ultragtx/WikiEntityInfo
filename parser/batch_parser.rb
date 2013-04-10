@@ -30,8 +30,8 @@ class BatchParser < InfoParser
     
     @page_count = 0
     
-    @dbhelper = DbHelper.new
-    @mysql_helper = MySQLHelper.new
+    @dbhelper = DbHelper.new(lang)
+    @mysql_helper = MySQLHelper.new(lang)
   end
   
   def on_start_document
@@ -40,8 +40,11 @@ class BatchParser < InfoParser
   end
   
   def on_end_document
+    @dbhelper.clean_up
+    @mysql_helper.clean_up
+    
     @end_time = Time.now
-
+    
     puts "on_end_document"
     puts (@end_time - @start_time).to_s
   end
@@ -193,10 +196,18 @@ class BatchParser < InfoParser
           # 
           # gets 
           
-          @dbhelper.insert_update_page(@current_page, lang)
-          @mysql_helper.insert_update_page(plain_page, lang)
-          
+          @dbhelper.insert_page(@current_page)
+          @mysql_helper.insert_page(plain_page)
         end
+        
+        # Clean up test
+        # if @page_count > 2000
+        #   puts "clean up"
+        #   gets
+        #   @dbhelper.clean_up
+        #   @mysql_helper.clean_up
+        #   exit
+        # end
       end
     end
     @current_string = nil

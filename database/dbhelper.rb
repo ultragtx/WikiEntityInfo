@@ -9,31 +9,37 @@ class DbHelper
 	Sequel::Model.plugin :schema
   # Sequel::Model.plugin :force_encoding, 'UTF-8'
 
-	def initialize
+	def initialize(lang)
     @db = Sequel.sqlite("#{DATABASE_DIR}/test.db")
+    @lang = lang
     
-    LANGS.each do |lang|
-      table_name = :"#{lang}_pages"
+    @table_name = :"#{@lang}_pages_cur"
+    @db.drop_table? @table_name
 
-      @db.create_table? table_name do
-        primary_key :id, :integer ,:auto_increment
-        String :title
-        String :redirect
+    @db.create_table? @table_name do
+      primary_key :id, :integer ,:auto_increment
+      String :title
+      String :redirect
 
-        String :infobox_type
-        String :properties
-        String :aliases
-        String :aliases_forien
-        String :categories
-        String :sha1
-      end
+      String :infobox_type
+      String :properties
+      String :aliases
+      String :aliases_forien
+      String :categories
+      String :sha1
     end
-	end
 
-	def insert_page(page, lang)
+	end
+  
+  def clean_up
+    @db.drop_table? :"#{@lang}_pages"
+    @db.rename_table :"#{@lang}_pages_cur", :"#{@lang}_pages"
+  end
+
+	def insert_page(page)
     page.string_mode! # make it easy for storage
     
-    pages = @db[:"#{lang}_pages"]
+    pages = @db[@table_name]
     
     pages.insert(
     :title          => page.title,
@@ -48,10 +54,10 @@ class DbHelper
 
 	end
   
-  def insert_update_page(page, lang)
+  def insert_update_page(page)
     page.string_mode! # make it easy for storage
     
-    pages = @db[:"#{lang}_pages"]
+    pages = @db[@table_name]
     
     page_data = pages[:title => page.title]
     # puts page_data
