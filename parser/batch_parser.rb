@@ -41,12 +41,8 @@ class BatchParser < InfoParser
   
   def on_end_document
     @end_time = Time.now
-    # @infobox_hash.keys.each {|key| puts "@@#{key}$$"}
-    @infobox_hash.keys.each {|key| puts "#{key}"}
-    # @infobox_hash.each {|key| puts "#{key}"}
-    puts "total info:#{@infobox_hash.count}"
+
     puts "on_end_document"
-    puts "count:#{@info_count}"
     puts (@end_time - @start_time).to_s
   end
   

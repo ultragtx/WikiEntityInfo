@@ -71,7 +71,7 @@ class DbHelper
 
     else
       # puts "<<<update"
-      pages.where(:title => page.title).update(
+      pages.first(:title => page.title).update(
       :redirect       => page.redirect,
       :infobox_type   => page.infobox_type,
       :properties     => page.properties,
