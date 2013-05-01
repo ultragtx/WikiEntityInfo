@@ -45,6 +45,7 @@ e.properties.each do |property|
 end
   
   
+e.name = "what the fuck"
 
 
 

@@ -11,8 +11,9 @@ class InfoParser
                                    :type => /^Infobox(.*?)(\||\}|\<!)/m, 
                                    :logo_key => /logo$/,
                                    :logo_value => /\[\[(File|Image):([^\|]*?)(\|([^\|]*?))?(\|([^\|]*?))?\]\]/ }]
-    @infobox_useful_types = [/company/, /university/, /organization/, 
-                             /organisation/, /agency/, /school/]
+    @infobox_useful_types = [/company/]
+    # @infobox_useful_types = [/company/, /university/, /organization/, 
+    #                          /organisation/, /agency/, /school/]
     @infobox_key_value_pair_exps = [/^\s*\|(.*?)=(.*?)(?=^\s*\||\|\s*$|\z)/m, /\|\s*$(.*?)=(.*?)(?=\|\s*$|\z)/m]
     
     @main_paragraph_exp = /^('''.*?)$/
@@ -29,24 +30,25 @@ class InfoParser
     @lang = lang
     
     if lang == "ja"
-      @infobox_content_type_exps.insert(0, {:content => /^{{(大学.*?)^\|?}}/m, 
-                                            :type => "大学",
-                                            :logo_key => /(ロゴ|画像|紋章)$/,
-                                            :logo_value => /\[\[(ファイル|File|Image|画像):([^\|]*?)(\|([^\|]*?))?(\|([^\|]*?))?\]\]/,
-                                            :special => true})
+      # @infobox_content_type_exps.insert(0, {:content => /^{{(大学.*?)^\|?}}/m, 
+      #                                       :type => "大学",
+      #                                       :logo_key => /(ロゴ|画像|紋章)$/,
+      #                                       :logo_value => /\[\[(ファイル|File|Image|画像):([^\|]*?)(\|([^\|]*?))?(\|([^\|]*?))?\]\]/,
+      #                                       :special => true})
 
-      @infobox_content_type_exps.insert(0, {:content => /^{{(行政官庁.*?)^\|?}}/m, 
-                                            :type => "行政官庁",
-                                            :logo_key => /(ロゴ|画像|紋章)$/,
-                                            :logo_value => /\[\[(ファイル|File|Image|画像):([^\|]*?)(\|([^\|]*?))?(\|([^\|]*?))?\]\]/,
-                                            :special => true})
+      # @infobox_content_type_exps.insert(0, {:content => /^{{(行政官庁.*?)^\|?}}/m, 
+      #                                       :type => "行政官庁",
+      #                                       :logo_key => /(ロゴ|画像|紋章)$/,
+      #                                       :logo_value => /\[\[(ファイル|File|Image|画像):([^\|]*?)(\|([^\|]*?))?(\|([^\|]*?))?\]\]/,
+      #                                       :special => true})
                                             
       @infobox_content_type_exps.insert(0, {:content => /^{{(基礎情報.*?)^\|?}}/m, 
                                             :type => /^基礎情報(.*?)(\||\}|\<!)/m,
                                             :logo_key => /(ロゴ|画像|紋章)$/,
                                             :logo_value => /\[\[(ファイル|File|Image|画像):([^\|]*?)(\|([^\|]*?))?(\|([^\|]*?))?\]\]/})
                                             
-      @infobox_useful_types = [/会社/, /組織/] + @infobox_useful_types
+      @infobox_useful_types = [/会社/] + @infobox_useful_types
+      # @infobox_useful_types = [/会社/, /組織/] + @infobox_useful_types
       
     end
     

@@ -118,6 +118,18 @@ class FrontEnd < Sinatra::Application
       @entities << e if e
     end
     
+    @entities.each do |e|
+      case @current_data_style
+      when "html"
+        e.html_property!
+      when "plain"
+        e.plaintext_property!
+      when "raw"
+        e.escape_html_property!
+        # puts page.properties
+      end
+    end
+    
     puts @entities.count
     
     erb :entity, :layout => :basic

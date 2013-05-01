@@ -168,11 +168,6 @@ class BatchParser < InfoParser
 
         if @useful_page
           # Database Storage
-          # puts "--------Page [#{@page_count}]----------"
-          # puts @current_page
-          # 
-
-          # gets
           
           # plain_page = @current_page.copy
           # plain_page.plaintext_property!
@@ -187,6 +182,12 @@ class BatchParser < InfoParser
           # @dbhelper.insert_page(@current_page)
           # @mysql_helper.insert_page(plain_page)
           @current_entity.save
+          
+          # change property style after save to prevent saving
+          puts "--------Page [#{@page_count}]----------"
+          @current_entity.plaintext_property!
+          puts @current_entity
+          gets
         end
         
         # Clean up test
@@ -257,8 +258,6 @@ class BatchParser < InfoParser
           @current_entity.add_category(category)
           category.save
         end
-        
-        gets  
         
         # @current_page.infobox_type = infobox_type
         # @current_page.properties = infobox_properties
