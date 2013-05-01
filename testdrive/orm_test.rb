@@ -16,7 +16,6 @@ entity = Entity.new
 entity.name = "test"
 entity.lang = "en"
 
-
 alias_name = AliasName.new
 # puts AliasName.columns
 
@@ -34,6 +33,18 @@ property.save
 entity.save
 entity.add_alias_name(alias_name)
 entity.add_property(property)
+
+e = Entity[3]
+puts e.name
+e.alias_names.each do |alias_name|
+  puts alias_name.name
+end
+
+e.properties.each do |property|
+  puts property.key + "=" + property.value
+end
+  
+
 
 
 

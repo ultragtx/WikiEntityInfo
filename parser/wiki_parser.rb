@@ -1,7 +1,9 @@
 # encoding: utf-8
 
 require 'bzip2'
+require_relative '../db/init'
 require_relative 'batch_parser'
+
 
 class DumpFileParser
   

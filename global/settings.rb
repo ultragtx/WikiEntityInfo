@@ -14,7 +14,6 @@ DATABASE_DIR = "/Users/ultragtx/DevProjects/Ruby/WikiEntityInfo/data/database"
 FileUtils.mkdir_p DUMP_FILE_DIR
 FileUtils.mkdir_p DATABASE_DIR
 
-
 # MySQL database
 
 MYSQL_HOST = "127.0.0.1"

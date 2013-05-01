@@ -4,10 +4,9 @@ require 'sequel'
 
 Sequel.migration do
   change do 
-    create_table(:properties) do
+    create_table(:categories) do
       primary_key :id, :integer, :auto_increment
-      String :key, null: false
-      String :value
+      String :name, null: false
       String :lang, null: false
       foreign_key :entity_id
     end

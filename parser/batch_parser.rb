@@ -3,8 +3,9 @@
 require 'libxml'
 require_relative 'entity'
 require_relative 'info_parser'
-require_relative '../database/dbhelper'
-require_relative '../database/mysqlhelper'
+# require_relative '../database/dbhelper'
+# require_relative '../database/mysqlhelper'
+require_relative '../model/init'
 
 class BatchParser < InfoParser
   include LibXML::XML::SaxParser::Callbacks
@@ -30,8 +31,8 @@ class BatchParser < InfoParser
     
     @page_count = 0
     
-    @dbhelper = DbHelper.new(lang)
-    @mysql_helper = MySQLHelper.new(lang)
+    # @dbhelper = DbHelper.new(lang)
+    # @mysql_helper = MySQLHelper.new(lang)
   end
   
   def on_start_document
@@ -40,8 +41,9 @@ class BatchParser < InfoParser
   end
   
   def on_end_document
-    @dbhelper.clean_up
-    @mysql_helper.clean_up
+    # TODO: clean up tablet to speed up
+    # @dbhelper.clean_up
+    # @mysql_helper.clean_up
     
     @end_time = Time.now
     
@@ -101,7 +103,9 @@ class BatchParser < InfoParser
     elsif name == "page"
       @in_page = true
 
-      @current_page = Page.new
+      # @current_page = Page.new
+      @current_entity = Entity.new
+      @current_entity.lang = @lang
       @useful_page = false
 
       @useful_element = false
@@ -149,7 +153,7 @@ class BatchParser < InfoParser
         self.get_info
       when "sha1"
         @in_sha1 = false
-        @current_page.sha1 = @current_string
+        # @current_page.sha1 = @current_string
       when "model"
         @in_model = false
         # @current_page.model = @current_string
@@ -163,16 +167,18 @@ class BatchParser < InfoParser
       case name
       when "title"
         @in_title = false
-        @current_page.title = @current_string
+        # @current_page.title = @current_string
+        @current_entity.name = @current_string
       when "ns"
         @in_ns = false
         # @current_page.ns = @current_string
       when "id"
         @in_id = false
-        @current_page.id = @current_string
+        # @current_page.id = @current_string
       when "redirect"
         @in_redirect = false
-        @current_page.redirect = @current_string
+        # @current_page.redirect = @current_string
+        @current_entity.redirect = @current_string
       when "page"
         @in_page = false
         # @pages += [@current_page]
@@ -186,8 +192,8 @@ class BatchParser < InfoParser
 
           # gets
           
-          plain_page = @current_page.copy
-          plain_page.plaintext_property!
+          # plain_page = @current_page.copy
+          # plain_page.plaintext_property!
           
           # puts '-----'
           # puts @current_page
@@ -196,8 +202,9 @@ class BatchParser < InfoParser
           # 
           # gets 
           
-          @dbhelper.insert_page(@current_page)
-          @mysql_helper.insert_page(plain_page)
+          # @dbhelper.insert_page(@current_page)
+          # @mysql_helper.insert_page(plain_page)
+          @current_entity.save
         end
         
         # Clean up test
@@ -224,17 +231,57 @@ class BatchParser < InfoParser
       useful_type, infobox_type, infobox_properties = get_infobox(@current_string)
       if useful_type
         @useful_page = true
+        
         aliases = get_alias(@current_string)
         categories = get_category(@current_string)
         aliases_forien = get_forien_alias(@current_string)
         
-        @current_page.infobox_type = infobox_type
-        @current_page.properties = infobox_properties
-        @current_page.aliases = aliases
-        @current_page.aliases_forien = aliases_forien
-        @current_page.categories = categories
+        # set forien names
+        @current_entity.en_name = aliases_forien[:en]
+        @current_entity.zh_name = aliases_forien[:zh]
+        @current_entity.ja_name = aliases_forien[:ja]
         
-        @current_page.lang = @lang
+        @current_entity.save # save to get id
+        
+        # set alias_names
+        aliases << @current_entity.name # add current name to aliases
+        
+        aliases.each do |name|
+          alias_name = AliasName.new
+          alias_name.name = name
+          alias_name.lang = @lang
+          @current_entity.add_alias_name(alias_name)
+          alias_name.save
+        end
+        
+        # set properties
+        infobox_properties.each do |key, value|
+          property = Property.new
+          property.key = key
+          property.value = value
+          property.lang = @lang
+          @current_entity.add_property(property)
+          property.save
+        end
+        
+        # set categories
+        categories.each do |name|
+          category = Category.new
+          category.name = name
+          category.lang = @lang
+          @current_entity.add_category(category)
+          category.save
+        end
+        
+        gets  
+        
+        # @current_page.infobox_type = infobox_type
+        # @current_page.properties = infobox_properties
+        # @current_page.aliases = aliases
+        # @current_page.aliases_forien = aliases_forien
+        # @current_page.categories = categories
+        # 
+        # @current_page.lang = @lang
       end
     end
     @page_count += 1

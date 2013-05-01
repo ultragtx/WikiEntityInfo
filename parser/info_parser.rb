@@ -138,7 +138,7 @@ class InfoParser
     if main_paragraph
       main_paragraph.scan(@alias_names_exp) do |alias_name|
         # puts "alias_names:#{alias_name[0]}"
-        aliases << alias_name
+        aliases << alias_name[0] # alias_name is an arry
       end
     end
     return aliases
@@ -148,7 +148,7 @@ class InfoParser
     categories = []
     text.scan(@categorys_exp) do |category_name|
       # puts "[#{category_name}]"
-      categories << category_name
+      categories << category_name[0] # category_name is an arry
     end
     return categories
   end
