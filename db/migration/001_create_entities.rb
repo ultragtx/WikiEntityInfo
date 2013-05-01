@@ -8,6 +8,7 @@ Sequel.migration do
       primary_key :id, :integer, :auto_increment
       String :name, null: false
       String :redirect
+      String :infobox_type
       String :lang, null: false
       String :en_name
       String :zh_name

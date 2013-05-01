@@ -44,6 +44,8 @@ e.properties.each do |property|
   puts property.key + "=" + property.value
 end
   
+  
+
 
 
 

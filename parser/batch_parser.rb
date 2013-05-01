@@ -30,9 +30,6 @@ class BatchParser < InfoParser
     @info_count = 0
     
     @page_count = 0
-    
-    # @dbhelper = DbHelper.new(lang)
-    # @mysql_helper = MySQLHelper.new(lang)
   end
   
   def on_start_document
@@ -43,7 +40,6 @@ class BatchParser < InfoParser
   def on_end_document
     # TODO: clean up tablet to speed up
     # @dbhelper.clean_up
-    # @mysql_helper.clean_up
     
     @end_time = Time.now
     
@@ -71,7 +67,6 @@ class BatchParser < InfoParser
       when "contributor"
         @in_contributor = true
         @useful_element = false
-        # @current_page.revision.contributor = Contributor.new
       when "minor"
         @in_minor = true
       when "comment"
@@ -98,12 +93,10 @@ class BatchParser < InfoParser
       when "revision"
         @in_revision = true
         @useful_element = false
-        # @current_page.revision = Revision.new
       end
     elsif name == "page"
       @in_page = true
 
-      # @current_page = Page.new
       @current_entity = Entity.new
       @current_entity.lang = @lang
       @useful_page = false
@@ -135,19 +128,14 @@ class BatchParser < InfoParser
       case name
       when "id"
         @in_revid = false
-        # @current_page.revid = @current_string
       when "parentid"
         @in_parentid = false
-        # @current_page.parentid = @current_string
       when "timestamp"
         @in_timestamp = false
-        # @current_page.timestamp = @current_string
       when "minor"
         @in_minor = false
-        # @current_page.minor = @current_string
       when "comment"
         @in_comment = false
-        # @current_page.comment = @current_string
       when "text"
         @in_text = false
         self.get_info
@@ -156,10 +144,8 @@ class BatchParser < InfoParser
         # @current_page.sha1 = @current_string
       when "model"
         @in_model = false
-        # @current_page.model = @current_string
       when "format"
         @in_format = false
-        # @current_page.format = @current_string
       when "revision"
         @in_revision = false
       end
@@ -167,17 +153,13 @@ class BatchParser < InfoParser
       case name
       when "title"
         @in_title = false
-        # @current_page.title = @current_string
         @current_entity.name = @current_string
       when "ns"
         @in_ns = false
-        # @current_page.ns = @current_string
       when "id"
         @in_id = false
-        # @current_page.id = @current_string
       when "redirect"
         @in_redirect = false
-        # @current_page.redirect = @current_string
         @current_entity.redirect = @current_string
       when "page"
         @in_page = false
@@ -235,6 +217,9 @@ class BatchParser < InfoParser
         aliases = get_alias(@current_string)
         categories = get_category(@current_string)
         aliases_forien = get_forien_alias(@current_string)
+        
+        # set infobox type
+        @current_entity.infobox_type = infobox_type
         
         # set forien names
         @current_entity.en_name = aliases_forien[:en]

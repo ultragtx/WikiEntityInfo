@@ -3,7 +3,9 @@
 require "sinatra/base"
 require "sinatra/cookies"
 require "open-uri"
-require_relative '../Database/dbhelper'
+# require_relative '../Database/dbhelper'
+require_relative '../db/init'
+require_relative '../model/init'
 
 class LangPage
   attr_accessor :lang
@@ -22,7 +24,7 @@ class FrontEnd < Sinatra::Application
     super
     @langs = {:zh => "Chinese", :en => "English", :ja => "Japanese"}
     @data_styles = {:raw => "Raw", :html => "HTML", :plain => "Plain"}
-    @dbhelper = DbHelper.new
+    # @dbhelper = DbHelper.new
   end
   
   helpers do
@@ -61,37 +63,62 @@ class FrontEnd < Sinatra::Application
     
     title = params[:title]
     
-    page = @dbhelper.page_with_title(title, @current_lang)
+    # page = @dbhelper.page_with_title(title, @current_lang)
     
-    @current_lang_pages = []
-    @current_lang_pages << LangPage.new(@current_lang, page)
+    # @current_lang_pages = []
+    # @current_lang_pages << LangPage.new(@current_lang, page)
     
-    page.aliases_forien.each do |lang, title|
-      if title
-        forien_page = @dbhelper.page_with_title(title, lang)
-        # puts "-----"
-        # puts title if forien_page
-        # puts forien_page.class
-        @current_lang_pages << LangPage.new(lang, forien_page) if forien_page
-      end
+    # page.aliases_forien.each do |lang, title|
+    #   if title
+    #     forien_page = @dbhelper.page_with_title(title, lang)
+    #     # puts "-----"
+    #     # puts title if forien_page
+    #     # puts forien_page.class
+    #     @current_lang_pages << LangPage.new(lang, forien_page) if forien_page
+    #   end
+    # end
+    # 
+    # @current_lang_pages.each do |lang_page|
+    #   page = lang_page.page
+    #   case @current_data_style
+    #   when "html"
+    #     page.html_property!
+    #   when "plain"
+    #     page.plaintext_property!
+    #   when "raw"
+    #     page.properties.each do |key, value|
+    #       page.properties[key] = Rack::Utils.escape_html(value)
+    #     end
+    #     puts page.properties
+    #   end
+    # end
+    
+    entity = Entity.where(name: title, lang: @current_lang).first
+    @entities = []
+    @entities << entity
+    
+    puts "-------"
+    puts entity.en_name if entity.en_name
+    puts entity.zh_name if entity.zh_name
+    puts entity.ja_name if entity.ja_name
+    puts "+++++++"
+    
+    if entity.en_name
+      e = Entity.where(name: entity.en_name, lang: "en").first 
+      @entities << e if e
     end
     
-    @current_lang_pages.each do |lang_page|
-      page = lang_page.page
-      case @current_data_style
-      when "html"
-        page.html_property!
-      when "plain"
-        page.plaintext_property!
-      when "raw"
-        page.properties.each do |key, value|
-          page.properties[key] = Rack::Utils.escape_html(value)
-        end
-        puts page.properties
-      end
+    if entity.zh_name
+      e = Entity.where(name: entity.zh_name, lang: "zh").first 
+      @entities << e if e
     end
     
-    # puts @current_lang_pages.count
+    if entity.ja_name
+      e = Entity.where(name: entity.ja_name, lang: "ja").first 
+      @entities << e if e
+    end
+    
+    puts @entities.count
     
     erb :entity, :layout => :basic
   end
