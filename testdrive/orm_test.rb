@@ -10,6 +10,12 @@ puts DB.tables
 
 require_relative '../model/entity'
 require_relative '../model/alias_name'
+require_relative '../model/property'
+
+entity = Entity.new
+entity.name = "test"
+entity.lang = "en"
+
 
 alias_name = AliasName.new
 # puts AliasName.columns
@@ -19,8 +25,15 @@ alias_name.name = "test"
 alias_name.lang = "en"
 alias_name.save
 # 
-entity = Entity.new
-entity.title = "test"
-entity.lang = "en"
+property = Property.new
+property.key = "testkey"
+property.value = "testvalue"
+property.lang = "en"
+property.save
+
 entity.save
+entity.add_alias_name(alias_name)
+entity.add_property(property)
+
+
 

@@ -4,14 +4,12 @@ require 'sequel'
 
 Sequel.migration do
   change do 
-    create_table(:entities) do
+    create_table(:properties) do
       primary_key :id, :integer, :auto_increment
-      String :name, null: false
-      String :redirect
+      String :key
+      String :value, null: false
       String :lang, null: false
-      String :en_name
-      String :zh_name
-      String :ja_name
+      foreign_key :entity_id
     end
   end
 end
