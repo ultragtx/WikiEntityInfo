@@ -97,12 +97,6 @@ class FrontEnd < Sinatra::Application
     @entities = []
     @entities << entity
     
-    puts "-------"
-    puts entity.en_name if entity.en_name
-    puts entity.zh_name if entity.zh_name
-    puts entity.ja_name if entity.ja_name
-    puts "+++++++"
-    
     if entity.en_name
       e = Entity.where(name: entity.en_name, lang: "en").first 
       @entities << e if e
@@ -130,7 +124,7 @@ class FrontEnd < Sinatra::Application
       end
     end
     
-    puts @entities.count
+    # puts @entities.count
     
     erb :entity, :layout => :basic
   end
@@ -144,9 +138,11 @@ class FrontEnd < Sinatra::Application
     
     # search_text = URI::decode(request.query_string).split('=')[1]
     search_text = params[:search]
-    search_text.gsub!('+', ' ')
+    search_text.gsub!('+', '%')
     puts search_text
-    @current_pages = @dbhelper.pages_like_title(search_text, @current_lang)
+    # @current_pages = @dbhelper.pages_like_title(search_text, @current_lang)
+    @alias_names = AliasName.where(lang: @current_lang).filter(Sequel.ilike(:name, "%#{search_text}%"))
+    # puts @alias_names.count
     erb :search, :layout => :basic
   end
   

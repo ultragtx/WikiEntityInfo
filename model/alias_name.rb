@@ -3,5 +3,5 @@
 require 'sequel'
 
 class AliasName < Sequel::Model
-  many_to_one :entities
+  many_to_one :entity
 end
