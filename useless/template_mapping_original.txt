@@ -1,0 +1,54 @@
+{{Infobox company           {{Infobox company   	{{基礎情報 会社    	
+| name                =		| name             =	|社名              	
+* name_en             =		| logo             =	|英文社名          	
+| logo                =		| caption          =	|ロゴ              	
+| caption             =		| trading_name     =	|画像              	
+| type                =		| native_name      =	|画像説明          	
+| original_text       =		| native_name_lang =	|種類              	
+| other_text          =		| romanized        =	|市場情報          	
+| traded_as           =		| former type      =	|略称              	
+| ROC_UBN             =		| type             =	|国籍              	
+| fate                =		| traded_as        =	|本社郵便番号      	
+| predecessor         =		| industry         =	|本社所在地        	
+| successor           =		| genre            =	|本店郵便番号      	
+| foundation          =		| fate             =	|本店所在地        	
+| defunct             =		| predecessor      =	|設立              	
+| location            =		| successor        =	|業種              	
+| locations           =		| foundation       =	|統一金融機関コード	
+| area_served         =		| founder          =	|SWIFTコード       	
+| founder             =		| defunct          =	|事業内容          	
+| chairman            =		| location_city    =	|代表者            	
+| president           =		| location_country =	|資本金            	
+| MD                  =		| locations        =	|発行済株式総数    	
+| GM                  =		| area_served      =	|売上高            	
+| CEO                 =		| key_people       =	|経常利益          	
+| COO                 =		| products         =	|営業利益          	
+| CFO                 =		| production       =	|純利益            	
+| CMO                 =		| services         =	|純資産            	
+| key_people          =		| revenue          =	|総資産            	
+| industry            =		| operating_income =	|従業員数          	
+| products            =		| net_income       =	|支店舗数          	
+| services            =		| aum              =	|決算期            	
+| revenue             =		| assets           =	|主要株主          	
+| operating_income    =		| equity           =	|主要子会社        	
+| net_income          =		| owner            =	|関係する人物      	
+| aum                 =		| num_employees    =	|外部リンク        	
+| assets              =		| parent           =	|特記事項          	
+| equity              =		| divisions        =	
+| owner               =		| subsid           =							
+| num_employees       =		| homepage         =							
+| parent              =		| footnotes        =							
+| divisions           =		| intl             =							
+| subsid              =		| bodystyle        =							
+| homepage            =															
+| zip_code            =														
+| telephone_no        =														
+| slogan              =														
+| capital             =														
+| market_value        =														
+| P/E ratio           =														
+| earnings per share  =														
+| Net asset value     =														
+| accounting_period   =														
+| major_shareholder   =														
+| footnotes           =														

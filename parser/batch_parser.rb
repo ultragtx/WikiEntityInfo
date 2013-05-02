@@ -231,6 +231,7 @@ class BatchParser < InfoParser
         
         # set alias_names
         aliases << @current_entity.name # add current name to aliases
+        aliases.uniq!
         
         aliases.each do |name|
           alias_name = AliasName.new

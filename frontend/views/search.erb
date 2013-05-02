@@ -10,7 +10,7 @@
         </tr>
         <% @alias_names.each do |alias_name| %>
             <tr>
-                <td><a href='/<%= @current_lang %>/<%= @current_data_style %>/w/<%= alias_name.entity.name %>'><%= alias_name.entity.name %></a></td>
+                <td><a href='/<%= @current_lang %>/<%= @current_data_style %>/w/<%= alias_name.entity.name %>'><%= alias_name.name %></a></td>
             </tr>
         <% end %>
     </tbody>
