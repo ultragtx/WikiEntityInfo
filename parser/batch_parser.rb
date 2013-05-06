@@ -168,6 +168,10 @@ class BatchParser < InfoParser
 
         if @useful_page
           # Database Storage
+          # puts "--------Page [#{@page_count}]----------"
+          # @current_entity.plaintext_property!
+          # puts @current_entity
+          # gets
           
           # plain_page = @current_page.copy
           # plain_page.plaintext_property!
@@ -184,10 +188,7 @@ class BatchParser < InfoParser
           @current_entity.save
           
           # change property style after save to prevent saving
-          puts "--------Page [#{@page_count}]----------"
-          @current_entity.plaintext_property!
-          puts @current_entity
-          gets
+          
         end
         
         # Clean up test

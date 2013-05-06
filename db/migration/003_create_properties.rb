@@ -7,7 +7,7 @@ Sequel.migration do
     create_table(:properties) do
       primary_key :id, :integer, :auto_increment
       String :key, null: false
-      String :value
+      Text :value
       String :lang, null: false
       foreign_key :entity_id
     end

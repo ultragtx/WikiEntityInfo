@@ -93,4 +93,13 @@ class Entity < Sequel::Model
     puts "zh: #{self.zh_name}"
     puts "ja: #{self.ja_name}"
   end
+  
+  def to_full_json
+    # self.to_json(except: [:id])
+    self.to_json(except: [:id], 
+                 include: {alias_names: {only: [:name]},
+                           properties: {only: [:key, :value]}, 
+                           categories: {only: [:name]}
+                          })
+  end
 end

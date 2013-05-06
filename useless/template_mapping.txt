@@ -1,2 +1,3 @@
-name	 		name 			社名
-name_en							英文社名
+name	 		name 			
+logo			logo
+caption			caption

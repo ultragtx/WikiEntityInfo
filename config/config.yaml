@@ -1,3 +1,10 @@
 database:
     adapter: sqlite3
     database: wikiinfo
+#	
+# database:
+#     adapter: mysql2
+#     user: root
+#     host: localhost
+#     passwd:
+#     database: wikiinfo
