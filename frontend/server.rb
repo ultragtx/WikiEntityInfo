@@ -3,7 +3,8 @@
 require "sinatra/base"
 require "sinatra/cookies"
 require "open-uri"
-# require_relative '../Database/dbhelper'
+require "json"
+# require_relative '../database/dbhelper'
 require_relative '../db/init'
 require_relative '../model/init'
 
@@ -146,7 +147,59 @@ class FrontEnd < Sinatra::Application
     erb :search, :layout => :basic
   end
   
-  run! if app_file == $0
+  #===============================#
+  #============ API ==============#
+  #===============================#
+  
+  get '/:lang/:data_style/api/s' do
+    puts "api"
+    cookies[:current_lang] = params[:lang]
+    @current_lang = params[:lang]
+    
+    cookies[:current_data_style] = params[:data_style]
+    @current_data_style = params[:data_style]
+    
+    # search_text = URI::decode(request.query_string).split('=')[1]
+    search_text = params[:search]
+    search_text.gsub!('+', '%')
+    puts search_text
+    # @current_pages = @dbhelper.pages_like_title(search_text, @current_lang)
+    @alias_names = AliasName.where(lang: @current_lang).filter(Sequel.ilike(:name, "%#{search_text}%"))
+    # puts @alias_names.count
+    
+    results = []
+    @alias_names.each do |alias_name|
+      results << {name: alias_name.name,
+                  lang: alias_name.lang}
+    end
+    
+    JSON results
+  end
+  
+  get '/:lang/:data_style/w/:title/api' do
+    cookies[:current_lang] = params[:lang]
+    @current_lang = params[:lang]
+    
+    cookies[:current_data_style] = params[:data_style]
+    @current_data_style = params[:data_style]
+    
+    title = params[:title]
+    
+    entity = Entity.where(name: title, lang: @current_lang).first
+    
+    case @current_data_style
+    when "html"
+      entity.html_property!
+    when "plain"
+      entity.plaintext_property!
+    when "raw"
+      entity.escape_html_property!
+      # puts page.properties
+    end
+    
+    entity.to_full_json
+  end
+  
 end
 
 Encoding.default_internal = Encoding::UTF_8

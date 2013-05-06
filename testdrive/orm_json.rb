@@ -17,7 +17,3 @@ end
   
   
 puts e.to_full_json
-
-
-
-

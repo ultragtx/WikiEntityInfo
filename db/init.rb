@@ -2,7 +2,7 @@
 require 'sequel'
 require 'yaml'
 
-config = YAML.load_file "./config/config.yaml"
+config = YAML.load_file "/Users/ultragtx/DevProjects/Ruby/WikiEntityInfo/config/config.yaml"
 
 adapter = config["database"]["adapter"]
 database = config["database"]["database"]
