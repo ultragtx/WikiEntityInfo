@@ -6,13 +6,16 @@ require 'fileutils'
 LANGS = ["zh", "en", "ja"]
 
 # Dump file storage path
-DUMP_FILE_DIR = "/Users/ultragtx/DevProjects/Ruby/WikipediaEntityAnalyser2/data/dump_file"
+DUMP_FILE_DIR = "/Users/ultragtx/DevProjects/Ruby/WikiEntityInfo/data/dump_file"
 
 # Sqlite database file storage path
-DATABASE_DIR = "/Users/ultragtx/DevProjects/Ruby/WikipediaEntityAnalyser2/data/database"
+DATABASE_DIR = "/Users/ultragtx/DevProjects/Ruby/WikiEntityInfo/data/database"
 
 FileUtils.mkdir_p DUMP_FILE_DIR
 FileUtils.mkdir_p DATABASE_DIR
+
+# Switcher to turn on/off sqlite storage
+USING_SQLITE = false
 
 
 # MySQL database

@@ -29,8 +29,8 @@ class BatchParser < InfoParser
     @info_count = 0
     
     @page_count = 0
-    
-    @dbhelper = DbHelper.new(lang)
+
+    @dbhelper = DbHelper.new(lang) if USING_SQLITE
     @mysql_helper = MySQLHelper.new(lang)
   end
   
@@ -40,7 +40,7 @@ class BatchParser < InfoParser
   end
   
   def on_end_document
-    @dbhelper.clean_up
+    @dbhelper.clean_up if USING_SQLITE
     @mysql_helper.clean_up
     
     @end_time = Time.now
@@ -196,7 +196,7 @@ class BatchParser < InfoParser
           # 
           # gets 
           
-          @dbhelper.insert_page(@current_page)
+          @dbhelper.insert_page(@current_page) if USING_SQLITE
           @mysql_helper.insert_page(plain_page)
         end
         
@@ -225,6 +225,8 @@ class BatchParser < InfoParser
       if useful_type
         @useful_page = true
         aliases = get_alias(@current_string)
+        aliases << @current_page.title
+        aliases.uniq!
         categories = get_category(@current_string)
         aliases_forien = get_forien_alias(@current_string)
         

@@ -4,6 +4,7 @@ require "sinatra/base"
 require "sinatra/cookies"
 require "open-uri"
 require_relative '../Database/dbhelper'
+require_relative '../Database/mysqlhelper'
 
 class LangPage
   attr_accessor :lang
@@ -22,7 +23,11 @@ class FrontEnd < Sinatra::Application
     super
     @langs = {:zh => "Chinese", :en => "English", :ja => "Japanese"}
     @data_styles = {:raw => "Raw", :html => "HTML", :plain => "Plain"}
-    @dbhelper = DbHelper.new
+    if USING_SQLITE
+      @dbhelper = DbHelper.new(nil)
+    else
+      @dbhelper = MySQLHelper.new(nil)
+    end
   end
   
   helpers do
@@ -76,18 +81,20 @@ class FrontEnd < Sinatra::Application
       end
     end
     
-    @current_lang_pages.each do |lang_page|
-      page = lang_page.page
-      case @current_data_style
-      when "html"
-        page.html_property!
-      when "plain"
-        page.plaintext_property!
-      when "raw"
-        page.properties.each do |key, value|
-          page.properties[key] = Rack::Utils.escape_html(value)
+    if USING_SQLITE
+      @current_lang_pages.each do |lang_page|
+        page = lang_page.page
+        case @current_data_style
+        when "html"
+          page.html_property!
+        when "plain"
+          page.plaintext_property!
+        when "raw"
+          page.properties.each do |key, value|
+            page.properties[key] = Rack::Utils.escape_html(value)
+          end
+          puts page.properties
         end
-        puts page.properties
       end
     end
     

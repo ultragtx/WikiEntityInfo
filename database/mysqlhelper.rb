@@ -14,20 +14,22 @@ class MySQLHelper
     @db = Sequel.connect("mysql2://#{MYSQL_USER}:#{MYSQL_PASSWD}@#{MYSQL_HOST}/#{MYSQL_DATABASE_NAME}")
     @lang = lang
 
-    @table_name = :"#{@lang}_pages_cur"
-    @db.drop_table? @table_name
+    if lang != nil
+      @table_name = :"#{@lang}_pages_cur"
+      @db.drop_table? @table_name
     
-    @db.create_table? @table_name do
-      primary_key :id, :integer ,:auto_increment
-      String :title
-      String :redirect
+      @db.create_table? @table_name do
+        primary_key :id, :integer ,:auto_increment
+        String :title
+        String :redirect
 
-      String :infobox_type
-      TEXT :properties
-      TEXT :aliases
-      TEXT :aliases_forien
-      TEXT :categories
-      String :sha1
+        String :infobox_type
+        TEXT :properties
+        TEXT :aliases
+        TEXT :aliases_forien
+        TEXT :categories
+        String :sha1
+      end
     end
 	end
   
@@ -117,7 +119,7 @@ class MySQLHelper
   def pages_like_title(title, lang)
     pages = @db[:"#{lang}_pages"]
     title.gsub!(' ', '%')
-    similar_pages_data = pages.where(Sequel.ilike(:title, "%#{title}%")).all
+    similar_pages_data = pages.where(Sequel.ilike(:aliases, "%#{title}%")).all
     similar_pages = []
     
     similar_pages_data.each do |page_data|

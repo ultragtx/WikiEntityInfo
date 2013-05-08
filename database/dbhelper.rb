@@ -12,23 +12,23 @@ class DbHelper
 	def initialize(lang)
     @db = Sequel.sqlite("#{DATABASE_DIR}/test.db")
     @lang = lang
-    
-    @table_name = :"#{@lang}_pages_cur"
-    @db.drop_table? @table_name
+    if lang != nil
+      @table_name = :"#{@lang}_pages_cur"
+      @db.drop_table? @table_name
 
-    @db.create_table? @table_name do
-      primary_key :id, :integer ,:auto_increment
-      String :title
-      String :redirect
+      @db.create_table? @table_name do
+        primary_key :id, :integer ,:auto_increment
+        String :title
+        String :redirect
 
-      String :infobox_type
-      String :properties
-      String :aliases
-      String :aliases_forien
-      String :categories
-      String :sha1
+        String :infobox_type
+        String :properties
+        String :aliases
+        String :aliases_forien
+        String :categories
+        String :sha1
+      end
     end
-
 	end
   
   def clean_up
@@ -105,7 +105,7 @@ class DbHelper
   def pages_like_title(title, lang)
     pages = @db[:"#{lang}_pages"]
     title.gsub!(' ', '%')
-    similar_pages_data = pages.where(Sequel.ilike(:title, "%#{title}%")).all
+    similar_pages_data = pages.where(Sequel.ilike(:aliases, "%#{title}%")).all
     similar_pages = []
     
     similar_pages_data.each do |page_data|

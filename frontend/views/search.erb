@@ -9,9 +9,11 @@
             <td><p>Total: <%= @current_pages.count%></p></td>
         </tr>
         <% @current_pages.each do |page| %>
+		<% page.aliases.each do |alias_name|%>
             <tr>
-                <td><a href='/<%= @current_lang %>/<%= @current_data_style %>/w/<%= page.title %>'><%= page.title %></a></td>
+                <td><a href='/<%= @current_lang %>/<%= @current_data_style %>/w/<%= page.title %>'><%= alias_name %></a></td>
             </tr>
+		<% end %>
         <% end %>
     </tbody>
 </table>
