@@ -225,8 +225,9 @@ class BatchParser < InfoParser
       if useful_type
         @useful_page = true
         aliases = get_alias(@current_string)
-        aliases << @current_page.title
+        aliases << [@current_page.title]
         aliases.uniq!
+        
         categories = get_category(@current_string)
         aliases_forien = get_forien_alias(@current_string)
         

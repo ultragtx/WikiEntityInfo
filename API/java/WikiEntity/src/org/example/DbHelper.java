@@ -47,6 +47,19 @@ public class DbHelper {
 		return pages;
 	}
 	
+	public ArrayList<Page> searchPagesWithAliasNameLang(String aliasName, String lang) throws SQLException {
+		ArrayList<Page> pages = new ArrayList<Page>();
+		StringBuilder builder = new StringBuilder();
+		builder.append(String.format("select * from  %s_pages where aliases like \"%s\"", lang, aliasName));
+		// System.out.println(builder.toString());
+		Statement statement = (Statement) conn.createStatement();
+		ResultSet rs = statement.executeQuery(builder.toString());
+		while(rs.next()) {
+			pages.add(pageWithResultSet(rs, lang));
+		}
+		return pages;
+	}
+	
 	public ArrayList<Page> searchPagesWithTypeLang(String type, String lang) throws SQLException {
 		ArrayList<Page> pages = new ArrayList<Page>();
 		StringBuilder builder = new StringBuilder();

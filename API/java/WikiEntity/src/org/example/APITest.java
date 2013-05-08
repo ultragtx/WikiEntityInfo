@@ -13,6 +13,7 @@ public class APITest {
 		test1();
 		test2();
 		test3();
+		test4();
 	}
 	
 	private static void test1() throws SQLException {
@@ -31,6 +32,7 @@ public class APITest {
 			System.out.println(String.format("--[%d]--", i));
 			Page p = iter.next();
 			System.out.println(p);
+			i++;
 		}
 		
 		System.out.println("=========================");
@@ -45,6 +47,22 @@ public class APITest {
 			System.out.println(String.format("--[%d]--", i));
 			Page p = iter.next();
 			System.out.println(p);
+			i++;
+		}
+		
+		System.out.println("=========================");
+	}
+	
+	private static void test4() throws SQLException {
+		System.out.println("=======Search Page=======");
+		ArrayList<Page> pages = dbhelper.searchPagesWithAliasNameLang("%ÖÐ¹úÒÆ¶¯%", "zh");
+		int i = 0;
+		Iterator<Page> iter = pages.iterator();
+		while(iter.hasNext()) {
+			System.out.println(String.format("--[%d]--", i));
+			Page p = iter.next();
+			System.out.println(p);
+			i++;
 		}
 		
 		System.out.println("=========================");

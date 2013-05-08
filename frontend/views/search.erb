@@ -11,7 +11,7 @@
         <% @current_pages.each do |page| %>
 		<% page.aliases.each do |alias_name|%>
             <tr>
-                <td><a href='/<%= @current_lang %>/<%= @current_data_style %>/w/<%= page.title %>'><%= alias_name %></a></td>
+                <td><a href='/<%= @current_lang %>/<%= @current_data_style %>/w/<%= page.title %>'><%= alias_name[0] %></a></td>
             </tr>
 		<% end %>
         <% end %>
