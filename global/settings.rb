@@ -15,7 +15,7 @@ FileUtils.mkdir_p DUMP_FILE_DIR
 FileUtils.mkdir_p DATABASE_DIR
 
 # Switcher to turn on/off sqlite storage
-USING_SQLITE = false
+USING_SQLITE = true
 
 
 # MySQL database
