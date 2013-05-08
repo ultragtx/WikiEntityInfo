@@ -93,7 +93,7 @@ class FrontEnd < Sinatra::Application
           page.properties.each do |key, value|
             page.properties[key] = Rack::Utils.escape_html(value)
           end
-          puts page.properties
+          # puts page.properties
         end
       end
     end
