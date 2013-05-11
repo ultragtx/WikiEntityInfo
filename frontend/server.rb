@@ -68,39 +68,45 @@ class FrontEnd < Sinatra::Application
     
     page = @dbhelper.page_with_title(title, @current_lang)
     
-    @current_lang_pages = []
-    @current_lang_pages << LangPage.new(@current_lang, page)
+    if page
+      @current_lang_pages = []
+      @current_lang_pages << LangPage.new(@current_lang, page)
     
-    page.aliases_forien.each do |lang, title|
-      if title
-        forien_page = @dbhelper.page_with_title(title, lang)
-        # puts "-----"
-        # puts title if forien_page
-        # puts forien_page.class
-        @current_lang_pages << LangPage.new(lang, forien_page) if forien_page
-      end
-    end
-    
-    if USING_SQLITE
-      @current_lang_pages.each do |lang_page|
-        page = lang_page.page
-        case @current_data_style
-        when "html"
-          page.html_property!
-        when "plain"
-          page.plaintext_property!
-        when "raw"
-          page.properties.each do |key, value|
-            page.properties[key] = Rack::Utils.escape_html(value)
-          end
-          # puts page.properties
+      page.aliases_forien.each do |lang, title|
+        if title
+          forien_page = @dbhelper.page_with_title(title, lang)
+          # puts "-----"
+          # puts title if forien_page
+          # puts forien_page.class
+          @current_lang_pages << LangPage.new(lang, forien_page) if forien_page
         end
       end
+    
+      if USING_SQLITE
+        @current_lang_pages.each do |lang_page|
+          page = lang_page.page
+          case @current_data_style
+          when "html"
+            page.html_property!
+          when "plain"
+            page.plaintext_property!
+          when "raw"
+            page.properties.each do |key, value|
+              page.properties[key] = Rack::Utils.escape_html(value)
+            end
+            # puts page.properties
+          end
+        end
+      end
+    
+      # puts @current_lang_pages.count
+    
+      erb :entity, :layout => :basic
+    else
+
+      redirect URI::encode("http://#{@current_lang}.wikipedia.org/wiki/#{title}")
     end
     
-    # puts @current_lang_pages.count
-    
-    erb :entity, :layout => :basic
   end
 
   get '/:lang/:data_style/s' do
