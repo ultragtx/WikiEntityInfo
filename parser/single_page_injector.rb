@@ -60,4 +60,11 @@ class SinglePageInjector
     end
   end
 end
+
+if __FILE__ == $0
+  
+  
+  SinglePageInjector.inject_page(name, lang, text);
+  
+end
     

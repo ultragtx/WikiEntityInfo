@@ -18,3 +18,9 @@ gem 'builder'
 
 #For wikicloth
 gem 'expression_parser'
+
+
+#For translation
+gem 'rmmseg-cpp'
+gem 'mecab-ext'
+gem 'dickens'
