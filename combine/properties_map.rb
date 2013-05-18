@@ -4,10 +4,13 @@ class PropertiesMap
   attr_accessor :properties_map
   attr_accessor :langs_count
   
-  def initialize(file_path)
+  def initialize(file_path, langs_order)
     self.properties_map = [];
     self.langs_count = -2
-    self.read_file(file_path)
+    
+    @langs_order = langs_order
+    
+    read_file(file_path)
   end
 
   def read_file(file_path)
@@ -24,21 +27,22 @@ class PropertiesMap
       
       self.langs_count = cnt - 1
       
-      trans = true
-      langs_properties = []
-      
-      comps.each_with_index do |str, index|
-        if index != cnt - 1
-          properties_arr = str.split(',')
-          properties_arr.each do |property|
-            property.strip!
-          end
-          langs_properties << properties_arr
-        else
-          trans = str.strip == 'T' ? true : false
-          langs_properties << trans
-        end
+      if @langs_order.uniq.count != self.langs_count
+        raise "Number of langs and order mismatch"
       end
+      
+      langs_properties = Array.new(cnt)
+      
+      comps[0..-2].each_with_index do |properties, index|
+        properties_arr = properties.split(',')
+        properties_arr.each do |property|
+          property.strip!
+        end
+        langs_properties[@langs_order[index]] = properties_arr
+      end
+      
+      trans = comps[-1].strip == 'T' ? true : false
+      langs_properties[-1] = trans
       
       self.properties_map << langs_properties
     end

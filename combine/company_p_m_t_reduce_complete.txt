@@ -1,12 +1,12 @@
 logo, company_logo					|logo, company_logo				|ロゴ                    	|F				
 type, company_type					|type, company_type				|種類                    	|T				
 traded_as, market_information		|traded_as						|市場情報                	|T				
-predecessor, Predecessor			|predecessor, Predecessor		|                        	|T				
-fate								|fate						    |                        	|T				
-successor							|successor						|                        	|T				
+predecessor, Predecessor			|predecessor, Predecessor		|predecessor                |T				
+fate								|fate						    |fate                       |T				
+successor							|successor						|successor                  |T				
 foundation							|foundation						|設立                    	|T				
-defunct								|defunct						|                        	|T				
-founder								|founder						|                        	|T				
+defunct								|defunct						|defunct                    |T				
+founder								|founder						|founder                    |T				
 chairman							|chairman				        |chairman                   |T				
 chairman0							|chairman0				        |chairman0                  |T				
 chairman1							|chairman1						|chairman1                  |T				

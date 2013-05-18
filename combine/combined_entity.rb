@@ -10,7 +10,7 @@ class CombinedEntity
   attr_accessor :alias_names      #array
   attr_accessor :categories   #array
   
-  def initialize(name, langs, map_file_path)
+  def initialize(name, langs, map_file_path, map_file_langs_order)
     if langs.count < 2
       raise "At least 2 langs"
     end
@@ -38,7 +38,7 @@ class CombinedEntity
     
     @old_properties = @entity.properties_to_hash
     
-    @properties_map = PropertiesMap.new(map_file_path)
+    @properties_map = PropertiesMap.new(map_file_path, map_file_langs_order)
     @langs = langs
     
     if langs.count != @properties_map.langs_count
