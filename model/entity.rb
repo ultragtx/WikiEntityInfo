@@ -71,6 +71,28 @@ class Entity < Sequel::Model
     end
   end
   
+  def properties_to_hash
+    p = {}
+    self..properties.each do |property|
+        p[property.key] = property.value
+    end
+    p
+  end
+  
+  def alias_names_to_array
+    a = []
+    self.alias_names.each do |alias_name|
+      a << alias_name.name
+    end
+  end
+  
+  def categories_to_array
+    a = []
+    self.categories.each do |category|
+      a << category.name
+    end
+  end
+  
   def to_s
     puts "title: #{self.name}"
     puts "redirect: #{self.redirect}" if self.redirect

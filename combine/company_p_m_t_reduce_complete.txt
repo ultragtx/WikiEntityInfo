@@ -1,0 +1,67 @@
+logo, company_logo					|logo, company_logo				|ロゴ                    	|F				
+type, company_type					|type, company_type				|種類                    	|T				
+traded_as, market_information		|traded_as						|市場情報                	|T				
+predecessor, Predecessor			|predecessor, Predecessor		|                        	|T				
+fate								|fate						    |                        	|T				
+successor							|successor						|                        	|T				
+foundation							|foundation						|設立                    	|T				
+defunct								|defunct						|                        	|T				
+founder								|founder						|                        	|T				
+chairman							|chairman				        |chairman                   |T				
+chairman0							|chairman0				        |chairman0                  |T				
+chairman1							|chairman1						|chairman1                  |T				
+president							|president						|president                  |T				
+MD								    |MD						        |MD                        	|T				
+GM								    |GM						        |GM                        	|T				
+CEO								    |CEO						    |CEO                       	|T				
+COO								    |COO						    |COO                       	|T				
+CFO								    |CFO						    |CFO                       	|T				
+CMO								    |CMO						    |CMO                       	|T				
+key_people							|key_people						|代表者                  	|T				
+location							|location						|本社所在地, 所在地      		|F				
+zip_code							|zip_code						|本社郵便番号, 郵便番号  		|F				
+telephone_no						|telephone_no					|telephone_no               |T				
+slogan								|slogan						    |slogan                     |T				
+locations							|locations						|支店舗数                	|T				
+area_served							|area_served					|area_served                |T				
+industry							|industry						|業種                    	|T				
+products							|products						|事業内容, 製品・サービス		|T				
+services							|services						|services                   |T				
+revenue								|revenue						|revenue                    |T				
+operating_income					|operating_income				|営業利益                	|T				
+net_income, profit					|net_income						|純利益                  	|T				
+aum								    |aum						    |aum                        |T				
+assets								|assets						    |総資産                  	|T				
+equity								|equity						    |equity                     |T				
+owner								|owner						    |owner                      |T				
+num_employees						|num_employees					|従業員数                	|T				
+divisions							|divisions						|divisions                  |T				
+capital								|capital						|capital                    |T				
+market_value						|market_value					|market_value               |T				
+P/E ratio							|P/E ratio						|P/E ratio                  |T	   
+earnings per share					|earnings per share				|earnings per share         |T	   
+Net_asset_value						|Net_asset_value				|Net_asset_value            |T	   
+accounting_period					|accounting_period				|決算期                  	|T	   
+major_shareholder					|major_shareholder				|major_shareholder          |T	   
+parent								|parent						    |parent                     |T	   
+subsid								|subsid						    |主要子会社              	   	|T 	
+homepage							|homepage						|外部リンク              	   	|T 	
+footnotes							|footnotes						|特記事項                	|T	   	
+trading_name						|trading_name					|trading_name               |T			
+genre								|genre						    |genre                      |T		
+location_city						|location_city					|location_city              |T		
+location_country					|location_country				|location_country           |T		
+production							|production						|production                 |T			
+略称									|略称							|略称                   		|F		
+国籍									|国籍							|国籍                    	|T		
+本店所在地							|本店所在地						|本店所在地              		|T	
+本店郵便番号							|本店郵便番号						|本店郵便番号            		|T	
+統一金融機関コード						|統一金融機関コード				|統一金融機関コード      	 	|T
+資本金								|資本金							|資本金                  	|T		
+発行済株式総数						|発行済株式総数					|発行済株式総数          		|T	
+売上高								|売上高							|売上高                  	|T		
+経常利益								|経常利益						|経常利益                	|T	
+純資産								|純資産							|純資産                  	|T				
+主要株主								|主要株主						|主要株主                	|T				
+関係する人物							|関係する人物						|関係する人物            		|T
+画像									|画像							|画像                    	|F	
