@@ -1,6 +1,6 @@
 name, company_name					|name, company_name				|社名
 name_en, company_name_en			|name, company_name				|英文社名
-logo, company_logo					|logo, company_logo				|
+logo, company_logo					|logo, company_logo				|ロゴ
 caption								|caption						|
 original_text						|							    |
 other_text							|						        |
@@ -64,23 +64,23 @@ footnotes							|footnotes						|特記事項
 									|								|
 									|								|
 									|production						|
-																	|
-																	|略称
-																	|国籍
-																	|本店所在地  
-																	|本店郵便番号
-																	|統一金融機関コード
-																	|SWIFTコード
-																	|資本金
-																	|発行済株式総数
-																	|売上高
-																	|経常利益
-																	|
-																	|
-																	|純資産
-																	|主要株主
-																	|関係する人物
-																	|
+									|								|
+									|								|略称
+									|								|国籍
+									|								|本店所在地  
+									|								|本店郵便番号
+									|								|統一金融機関コード
+									|								|SWIFTコード
+									|								|資本金
+									|								|発行済株式総数
+									|								|売上高
+									|								|経常利益
+									|								|
+									|								|
+									|								|純資産
+									|								|主要株主
+									|								|関係する人物
+									|								|画像
 
 
 

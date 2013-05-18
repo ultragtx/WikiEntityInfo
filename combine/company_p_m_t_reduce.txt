@@ -1,0 +1,74 @@
+logo, company_logo					|logo, company_logo				|ロゴ                    	|F				
+type, company_type					|type, company_type				|種類                    	|T				
+traded_as, market_information		|traded_as						|市場情報                	|T				
+predecessor, Predecessor			|predecessor, Predecessor		|                        	|T				
+fate								|fate						    |                        	|T				
+successor							|successor						|                        	|T				
+foundation							|foundation						|設立                    	|T				
+defunct								|defunct						|                        	|T				
+founder								|founder						|                        	|T				
+chairman							|						        |                        	|T				
+chairman0							|						        |                        	|T				
+chairman1							|						        |                        	|T				
+president							|						        |                        	|T				
+MD								    |						        |                        	|T				
+GM								    |						        |                        	|T				
+CEO								    |						        |                        	|T				
+COO								    |						        |                        	|T				
+CFO								    |						        |                        	|T				
+CMO								    |						        |                        	|T				
+key_people							|key_people						|代表者                  	|T				
+location							|location						|本社所在地, 所在地      		|F				
+zip_code							|						        |本社郵便番号, 郵便番号  		|F				
+telephone_no						|							    |                        	|T				
+slogan								|						        |                        	|T				
+locations							|locations						|支店舗数                	|T				
+area_served							|area_served					|                        	|T				
+industry							|industry						|業種                    	|T				
+products							|products						|事業内容, 製品・サービス		|T				
+services							|services						|                        	|T				
+revenue								|revenue						|                        	|T				
+operating_income					|operating_income				|営業利益                	|T				
+net_income, profit					|net_income						|純利益                  	|T				
+aum								    |aum						    |                        	|T				
+assets								|assets						    |総資産                  	|T				
+equity								|equity						    |                        	|T				
+owner								|owner						    |                        	|T				
+num_employees						|num_employees					|従業員数                	|T				
+divisions							|divisions						|                        	|T				
+capital								|						        |                        	|T				
+market_value						|							    |                        	|T				
+P/E ratio							|						        |                        	|T	   
+earnings per share					|								|                        	|T	   
+Net_asset_value						|							    |                        	|T	   
+accounting_period					|								|決算期                  	|T	   
+major_shareholder					|								|                        	|T	   
+parent								|parent						    |                        	|T	   
+subsid								|subsid						    |主要子会社              	   	|T 	
+homepage							|homepage						|外部リンク              	   	|T 	
+footnotes							|footnotes						|特記事項                	|T	   
+									|						        |                        	|T		
+									|trading_name					|                        	|T		
+									|native_name					|                        	|T		
+									|native_name_lang				|                        	|T		
+									|romanized_name					|                        	|T		
+									|genre						    |                        	|T		
+									|location_city					|                        	|T		
+									|location_country				|                        	|T		
+									|								|                        	|T		
+									|								|                        	|T		
+									|production						|                        	|T		
+									|								|                        	|T		
+									|								|略称                    	|T		
+									|								|国籍                    	|T		
+									|								|本店所在地              		|T	
+									|								|本店郵便番号            		|T	
+									|								|統一金融機関コード      	 	|T
+									|								|資本金                  	|T		
+									|								|発行済株式総数          		|T	
+									|								|売上高                  	|T		
+									|								|経常利益                	|T	
+									|								|純資産                  	|T				
+									|								|主要株主                	|T				
+									|								|関係する人物            		|T
+									|								|画像                    	|T			
