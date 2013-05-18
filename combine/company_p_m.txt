@@ -1,0 +1,93 @@
+name, company_name					|name, company_name				|社名
+name_en, company_name_en			|name, company_name				|英文社名
+logo, company_logo					|logo, company_logo				|
+caption								|caption						|
+original_text						|							    |
+other_text							|						        |
+type, company_type					|type, company_type				|種類
+traded_as, market_information		|traded_as						|市場情報
+ROC_UBN								|						        |
+predecessor, Predecessor			|predecessor, Predecessor		|
+fate								|fate						    |
+successor							|successor						|
+foundation							|foundation						|設立
+defunct								|defunct						|
+founder								|founder						|
+chairman							|						        |
+chairman0							|						        |
+chairman1							|						        |
+president							|						        |
+MD								    |						        |
+GM								    |						        |
+CEO								    |						        |
+COO								    |						        |
+CFO								    |						        |
+CMO								    |						        |
+key_people							|key_people						|代表者
+location							|location						|本社所在地, 所在地
+zip_code							|						        |本社郵便番号, 郵便番号
+telephone_no						|							    |
+slogan								|						        |
+locations							|locations						|支店舗数
+area_served							|area_served					|
+industry							|industry						|業種
+products							|products						|事業内容, 製品・サービス
+services							|services						|
+revenue								|revenue						|
+operating_income					|operating_income				|営業利益
+net_income, profit					|net_income						|純利益
+aum								    |aum						    |
+assets								|assets						    |総資産
+equity								|equity						    |
+owner								|owner						    |
+num_employees						|num_employees					|従業員数
+divisions							|divisions						|
+capital								|						        |
+market_value						|							    |
+P/E ratio							|						        |
+earnings per share					|								|
+Net_asset_value						|							    |
+accounting_period					|								|決算期
+major_shareholder					|								|
+parent								|parent						    |
+subsid								|subsid						    |主要子会社
+homepage							|homepage						|外部リンク
+footnotes							|footnotes						|特記事項
+									|						        |
+									|trading_name					|
+									|native_name					|
+									|native_name_lang				|
+									|romanized_name					|
+									|genre						    |
+									|location_city					|
+									|location_country				|
+									|								|
+									|								|
+									|production						|
+																	|
+																	|略称
+																	|国籍
+																	|本店所在地  
+																	|本店郵便番号
+																	|統一金融機関コード
+																	|SWIFTコード
+																	|資本金
+																	|発行済株式総数
+																	|売上高
+																	|経常利益
+																	|
+																	|
+																	|純資産
+																	|主要株主
+																	|関係する人物
+																	|
+
+
+
+
+
+
+
+
+
+
