@@ -7,7 +7,7 @@ RMMSeg::Dictionary.load_dictionaries
 puts RMMSeg.constants
 
 text = <<TEXT
-常小兵
+董事长 常小兵
 TEXT
 
 algor = RMMSeg::Algorithm.new(text)

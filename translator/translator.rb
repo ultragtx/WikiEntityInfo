@@ -24,12 +24,12 @@ class DictEntry
     end
   end
   
-  def to_s
-    puts "[#{self.word}] (#{self.type}):"
-    puts "----------------"
-    puts self.translations
-    puts "================"
-  end
+  # def to_s
+#     puts "[#{self.word}] (#{self.type}):"
+#     puts "----------------"
+#     puts self.translations
+#     puts "================"
+#   end
   
 end
 
@@ -60,6 +60,26 @@ class Translator
       # gets
       
       self.dictionary[dict_entry.word] = dict_entry
+    end
+  end
+  
+  def translate(word, from_lang)
+    entry = self.dictionary[word]
+    if entry
+      return entry.translations[0]
+    else
+      if from_lang == "zh" && word.length > 0
+        result = ""
+        word.each_char do |char|
+          result << translate(char, from_lang)
+        end
+        return result
+      elsif from_lang == "en"
+        # Plural >> Singular
+        return nil
+      else
+        return nil
+      end
     end
   end
 end
