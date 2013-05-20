@@ -3,6 +3,7 @@
 require_relative '../db/init'
 require_relative '../model/init'
 require_relative 'properties_map'
+require_relative '../translator/sentence_translator'
 
 class CombinedEntity
   attr_accessor :name, :infobox_type, :main_lang, :other_langs
@@ -14,7 +15,10 @@ class CombinedEntity
     if langs.count < 2
       raise "At least 2 langs"
     end
+    
     @entity = Entity.where(name: name, lang: langs[0]).first
+    @entity.plaintext_property!
+    
     self.name = @entity.name
     self.infobox_type = @entity.infobox_type
     self.alias_names = @entity.alias_names_to_array
@@ -67,7 +71,10 @@ class CombinedEntity
       unless main_property_has_content
         map[1..-2].each_with_index do |other_map, index|
           current_lang = self.other_langs[index]
+          
           e = Entity.where(name: @other_langs_names[index], lang: current_lang).first
+          e.plaintext_property!
+          
           break unless e
           current_properties = e.properties_to_hash
           current_property_key = nil
