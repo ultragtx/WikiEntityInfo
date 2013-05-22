@@ -86,7 +86,7 @@ private
 
   def result(uri, params={}, headers={})
     get_access_token
-    http = Net::HTTP.new(uri.host, uri.port, '127.0.0.1', '8888')
+    http = Net::HTTP.new(uri.host, uri.port)
     if uri.scheme == "https"
       http.use_ssl = true
       http.verify_mode = OpenSSL::SSL::VERIFY_NONE if @skip_ssl_verify
@@ -119,7 +119,7 @@ private
       'grant_type' => 'client_credentials'
     }
 
-    http = Net::HTTP.new(@access_token_uri.host, @access_token_uri.port, '127.0.0.1', '8888')
+    http = Net::HTTP.new(@access_token_uri.host, @access_token_uri.port)
     http.use_ssl = true
     http.verify_mode = OpenSSL::SSL::VERIFY_NONE if @skip_ssl_verify
 
