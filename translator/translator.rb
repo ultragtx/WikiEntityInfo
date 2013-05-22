@@ -64,8 +64,10 @@ class Translator
   end
   
   def translate(word, from_lang)
+    # puts "word: #{word}"
     entry = self.dictionary[word]
     if entry
+      # puts "text: #{entry.translations[0]}"
       return entry.translations[0]
     else
       if from_lang == "zh" && word.length > 1

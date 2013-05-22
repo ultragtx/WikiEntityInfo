@@ -9,4 +9,4 @@ nodes.class #=> Mecab::Ext::Node
 
 
 # Call Mecab::Ext::Node#each to get each MeCab::Node object
-nodes.each {|node| p node.surface }
+nodes.each {|node| p node.surface.encoding }

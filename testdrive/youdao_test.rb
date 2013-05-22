@@ -5,6 +5,6 @@ require 'youdao-fanyi'
 YoudaoFanyi::Config.key_from = "longtimenoc"
 YoudaoFanyi::Config.key = 284983591
 
-sentence = "这是一句中文"
+sentence = "全俺が泣いた…！この涙腺崩壊動画がスゴイ"
 
 puts YoudaoFanyi.search_json(sentence)

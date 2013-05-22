@@ -3,6 +3,7 @@
 require_relative 'translator'
 require "mecab/ext"
 require 'rmmseg'
+require 'bing_translator'
 
 class EngSpliter
   attr_accessor :words
@@ -32,6 +33,9 @@ class SentenceTranslator
     
     @from_lang = from_lang
     @to_lang = to_lang
+    
+    #bing translator
+    @bing_translator = BingTranslator.new("wikientityinfo", "HxD+q3eLEWjGaqoVJDWNUlUXZWJX/L9YW0toR148xS8")
   end
   
   def translate_centence(sentence)
@@ -41,7 +45,8 @@ class SentenceTranslator
       if @from_lang == "en"
         spliter = EngSpliter.new(sentence)
         spliter.words.each do |word|
-          trans = @translator.translate(word, @to_lang)
+          word.downcase!
+          trans = @translator.translate(word, @from_lang)
           if trans
             result << trans
           else
@@ -63,11 +68,26 @@ class SentenceTranslator
         end
         
       elsif @from_lang == "ja"
-        
+        nodes = Mecab::Ext::Parser.parse(sentence)
+        nodes.each do |node|
+          trans = @translator.translate(node.surface, @from_lang)
+          if trans
+            trans = " #{trans} " if @to_lang == "en"
+            result << trans
+          else
+            result << node.surface
+          end
+        end
       end
     else 
-      # TODO: Using Bing / youdao
-      return centence
+      # bing translate
+      if @to_lang == "zh"
+        trans_to = "zh-CN"
+      else
+        trans_to = @to_lang
+      end
+      
+      result << (@bing_translator.translate sentence, :to => trans_to)
     end
     
     result
