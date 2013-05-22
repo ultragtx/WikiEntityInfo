@@ -13,6 +13,22 @@
         url = arr.join("/");
         window.location.href = url;
     }
+	
+	function combinedEntity() {
+        var url = window.location.href;
+        var arr = url.split("/");
+        arr[5] = "w-comb";
+        url = arr.join("/");
+        window.location.href = url;
+	}
+	
+	function splitedEntity() {
+        var url = window.location.href;
+        var arr = url.split("/");
+        arr[5] = "w";
+        url = arr.join("/");
+        window.location.href = url;
+	}
     </script>
 </head>
 <body>
@@ -48,6 +64,13 @@
                         <li><a onclick="changeDataStyle('plain')">Data: Plain</a></li>
                     </ul>
                 </div>
+				<% if @combined_entity %>
+					<button class="btn" style="float:right" onclick="splitedEntity()">Split</button>
+				<% end%>
+				<% if @entities %>
+					<button class="btn" style="float:right" onclick="combinedEntity()">Combine</button>
+				<% end%>
+				
             </div>
         </div>
         <div class="container">

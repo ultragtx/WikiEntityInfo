@@ -84,6 +84,7 @@ class Entity < Sequel::Model
     self.alias_names.each do |alias_name|
       a << alias_name.name
     end
+    a
   end
   
   def categories_to_array
@@ -91,6 +92,7 @@ class Entity < Sequel::Model
     self.categories.each do |category|
       a << category.name
     end
+    a
   end
   
   def to_s

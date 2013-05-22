@@ -105,7 +105,7 @@ class CombinedEntity
             end
           end
           
-          main_property_value = "<<<<#{current_lang}>>>> #{current_property_value}"
+          main_property_value = "\\\\#{current_lang}// #{current_property_value}"
           
           break if current_property_has_content
         end
@@ -132,7 +132,7 @@ class CombinedEntity
     end
     
     puts "categories:"
-    self.categories do |category|
+    self.categories.each do |category|
       puts "#{category}"
     end
   end

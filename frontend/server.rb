@@ -7,6 +7,7 @@ require "json"
 # require_relative '../database/dbhelper'
 require_relative '../db/init'
 require_relative '../model/init'
+require_relative '../combine/combined_entity'
 
 class LangPage
   attr_accessor :lang
@@ -128,6 +129,39 @@ class FrontEnd < Sinatra::Application
     # puts @entities.count
     
     erb :entity, :layout => :basic
+  end
+  
+  get '/:lang/:data_style/w-comb/:title' do
+    cookies[:current_lang] = params[:lang]
+    @current_lang = params[:lang]
+    
+    cookies[:current_data_style] = params[:data_style]
+    @current_data_style = params[:data_style]
+    
+    title = params[:title]
+    
+    langs = nil
+    order = nil
+    
+    if @current_lang == "zh"
+      langs = ["zh", "en", "ja"]
+      order = [0, 1, 2]
+    elsif @current_lang == "en"
+      langs = ["en", "zh", "ja"]
+      order = [1, 0, 2]
+    elsif @current_lang == "ja"
+      langs = ["ja", "en", "zh"]
+      order = [2, 1, 0]
+    end
+    
+    if langs && order
+      map_path = '/Users/ultragtx/DevProjects/Ruby/WikiEntityInfo/combine/company_p_m_t_reduce_complete.txt'
+      @combined_entity = CombinedEntity.new(title, langs, map_path, order);
+      @combined_entity.combine
+      # puts @combined_entity
+      
+      erb :combinedentity, :layout => :basic
+    end
   end
 
   get '/:lang/:data_style/s' do

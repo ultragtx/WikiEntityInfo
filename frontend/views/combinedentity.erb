@@ -1,0 +1,42 @@
+<div class="tabbable" style="margin-bottom: 18px;">
+    <div class="tab-content" style="padding-bottom: 9px; border-bottom: 1px solid #ddd;">
+        <div class="tab-pane <%= "active" %>" id="tab1">
+            <p><%= @combined_entity.name %> (<%= @combined_entity.infobox_type%>)</p>
+            
+            <% if @combined_entity.alias_names %>
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Alias name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% @combined_entity.alias_names.each do |alias_name|%>
+                        <tr>
+                            <td><%= alias_name %></td>
+                        </tr>
+                        <% end %>
+                    </tbody>
+                </table>
+            <% end %>
+        
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Key</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% @combined_entity.properties.each do |key, value|%>
+                    <tr>
+                        <td><%= key %></td>
+                        <td><%= value %></td>
+                    </tr>
+                    <% end %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
