@@ -34386,7 +34386,7 @@
 #砍伐\vg\*fell;*fell;
 #砍头疮\ng\*behead sore;
 #砍头痈\ng\*behead carbuncle;
-#看\ur/vg\&&PY=kan;*see;*see;*see;*read;*read;*read;*watch;*look after;take care of;*look after;take care of;*depend on;*look upon;regard;*;
+#看\ur/vg\*see;&&PY=kan;*see;*see;*read;*read;*read;*watch;*look after;take care of;*look after;take care of;*depend on;*look upon;regard;*;
 #看报\vg\*read the newspapwer;
 #看扁\vg\*underestimate;
 #看病\vg\*consult a doctor;see a doctor;see a patient;
@@ -44670,7 +44670,7 @@
 #嫩鲜鲜\a\*tender;
 #嫩芽\ng\*bud;
 #嫩叶\ng\*tender leaf;
-#能\ng/vz\&&PY=neng;*can;*ability;capability;*energy;
+#能\ng/vz\*can;&&PY=neng;*ability;capability;*energy;
 #能动\a/d\&&ZAmbig=1;*active;dynamic;*actively;
 #能动性\ng\*initiative;
 #能否\vz\*can;
@@ -44802,7 +44802,7 @@
 #拟于\vg\*be drafted at;
 #拟于不伦\i\*draw an in appropriate parallel;
 #拟作\ng\*work done in the manner of a certain author;
-#你\r\&&PY=ni;*you;
+#你\r\*you;&&PY=ni;
 #你方\r\*you;
 #你好\l\&&ZAmbig=1;*How do you do;How are you;Hello;
 #你来我往\l\*;
@@ -50646,7 +50646,7 @@
 #趣味性\ng\*interest;
 #趣闻\ng\*interesting news;interesting hearsay;titbit;
 #趣旨\ng\*interest;
-#去\vg/vq\&&PY=qu;*go;*go;*go;*;
+#去\vg/vq\*go;&&PY=qu;*go;*go;*;
 #去病\vg\*get rid of the disease;
 #去除\vg\*get rid of;*get rid of;
 #去处\ng\*place;whereabouts;whereabouts place;site;

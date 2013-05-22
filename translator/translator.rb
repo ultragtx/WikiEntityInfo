@@ -68,10 +68,15 @@ class Translator
     if entry
       return entry.translations[0]
     else
-      if from_lang == "zh" && word.length > 0
+      if from_lang == "zh" && word.length > 1
         result = ""
         word.each_char do |char|
-          result << translate(char, from_lang)
+          trans = translate(char, from_lang)
+          if trans 
+            result << trans
+          else
+            result << char
+          end
         end
         return result
       elsif from_lang == "en"
