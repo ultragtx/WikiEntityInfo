@@ -13,6 +13,8 @@ GEM
     bzip2-ruby (0.2.7)
     crack (0.3.2)
     dickens (0.2.1)
+    easy_translate (0.3.3)
+      json
     eventmachine (1.0.3)
     expression_parser (0.9.0)
     i18n (0.6.1)
@@ -56,6 +58,7 @@ DEPENDENCIES
   builder
   bzip2-ruby
   dickens
+  easy_translate
   expression_parser
   libxml-ruby
   mecab-ext

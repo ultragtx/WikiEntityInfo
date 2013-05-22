@@ -1,7 +1,7 @@
 logo, company_logo					|logo, company_logo				|ロゴ                    	|F				
 type, company_type					|type, company_type				|種類                    	|T				
 traded_as, market_information		|traded_as						|市場情報                	|T				
-predecessor, Predecessor			|predecessor, Predecessor		|predecessor                |T				
+predecessor, Predecessor			|predecessor, Predecessor		|predecessor                |F				
 fate								|fate						    |fate                       |T				
 successor							|successor						|successor                  |T				
 foundation							|foundation						|設立                    	|T				
@@ -52,16 +52,16 @@ genre								|genre						    |genre                      |T
 location_city						|location_city					|location_city              |T		
 location_country					|location_country				|location_country           |T		
 production							|production						|production                 |T			
-略称									|略称							|略称                   		|F		
-国籍									|国籍							|国籍                    	|T		
-本店所在地							|本店所在地						|本店所在地              		|T	
-本店郵便番号							|本店郵便番号						|本店郵便番号            		|T	
-統一金融機関コード						|統一金融機関コード				|統一金融機関コード      	 	|T
-資本金								|資本金							|資本金                  	|T		
-発行済株式総数						|発行済株式総数					|発行済株式総数          		|T	
-売上高								|売上高							|売上高                  	|T		
-経常利益								|経常利益						|経常利益                	|T	
-純資産								|純資産							|純資産                  	|T				
-主要株主								|主要株主						|主要株主                	|T				
-関係する人物							|関係する人物						|関係する人物            		|T
-画像									|画像							|画像                    	|F	
+abbreviation						|abbreviation					|略称                   		|F		
+nationality							|nationality					|国籍                    	|T		
+office_location						|office_location				|本店所在地              		|F	
+office_zipcode						|office_zipcode					|本店郵便番号            		|F	
+bank_code							|bank_code						|統一金融機関コード      	 	|T
+capital								|capital						|資本金                  	|T		
+num_shares							|num_shares						|発行済株式総数          		|T	
+sales_figures						|sales_figures					|売上高                  	|T		
+ordinary_income						|ordinary_income				|経常利益                	|T	
+net_assets							|net_assets						|純資産                  	|T				
+shareholder							|shareholder					|主要株主                	|T				
+personnel_involved					|personnel_involved				|関係する人物            		|T
+image								|image							|画像                    	|F	

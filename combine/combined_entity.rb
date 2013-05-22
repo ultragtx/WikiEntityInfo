@@ -48,6 +48,11 @@ class CombinedEntity
     if langs.count != @properties_map.langs_count
       raise "Langs count mismatch"
     end
+    
+    @translators = {}
+    self.other_langs.each do |lang|
+      @translators[lang] = SentenceTranslator.new(lang, self.main_lang)
+    end
   end
   
   def combine
@@ -90,7 +95,15 @@ class CombinedEntity
             end
           end
           
-          # TODO: translate
+          # translate
+          # TODO: link/url protect
+          if map[-1]
+            translator = @translators[current_lang]
+            if current_property_value && current_property_value.length > 0
+              translated_value = translator.translate_centence(current_property_value)
+              current_property_value = translated_value if translated_value && translated_value.length > 0
+            end
+          end
           
           main_property_value = "<<<<#{current_lang}>>>> #{current_property_value}"
           

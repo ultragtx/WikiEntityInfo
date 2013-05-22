@@ -3,7 +3,7 @@
 require_relative 'translator'
 require "mecab/ext"
 require 'rmmseg'
-require 'bing_translator'
+require_relative '../translator/bing_translator_cached'
 
 class EngSpliter
   attr_accessor :words
@@ -35,7 +35,7 @@ class SentenceTranslator
     @to_lang = to_lang
     
     #bing translator
-    @bing_translator = BingTranslator.new("wikientityinfo", "HxD+q3eLEWjGaqoVJDWNUlUXZWJX/L9YW0toR148xS8")
+    @bing_translator = BingTranslatorCached.new("wikientityinfo_translator", "87GtfyPDQ0UEP7s6lu2FHXNddUmDF+a287Csq1CFP2U")
   end
   
   def translate_centence(sentence)
@@ -86,8 +86,9 @@ class SentenceTranslator
       else
         trans_to = @to_lang
       end
-      
-      result << (@bing_translator.translate sentence, :to => trans_to)
+      puts sentence
+      trans_result = @bing_translator.translate sentence, :to => trans_to
+      result << trans_result if trans_result
     end
     
     result
