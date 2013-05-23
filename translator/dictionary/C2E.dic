@@ -44888,7 +44888,7 @@
 #拈轻怕重\i\*prefer the light to the heavy;
 #拈香\vg\*burn joss sticks;
 #拈阄\vg\*draw lots;
-#年\ng/nx/q\&&PY=nian;*year;*age;*New Year;*Nian;
+#年\ng/nx/q\*year;&&PY=nian;*age;*New Year;*Nian;
 #年报\ng\*annual report;
 #年辈\ng\*seniority according to age;
 #年表\ng\*chronological table;
@@ -51644,7 +51644,7 @@
 #仍\d\&&PY=reng;*still;*yet;
 #仍旧\d\*still;yet;*yet;
 #仍然\d\*still;yet;*yet;
-#日\j/ng/q\&&PY=ri;*date;day;*Japanese;Japan;*Japan;*sun;*daytime;*time;*day;
+#日\j/ng/q\day;&&PY=ri;*date;*Japanese;Japan;*Japan;*sun;*daytime;*time;*day;
 #日斑\ng\*sunspot;
 #日班\ng\*day shift;
 #日薄西山\i\*the sun is setting beyond the western hills-deadening rapidly;nearing;
@@ -76209,7 +76209,7 @@
 #粤剧\ng\*Guandong opera;
 #粤绣\ng\*Guangdong embroidery;
 #粤语\ng\*Cantonese;
-#月\ng/q\&&PY=yue;*month;*month;*moon-like;*moon;
+#月\ng/q\*month;&&PY=yue;*month;*moon-like;*moon;
 #月白风清\l\*a beautiful night;
 #月报\ng\*monthly report;
 #月饼\ng\*moon cake;

@@ -28,3 +28,5 @@ gem 'dickens'
 gem "bing_translator"
 gem "youdao-fanyi"
 gem 'easy_translate'
+
+gem 'activesupport'

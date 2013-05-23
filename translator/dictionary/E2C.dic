@@ -24082,7 +24082,7 @@
 #hauntingly\*常浮现于脑中
 #hautboy\*高音双簧箫
 #hauteur\*傲慢
-#have\^have;*有;*使;*吃
+#have\*有;^have;*使;*吃
 #have-not\*穷人
 #have-nots\*穷人;*穷国
 #havelock\*遮阳布
@@ -30357,6 +30357,7 @@ $Cate=NN
 #manumission\*农奴
 #manumit\*解放;*施肥于;*肥料
 #manuscript\*原稿;*手稿;*初稿;*许多;*许多;许多人;*许多的
+#many\*许多的
 #many-sided\*多边;多面的
 #manzanita\*石兰科灌木;*地图;*绘制%的地图
 #maple\*槭树;枫树

@@ -54,6 +54,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   bing_translator
   builder
   bzip2-ruby

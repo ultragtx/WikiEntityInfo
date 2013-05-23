@@ -1,5 +1,7 @@
 #encoding: UTF-8
 
+require 'active_support/all'
+
 class DictEntry
   attr_accessor :word
   attr_accessor :type
@@ -82,8 +84,12 @@ class Translator
         end
         return result
       elsif from_lang == "en"
-        # Plural >> Singular
-        return nil
+        result = nil
+        plural_word = word.singularize
+        if plural_word != word
+          result = translate(plural_word, from_lang)
+        end
+        return result
       else
         return nil
       end
