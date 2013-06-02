@@ -100,6 +100,10 @@ end
 class CustomTranslator
   @@e2c = nil
   @@c2e = nil
+  @@e2j = nil
+  @@j2e = nil
+  @@c2j = nil
+  @@j2c = nil
   def self.translator_with_lang(lang)
     if lang == "E2C"
       @@e2c = Translator.new('/Users/ultragtx/DevProjects/Ruby/WikiEntityInfo/translator/dictionary/E2C.dic', 2) unless @@e2c
@@ -107,6 +111,18 @@ class CustomTranslator
     elsif lang == "C2E"
       @@c2e = Translator.new('/Users/ultragtx/DevProjects/Ruby/WikiEntityInfo/translator/dictionary/C2E.dic', 3) unless @@c2e
       @@c2e
+    elsif lang == "E2J"
+      @@e2j = Translator.new('/Users/ultragtx/DevProjects/Ruby/WikiEntityInfo/translator/dictionary/E2J.dic', 2) unless @@e2j
+      @@e2j
+    elsif lang == "J2E"
+      @@j2e = Translator.new('/Users/ultragtx/DevProjects/Ruby/WikiEntityInfo/translator/dictionary/J2E.dic', 2) unless @@j2e
+      @@j2e
+    elsif lang == "C2J"
+      @@c2j = Translator.new('/Users/ultragtx/DevProjects/Ruby/WikiEntityInfo/translator/dictionary/C2J.dic', 2) unless @@c2j
+      @@c2j
+    elsif lang == "J2C"
+      @@j2c = Translator.new('/Users/ultragtx/DevProjects/Ruby/WikiEntityInfo/translator/dictionary/J2C.dic', 2) unless @@j2c
+      @@j2c
     end
   end
 end

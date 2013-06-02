@@ -77,6 +77,7 @@ class SentenceTranslator
           else
             result << node.surface
           end
+          # puts "===#{result}"
         end
       end
     else 
