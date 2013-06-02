@@ -4,6 +4,7 @@ require_relative 'translator'
 require "mecab/ext"
 require 'rmmseg'
 require_relative '../translator/bing_translator_cached'
+require 'tradsim'
 
 class EngSpliter
   attr_accessor :words
@@ -54,6 +55,7 @@ class SentenceTranslator
           end
         end
       elsif @from_lang == "zh"
+        sentence = Tradsim::to_sim(sentence)
         algo = RMMSeg::Algorithm.new(sentence)
         loop do
             token = algo.next_token

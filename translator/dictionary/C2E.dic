@@ -1591,7 +1591,7 @@
 #棒子\ng\*stick;
 #棒子面\ng\*corn flour;
 #棒槌\ng\*wooden club;
-#磅\ng/q\&&PY=bang;*pound;*scales;
+#磅\ng/q\*pound;&&PY=bang;*scales;
 #磅秤\ng\*platform scale;
 #磅礴\a\*majestic;
 #蚌\ng\&&PY=bang;*clam;freshwater mussel;
@@ -72802,7 +72802,7 @@
 #屹\g\&&PY=yi;*;
 #屹立\vg\*stand erect;
 #屹然\a\*towering;
-#亿\m\&&PY=yi;*one hundred million;
+#亿\m\*one hundred million;&&PY=yi;
 #亿万\m\*hundreds of millions;
 #亿万斯年\l\*;
 #亿兆\m\*;
@@ -76127,7 +76127,7 @@
 #院校\ng\*college;
 #院子\ng\*courtyard;yard;compound;
 #曰\vg\&&PY=yue;*say;
-#约\d/ng/vg\&&PY=yue;*about;around;*agreement;pact;appointment;*reduction of a fraction;restrain;restrict;*invite;*make an appointment with;*invite;
+#约\d/ng/vg\*about;&&PY=yue;around;*agreement;pact;appointment;*reduction of a fraction;restrain;restrict;*invite;*make an appointment with;*invite;
 #约旦\ny\*Jordan;
 #约定\vg\*agree;*agree on;
 #约定俗成\i\*established by usage;accepted through common practice;

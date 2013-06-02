@@ -24,6 +24,7 @@ gem 'expression_parser'
 gem 'rmmseg-cpp'
 gem 'mecab-ext'
 gem 'dickens'
+gem 'tradsim'
 
 gem "bing_translator"
 gem "youdao-fanyi"
