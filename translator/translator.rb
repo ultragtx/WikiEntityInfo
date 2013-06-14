@@ -86,9 +86,14 @@ class Translator
       elsif from_lang == "en"
         result = nil
         plural_word = word.singularize
-        if plural_word != word
-          result = translate(plural_word, from_lang)
+        
+        result = translate(plural_word, from_lang) if plural_word != word
+        
+        unless result
+          downcase_word = word.downcase
+          result = translate(downcase_word, from_lang) if downcase_word != word
         end
+        
         return result
       else
         return nil

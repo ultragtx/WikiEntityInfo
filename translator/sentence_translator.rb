@@ -46,7 +46,7 @@ class SentenceTranslator
       if @from_lang == "en"
         spliter = EngSpliter.new(sentence)
         spliter.words.each do |word|
-          word.downcase!
+          # word.downcase!
           trans = @translator.translate(word, @from_lang)
           if trans
             result << trans

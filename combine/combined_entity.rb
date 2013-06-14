@@ -105,7 +105,12 @@ class CombinedEntity
             end
           end
           
-          main_property_value = "\\\\#{current_lang}// #{current_property_value}"
+          # main_property_value = "\\\\#{current_lang}// #{current_property_value}"
+          
+          current_property_value = "[From #{current_lang}] #{current_property_value}" if current_property_value
+            
+          main_property_value = current_property_value
+          
           
           break if current_property_has_content
         end
