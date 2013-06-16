@@ -7,7 +7,7 @@ t = SentenceTranslator.new("zh", "en")
 
 
 t = SentenceTranslator.new("en", "zh")
-puts t.translate_centence("We have many users")
+puts t.translate_centence("Fixed line and mobile telephony, Internet services, digital television")
 
 
 t = SentenceTranslator.new("en", "ja")

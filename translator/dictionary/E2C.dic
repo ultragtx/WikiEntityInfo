@@ -16449,6 +16449,7 @@
 ^dig;*掘;采掘;*采掘物;*采掘地点
 #dight\*装饰
 #digit\*数字;位;*手指;足趾;*数字的;*手指;*数字显示式电子表
+#digital\*数字
 #digitalis\*洋地黄
 #digitalise\*数字化
 #digitalize\*以洋地黄治疗
@@ -20834,6 +20835,7 @@
 #fixature\*发胶
 ^fix
 ^fix;*固定的
+#fixed\*固定
 #fixed-length\*固定长度
 #fixed-point\*定点
 #fixedly\*固定地
@@ -26267,7 +26269,7 @@ $Cate=NN
 #incorruption\*不腐败
 #incorruptness\*清廉
 #incovenient\*不方便的
-#incrase\*增加;增长
+#increase\*增加;增长
 #increasable\*可增加的;*增加;增大;*增加;增进;*增加;增大
 #increasingly\*日益;越来越
 #incredibility\*不能相信
@@ -29218,6 +29220,7 @@ $Cate=NN
 #linage\*排列
 #linchpin\*制轮楔
 #linden\*椴树;欧椴;*线;绳;线索;*行;列;排;*交通线;铁路线;航线;*路线;方针;*排成一列
+#line\*线
 #line-drawing\*线条画的
 #line-oriented\*面向行的
 #line-out\*界外线
@@ -31650,6 +31653,7 @@ $Cate=NN
 #moat\*护城河;深沟;*袭击;*暴民;乌合之众;*民众;暴民的
 #mobbish\*暴徒似的
 #mobcap\*室内头巾;*运动;活动的;*运动物体
+#mobile\*移动
 #mobilehome\*活动住房
 #mobilisation\*动员
 #mobilise\*动员;动员起来
@@ -43039,6 +43043,7 @@ $Cate=NN
 #servant-maid\*保姆;女仆
 #servant-rack\*检修台;*服务;供应;*服务;干活
 #server\*服务器;*服务员;*服务;*公共设施;公用事业;*仪式;*保养;维修;*服务性的
+#service\*服务
 #serviceman\*军人;维修人员
 #servicemen\*服务员们
 #serviette\*餐巾

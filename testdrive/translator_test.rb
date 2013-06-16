@@ -16,9 +16,12 @@ require_relative "../translator/translator"
 
 # t = CustomTranslator.translator_with_lang("E2J")
 # puts t.translate("computer", "en")
-t = CustomTranslator.translator_with_lang("J2E")
-puts t.translate("株式会社", "ja")
+# t = CustomTranslator.translator_with_lang("J2E")
+# puts t.translate("株式会社", "ja")
 # t = CustomTranslator.translator_with_lang("C2J")
 # puts t.translate("计算 ", "zh")
 # t = CustomTranslator.translator_with_lang("J2C")
 # puts t.translate("ドル", "ja")
+
+t = CustomTranslator.translator_with_lang("E2C")
+puts t.translate("services", "en")
